@@ -47,7 +47,7 @@ function SculptingSection(props) {
               </div>
               <div className="self-stretch text-black text-xl leading-8 mt-4 mb-6 max-md:max-w-full">
                 <NunitoSans>
-                Our vanguards stand steadfast in our mission to revolutionize communication across India's rich linguistic spectrum through the deployment of advanced AI technology.
+                Our vanguards stand steadfast in our mission to revolutionize communication across India{`'`}s rich linguistic spectrum through the deployment of advanced AI technology.
                 </NunitoSans>
               </div>
             </div>
