@@ -8,7 +8,7 @@ function EnhancingInovationMobile(props) {
         Harness the Potential of Ethical Technology
       </h4>
       <p className={`text-white ${nunito_sans.className} text-base leading-6 tracking-normal mt-5`}>
-        At IndiaSpeaks technology isn't just a tool, but a force for positive change – handled
+        At IndiaSpeaks technology isn{`'`}t just a tool, but a force for positive change – handled
         responsibly and ethically to elevate experiences and uplift communities.
       </p>
       <div className="items-stretch flex justify-between gap-5 mt-5">

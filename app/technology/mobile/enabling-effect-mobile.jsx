@@ -8,7 +8,7 @@ function EnablingEffectiveMobile(props) {
       <h4 className="text-primary text-center text-3xl font-bold leading-10">
         Enabling Effective Communication across Industries
       </h4>
-      <p className = {`text-black text-center text-base leading-6 text-center ${nunito_sans.className} mt-5`}>
+      <p className = {`text-black text-center text-base leading-6  ${nunito_sans.className} mt-5`}>
         Dedicated to dismantling language barriers, IndiaSpeaks facilitates seamless communication
         across a spectrum of industries. With our technology, we ensure clarity and precision,
         ensuring every voice is not just heard but truly understood.

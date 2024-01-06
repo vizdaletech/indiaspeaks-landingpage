@@ -13,7 +13,7 @@ function EnhancingInovation(props) {
                   Enhancing innovation with our Ethical Technology
                 </h1>
                 <p className={`text-white ${nunito_sans.className} text-base leading-6 mt-6 max-md:max-w-full`}>
-                  At IndiaSpeaks technology isn't just a tool, but a force for positive change – handled responsibly and ethically to elevate experiences and uplift communities.
+                  At IndiaSpeaks technology isn{`'`}t just a tool, but a force for positive change – handled responsibly and ethically to elevate experiences and uplift communities.
                 </p>
               </div>
             </div>{" "}

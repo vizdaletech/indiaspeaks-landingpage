@@ -35,7 +35,7 @@ function TechnologicalMastery(props) {
                   Efficiency Refined in <br/>Speech-to-Text
                 </h3>
                 <p className={`${nunito_sans.className} text-black text-lg leading-7 mt-6 w-[500px]`}>
-                  In voice cloning, our tech sets a new standard, authentically replicating a target individual's voice with efficiency. Our innovation preserves uniqueness, ushering in the future of ethical voice cloning with precision.
+                  In voice cloning, our tech sets a new standard, authentically replicating a target individual{`'`}s voice with efficiency. Our innovation preserves uniqueness, ushering in the future of ethical voice cloning with precision.
                 </p>
               </div>
             </div>
@@ -54,7 +54,7 @@ function TechnologicalMastery(props) {
                   Mastering the Art of Voice Cloning
                 </h3>
                 <p className={`text-black text-lg leading-7 mt-6 ${nunito_sans.className}`}>
-                  Step into the future of efficient communication with our Speech-to-Text tech. Beyond transcription, it's a mastery of speed and accuracy, revolutionizing spoken words into written brilliance.
+                  Step into the future of efficient communication with our Speech-to-Text tech. Beyond transcription, it{`'`}s a mastery of speed and accuracy, revolutionizing spoken words into written brilliance.
                 </p>
               </div>
             </div>
