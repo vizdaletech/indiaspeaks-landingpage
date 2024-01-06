@@ -64,54 +64,12 @@ const Navbar = (props) => {
             className="justify-center navlink-animation  relative items-center self-center flex my-auto cursor-pointer px-4  py-2 gap-3"
             onClick={handleServiceClick}
           >
-            <p
+            <Link href = "/political"
               className={` text-base whitespace-nowrap py-2 pl-4  relative rounded-sm  navlink-services hover:text-white z-20
                 border-transparent `}
             >
-              Use case
-            </p>
-            <CaretDown
-              size={16}
-              className={`${
-                isDropOpen ? `rotate-180` : `rotate-0`
-              } transition-transform duration-300`}
-            />
-            <div
-              className={`w-[250px] ${
-                isDropOpen ? `h-40` : `h-0 `
-              } transition-all duration-300 overflow-hidden  dropdown z-[100]  bg-primary text-white flex flex-col gap-6 items-start justify-center absolute right-0 top-[50px] text-base`}
-            >
-              <Link
-                href="/"
-                className={` ml-6 ${
-                  isDropOpen
-                    ? `translate-y-0 opacity-1`
-                    : `-translate-y-full opacity-0`
-                } transition-all duration-300 delay-300 `}
-              >
-                Use Case 1{" "}
+              Political
               </Link>
-              <Link
-                href="/"
-                className={` ml-6 ${
-                  isDropOpen
-                    ? `translate-y-0 opacity-1`
-                    : `-translate-y-full opacity-0`
-                } transition-all duration-200 delay-[400ms]`}
-              >
-                Use Case 2{" "}
-              </Link>
-              <Link
-                href="/"
-                className={` ml-6 ${
-                  isDropOpen
-                    ? `translate-y-0 opacity-1`
-                    : `-translate-y-full opacity-0`
-                } transition-all duration-200 delay-500`}
-              >
-                Use Case 3{" "}
-              </Link>
-            </div>
           </div>
           <Link
             href="/about-us"

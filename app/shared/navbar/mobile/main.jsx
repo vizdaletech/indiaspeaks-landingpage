@@ -8,24 +8,23 @@ import Image from "next/image";
 import { nunito_sans } from "@/typography/font";
 
 const links = [
-    {
-        link : "technology",
-        content : "Technology"
-     }
-    ,
-    {
-        link : "usecase",
-        content : "Use Case"
-     },
-     {
-        link : "about",
-        content : "About us"
-     },
-     {
-        link : "contact",
-        content : "Schedule an impact"
-     }
-]
+  {
+    link: "technology",
+    content: "Technology",
+  },
+  {
+    link: "political",
+    content: "Political",
+  },
+  {
+    link: "about",
+    content: "About us",
+  },
+  {
+    link: "contact",
+    content: "Schedule an impact",
+  },
+];
 
 const NavbarMobile = () => {
   const [isClicked, setIsclicked] = useState(false);
@@ -41,8 +40,8 @@ const NavbarMobile = () => {
       <nav className="flex justify-between items-center center-section h-[60px]">
         <Link href="/" className="w-fit">
           <Image
-          width={30}
-          height={20}
+            width={30}
+            height={20}
             src="https://res.cloudinary.com/dosjh2min/image/upload/v1704518690/indiaspeaks/main-logo_nbruvq.svg"
             className="w-8/12 h-auto"
           />
