@@ -6,3 +6,17 @@
 .center-section{
     @apply max-w-7xl w-11/12 mx-auto
 }
+
+/* Hamburger Styles */
+.burger-menu .up.active {
+    @apply transform rotate-45 origin-center -mb-[3px];
+  }
+  
+  .burger-menu .middle.active {
+    @apply transform -rotate-45 origin-center -mt-[4px];
+  }
+  
+  .burger-menu .down.active {
+    @apply opacity-0;
+  }
+  
