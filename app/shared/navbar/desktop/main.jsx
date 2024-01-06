@@ -61,11 +61,11 @@ const Navbar = (props) => {
             Technology
           </Link>
        
-            <Link href = "/political"
+            <Link href = "/campaign"
               className={` text-base whitespace-nowrap py-2 px-4  relative rounded-sm  navlink-services hover:text-white z-20
                 border-transparent `}
             >
-              Political
+              Campaign
               </Link>
           <Link
             href="/about"

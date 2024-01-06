@@ -8,6 +8,10 @@ import DynamicSectionMobile from './mobile/dynamic-section-mobile'
 import JourneySection from './desktop/journey-section'
 import TeamSection from './desktop/team-section'
 import TeamSectionMobile from './mobile/team-section-mobile'
+import CelebratingSection from './desktop/celebrating-section'
+import CelebratingSectionMobile from './mobile/celebrating-section-mobile'
+import CompanyLogos from './desktop/company-logos'
+import CompanyLogosMobile from './mobile/company-logos-mobile'
 
 const AboutPage = () => {
   return (
@@ -23,6 +27,12 @@ const AboutPage = () => {
       <JourneySection/>
       <TeamSection/>
       <TeamSectionMobile/>
+
+      <CelebratingSection/>
+      <CelebratingSectionMobile/>
+
+      <CompanyLogos/>
+      <CompanyLogosMobile/>
     </main>
   )
 }

@@ -24,7 +24,7 @@ function ExploreOurTechnology(props) {
                 Empower
               </div>
             </div>
-            <h1 className="text-black text-5xl font-bold leading-[58px] self-stretch mt-4 w-[415px] max-md:text-4xl max-md:leading-[54px]">
+            <h1 className="text-black text-4xl font-bold leading-[48px] self-stretch mt-4 w-[415px] max-md:text-4xl max-md:leading-[54px]">
               Transforming Text Into Symphony
             </h1>
             <p className={`text-black text-lg leading-7 self-stretch mt-6 max-md:max-w-full ${nunito_sans.className}`}>
@@ -67,7 +67,7 @@ function ExploreOurTechnology(props) {
                 Tailored
               </div>
             </div>
-            <h1 className="title text-black text-5xl font-bold leading-[58px] mt-4">
+            <h1 className="title text-black text-4xl font-bold leading-[48px] mt-4">
               Personalized Voice Experiences
             </h1>
             <p className={`description text-black text-lg leading-7 self-stretch mt-6 ${nunito_sans.className}`}>
@@ -113,7 +113,7 @@ function ExploreOurTechnology(props) {
                   Innovative
                 </a>
               </div>
-              <h1 className="text-black text-5xl font-bold leading-[58px] self-stretch mt-4 max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
+              <h1 className="text-black text-4xl font-bold leading-[48px] self-stretch mt-4">
                 Transcribing Speech <br /> Into Narration{" "}
               </h1>
               <p className={`text-black text-lg leading-7 self-stretch mt-6 max-md:max-w-full ${nunito_sans.className}`}>

@@ -20,9 +20,10 @@ function TechnologicalMastery(props) {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
-              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/6719c2a5ea6514fe95d4cc7a98078adbf57e84ae90a7547904c0e32c8138fe30?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&" alt="Harmonic Text-to-Speech" className="aspect-[1.77] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10" />
+            <div className="flex flex-col items-stretch w-[46%] ml-5 max-md:w-full max-md:ml-0">
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/848d10e71d643a1a0170e3d349092e55c955551ac5d1e2763c811296a341d268?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&" alt="Efficiency Refined in Speech-to-Text" className="aspect-[1.04] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10" />
             </div>
+          
           </div>
         </div>
       </div>
@@ -39,12 +40,12 @@ function TechnologicalMastery(props) {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-stretch w-[46%] ml-5 max-md:w-full max-md:ml-0">
-              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/848d10e71d643a1a0170e3d349092e55c955551ac5d1e2763c811296a341d268?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&" alt="Efficiency Refined in Speech-to-Text" className="aspect-[1.04] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10" />
+            <div className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/6719c2a5ea6514fe95d4cc7a98078adbf57e84ae90a7547904c0e32c8138fe30?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&" alt="Harmonic Text-to-Speech" className="aspect-[1.77] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10" />
             </div>
           </div>
         </div>
-      </div>{" "}
+      </div>
       <div className="items-stretch bg-white self-stretch flex w-full flex-col justify-center px-16 py-12 max-md:max-w-full max-md:px-5">
         <div className="my-3.5 max-md:max-w-full max-md:mr-1">
           <div className="gap-16 flex">

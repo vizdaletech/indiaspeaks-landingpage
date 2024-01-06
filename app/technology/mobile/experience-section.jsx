@@ -24,10 +24,10 @@ function ExperienceSectionMobile(props) {
           Connect deeply with audiences across India through our powerful.
         </div>
         <p  className="mt-8"/> 
-        <Link href = "/" className={`text-black text-base border bg-secondary mt-5 border-solid border-secondary py-2 px-4 rounded-sm ${nunito_sans.className} font-semibold`}
+        <a href = "https://calendly.com/gomanirajan/30min" target="_blank" rel = "noreferrer" className={`text-black text-base border bg-secondary mt-5 border-solid border-secondary py-2 px-4 rounded-sm ${nunito_sans.className} font-semibold`}
 >
             Contact
-        </Link>
+        </a>
         {/* <Link
           href="#contact"
           className="text-black text-base border bg-secondary -mb-5 border-solid border-secondary"

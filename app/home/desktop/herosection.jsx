@@ -71,7 +71,7 @@ const HeroSection = (props) => {
                   <div className="text-black text-center text-base leading-5 mt-2.5">
                     <NunitoSans>
                       Effortlessly speak to your audience in your preferred
-                      language and ex your reach.
+                      language and extend your reach.
                     </NunitoSans>
                   </div>
                 </div>
@@ -263,7 +263,7 @@ const HeroSection = (props) => {
                   <div className="text-black text-center text-base leading-5 mt-2.5">
                     <NunitoSans>
                       Effortlessly speak to your audience in your preferred
-                      language and ex your reach.
+                      language and extend your reach.
                     </NunitoSans>
                   </div>
                 </div>
@@ -455,7 +455,7 @@ const HeroSection = (props) => {
                   <div className="text-black text-center text-base leading-5 mt-2.5">
                     <NunitoSans>
                       Effortlessly speak to your audience in your preferred
-                      language and ex your reach.
+                      language and extend your reach.
                     </NunitoSans>
                   </div>
                 </div>
@@ -647,7 +647,7 @@ const HeroSection = (props) => {
                   <div className="text-black text-center text-base leading-5 mt-2.5">
                     <NunitoSans>
                       Effortlessly speak to your audience in your preferred
-                      language and ex your reach.
+                      language and extend your reach.
                     </NunitoSans>
                   </div>
                 </div>
@@ -839,7 +839,7 @@ const HeroSection = (props) => {
                   <div className="text-black text-center text-base leading-5 mt-2.5">
                     <NunitoSans>
                       Effortlessly speak to your audience in your preferred
-                      language and ex your reach.
+                      language and extend your reach.
                     </NunitoSans>
                   </div>
                 </div>

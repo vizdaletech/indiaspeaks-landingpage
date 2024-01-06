@@ -13,16 +13,12 @@ const links = [
     content: "Technology",
   },
   {
-    link: "political",
-    content: "Political",
+    link: "campaign",
+    content: "Campaign",
   },
   {
     link: "about",
     content: "About us",
-  },
-  {
-    link: "contact",
-    content: "Schedule an impact",
   },
 ];
 
