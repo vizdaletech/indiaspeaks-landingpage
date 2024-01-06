@@ -53,33 +53,29 @@ const Navbar = (props) => {
             className="aspect-[3.61] object-contain object-center w-[159px] overflow-hidden shrink-0 max-w-full"
           />
         </Link>
-        <div className="justify-between  items-center gap-2 flex max-md:max-w-full max-md:flex-wrap max-md:justify-center">
+        <div className="justify-between  items-center flex max-md:max-w-full max-md:flex-wrap max-md:justify-center">
           <Link
             href="/technology"
             className={` text-base whitespace-nowrap px-4 relative py-2 rounded-sm navlink-animation navlink-careers hover:text-white z-20  border-transparent `}
           >
             Technology
           </Link>
-          <div
-            className="justify-center navlink-animation  relative items-center self-center flex my-auto cursor-pointer px-4  py-2 gap-3"
-            onClick={handleServiceClick}
-          >
+       
             <Link href = "/political"
-              className={` text-base whitespace-nowrap py-2 pl-4  relative rounded-sm  navlink-services hover:text-white z-20
+              className={` text-base whitespace-nowrap py-2 px-4  relative rounded-sm  navlink-services hover:text-white z-20
                 border-transparent `}
             >
               Political
               </Link>
-          </div>
           <Link
             href="/about"
-            className={` text-base whitespace-nowrap px-4 py- relative py-2 rounded-sm navlink-animation navlink-about hover:text-white z-20   border-transparent `}
+            className={` text-base whitespace-nowrap px-4 relative py-2 rounded-sm navlink-animation navlink-about hover:text-white z-20   border-transparent `}
           >
             About Us
           </Link>
 
           <Link
-            href="/contact-us"
+           href = "https://calendly.com/gomanirajan/30min" target="_blank" rel = "noreferrer"
             className="text-black text-base font-semibold whitespace-nowrap flex justify-center items-center  bg-secondary px-5 py-3  rounded-sm "
           >
             Schedule an impact

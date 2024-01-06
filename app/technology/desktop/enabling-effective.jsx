@@ -69,7 +69,7 @@ function EnablingEffective(props) {
           </div>
         </div>
       </div>
-      <div className="relative h-[700px] w-full">
+      <div className="relative h-[500px] w-full">
         <img
           loading="lazy"
           srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/300b5258bb6f7f9f23917eb6fe14fe828effecf89b45f7526cbe3239492ffcc7?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/300b5258bb6f7f9f23917eb6fe14fe828effecf89b45f7526cbe3239492ffcc7?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/300b5258bb6f7f9f23917eb6fe14fe828effecf89b45f7526cbe3239492ffcc7?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/300b5258bb6f7f9f23917eb6fe14fe828effecf89b45f7526cbe3239492ffcc7?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/300b5258bb6f7f9f23917eb6fe14fe828effecf89b45f7526cbe3239492ffcc7?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/300b5258bb6f7f9f23917eb6fe14fe828effecf89b45f7526cbe3239492ffcc7?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/300b5258bb6f7f9f23917eb6fe14fe828effecf89b45f7526cbe3239492ffcc7?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/300b5258bb6f7f9f23917eb6fe14fe828effecf89b45f7526cbe3239492ffcc7?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"

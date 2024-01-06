@@ -9,6 +9,8 @@ import EnhancingInovation from "./desktop/enhancing-inovation";
 import EnhancingInovationMobile from "./mobile/enhancing-inovation-mobile";
 import EnablingEffective from "./desktop/enabling-effective";
 import EnablingEffectiveMobile from "./mobile/enabling-effect-mobile";
+import ExperienceSection from "./desktop/experience-seciotn";
+import ExperienceSectionMobile from "./mobile/experience-section";
 
 const TechnologyPage = () => {
   return (
@@ -18,12 +20,14 @@ const TechnologyPage = () => {
       <TechnologicalMastery/>
       <EnhancingInovation/>
       <EnablingEffective/>
+      <ExperienceSection/>
 
       <HeroSectionMobile />
       <SpeakingVolumeSectionMobile/>
       <TechnologicalMasteryMobile/>
       <EnhancingInovationMobile/>
       <EnablingEffectiveMobile/>
+      <ExperienceSectionMobile/>
     </main>
   );
 };
