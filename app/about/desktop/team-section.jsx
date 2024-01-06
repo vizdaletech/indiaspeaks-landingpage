@@ -88,7 +88,7 @@ function TeamSection(props) {
                 <NunitoSans>
                 The Magician with more than Five years of experience in the
                 field spearheads our strategic marketing initiatives, infusing
-                creativity and business acumen to expand IndiaSpeaks's presence
+                creativity and business acumen to expand IndiaSpeaks{`'`}s presence
                 and influence in the realm of voice AI.
                 </NunitoSans>
               </div>{" "}

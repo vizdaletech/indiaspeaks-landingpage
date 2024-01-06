@@ -109,7 +109,7 @@ sivity and innovation.          </NunitoSans>
             <NunitoSans>
           The Magician with more than five years of experience in the field
           spearheads our strategic marketing initiatives, infusing creativity
-          and business acumen to expand IndiaSpeaks' presence and influence in
+          and business acumen to expand IndiaSpeaks{`'`} presence and influence in
           the realm voicsivity and innovation.
           </NunitoSans>
           </div>{" "}

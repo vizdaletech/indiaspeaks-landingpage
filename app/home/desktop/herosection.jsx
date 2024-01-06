@@ -108,7 +108,7 @@ const HeroSection = (props) => {
                   </div>
                   <div className="text-black text-center text-base leading-5 self-stretch mt-2.5 mb-2">
                     <NunitoSans>
-                      Voice solutions that accurately mimic the target's voice,
+                      Voice solutions that accurately mimic the target{`'`}s voice,
                       for a personalized touch.{" "}
                     </NunitoSans>
                   </div>
@@ -300,7 +300,7 @@ const HeroSection = (props) => {
                   </div>
                   <div className="text-black text-center text-base leading-5 self-stretch mt-2.5 mb-2">
                     <NunitoSans>
-                      Voice solutions that accurately mimic the target's voice,
+                      Voice solutions that accurately mimic the target{`'`}s voice,
                       for a personalized touch.{" "}
                     </NunitoSans>
                   </div>
@@ -492,7 +492,7 @@ const HeroSection = (props) => {
                   </div>
                   <div className="text-black text-center text-base leading-5 self-stretch mt-2.5 mb-2">
                     <NunitoSans>
-                      Voice solutions that accurately mimic the target's voice,
+                      Voice solutions that accurately mimic the target{`'`}s voice,
                       for a personalized touch.{" "}
                     </NunitoSans>
                   </div>
@@ -684,7 +684,7 @@ const HeroSection = (props) => {
                   </div>
                   <div className="text-black text-center text-base leading-5 self-stretch mt-2.5 mb-2">
                     <NunitoSans>
-                      Voice solutions that accurately mimic the target's voice,
+                      Voice solutions that accurately mimic the target{`'`}s voice,
                       for a personalized touch.{" "}
                     </NunitoSans>
                   </div>
@@ -876,7 +876,7 @@ const HeroSection = (props) => {
                   </div>
                   <div className="text-black text-center text-base leading-5 self-stretch mt-2.5 mb-2">
                     <NunitoSans>
-                      Voice solutions that accurately mimic the target's voice,
+                      Voice solutions that accurately mimic the target{`'`}s voice,
                       for a personalized touch.{" "}
                     </NunitoSans>
                   </div>

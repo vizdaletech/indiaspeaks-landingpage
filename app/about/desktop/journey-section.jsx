@@ -11,7 +11,7 @@ const JourneySection = () => {
         </h2>
         <div className="text-base md:text-lg leading-snug text-center md:w-[500px] mx-auto mt-5">
             <NunitoSans>
-          Explore the milestones that define IndiaSpeaks's remarkable journey of
+          Explore the milestones that define IndiaSpeaks{`'`}s remarkable journey of
           innovation and transformation.
           </NunitoSans>
         </div>

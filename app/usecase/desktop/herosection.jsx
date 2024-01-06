@@ -14,7 +14,7 @@ function HeroSection
                 Innovating Electoral Campaigns{" "}
               </h1>
               <p className={`text-white text-lg leading-7 mt-6 max-md:max-w-full ${nunito_sans.className}`}>
-                Harnessing the power of Voice Cloning to bring our leaders election campaign's message to life.
+                Harnessing the power of Voice Cloning to bring our leaders election campaign{`'`}s message to life.
                 Connect deeply with every voter through personalized, multilingual communication, ensuring your vision resonates across the entire electorate.
               </p>
             </div>

@@ -39,7 +39,7 @@ function ApplicationsInovations(props) {
                 </p>
                 <div className={`${activeTab === 2 ? `h-32 opacity-1` : `h-0 overflow-hidden opacity-0`} transition-all duration-300`}>
                 <p className={`text-neutral-700 text-lg leading-7 mt-3 max-md:max-w-full ${nunito_sans.className}`}>
-                Disrupting electoral communication with voice cloning's personalized touch. Enhancing political interaction , breaking linguistic barriers effortlessly.
+                Disrupting electoral communication with voice cloning{`'`}s personalized touch. Enhancing political interaction , breaking linguistic barriers effortlessly.
                 </p>
                 <a href="#" className="text-primary text-base font-semibold leading-6 underline mt-3 max-md:max-w-full">
                   Learn more

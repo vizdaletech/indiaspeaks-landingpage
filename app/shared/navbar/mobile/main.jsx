@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Hamburger from "./hamburger";
-import DropDown from "./dropDown";
+import DropDown from "./dropdown";
 import { usePathname, useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
