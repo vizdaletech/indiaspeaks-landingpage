@@ -26,7 +26,7 @@ function FooterMobile(props) {
           />
         </div>
         <h3 className="text-white text-base font-semibold leading-6 self-stretch mt-8">AI News Broadcasting</h3>
-        <h3 className="text-white text-base font-semibold leading-6 self-stretch mt-5">AI Electoral Campaign</h3>
+        <Link href = "/usecase" className="text-white text-base font-semibold leading-6 self-stretch mt-5">AI Electoral Campaign</Link>
         <h3 className="text-white text-base font-semibold leading-6 self-stretch mt-5">R&D Projects</h3>
         <Link href = "/technology" className="text-white text-base font-semibold leading-6 self-stretch mt-5">Technology</Link>
         <Link href ="/about" className="text-white text-base font-semibold leading-6 self-stretch mt-5">About us</Link>

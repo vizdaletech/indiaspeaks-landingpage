@@ -1,4 +1,4 @@
-import HeroSection from '@/political/desktop/herosection'
+import HeroSection from './desktop/herosection'
 import React from 'react'
 import HeroSectionMobile from './mobile/herosection-mobile'
 import PersonalisedPoliticalSection from './desktop/personalised-political-section'

@@ -20,6 +20,10 @@ const links = [
     link: "about",
     content: "About us",
   },
+  {
+    link : "usecase",
+    content : "Use case"
+  }
 ];
 
 const NavbarMobile = () => {

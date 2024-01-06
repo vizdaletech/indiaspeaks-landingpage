@@ -61,9 +61,9 @@ function Footer(props) {
                   <div className="text-white text-base font-semibold leading-6 whitespace-nowrap">
                     AI News Broadcasting
                   </div>
-                  <div className="text-white text-base font-semibold leading-6 whitespace-nowrap mt-3">
+                  <Link href = "/usecase" className="text-white text-base font-semibold leading-6 whitespace-nowrap mt-3">
                     AI Electoral Campaign
-                  </div>
+                  </Link>
                   <div className="text-white text-base font-semibold leading-6 whitespace-nowrap mt-3">
                     R&D Projects
                   </div>
