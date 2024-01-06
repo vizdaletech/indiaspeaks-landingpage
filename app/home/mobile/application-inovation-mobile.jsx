@@ -18,7 +18,7 @@ function ApplicationsInovationsMobile(props) {
         Election campaign{" "}
       </h4>
       <p className={`text-black text-lg leading-6 w-full mt-3 ${nunito_sans.className}`}>
-        Disrupting electoral communication with voice cloning's personalized touch. Enhancing political interaction , breaking linguistic barriers effortlessly.
+        Disrupting electoral communication with voice cloning{`'`}s personalized touch. Enhancing political interaction , breaking linguistic barriers effortlessly.
       </p>
       <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d3aa5d7cabd661b71535f24e48d5f70c69b0d2f76685090af5bca02444028308?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&" className="aspect-[1.07] object-contain object-center w-full overflow-hidden mt-6" />
       <h4 className="text-primary text-2xl font-bold leading-8 w-full mt-7">

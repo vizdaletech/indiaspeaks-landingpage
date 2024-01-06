@@ -55,7 +55,7 @@ const Navbar = (props) => {
         </Link>
         <div className="justify-between  items-center gap-2 flex max-md:max-w-full max-md:flex-wrap max-md:justify-center">
           <Link
-            href="/careers"
+            href="/technology"
             className={` text-base whitespace-nowrap px-4 relative py-2 rounded-sm navlink-animation navlink-careers hover:text-white z-20  border-transparent `}
           >
             Technology
