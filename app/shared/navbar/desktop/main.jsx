@@ -72,7 +72,7 @@ const Navbar = (props) => {
               </Link>
           </div>
           <Link
-            href="/about-us"
+            href="/about"
             className={` text-base whitespace-nowrap px-4 py- relative py-2 rounded-sm navlink-animation navlink-about hover:text-white z-20   border-transparent `}
           >
             About Us
