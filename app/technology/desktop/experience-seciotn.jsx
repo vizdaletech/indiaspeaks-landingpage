@@ -27,13 +27,16 @@ function ExperienceSection(props) {
              
             </div>
             <div className={`button-container text-black text-base leading-6 whitespace-nowrap justify-end items-stretch  ml-auto bg-secondary self-center my-auto px-5 py-2 border-solid border-secondary ${nunito_sans.className} font-bold`}>
-                <button
+                <a
+                href = "https://calendly.com/gomanirajan/30min"
+                target="_blank"
+                rel = "noreferrer"
                   type="button"
                   aria-label="Contact Us"
                   className="contact-button"
                 >
                   Contact us
-                </button>
+                </a>
               </div>
           </nav>
         </div>

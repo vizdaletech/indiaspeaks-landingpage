@@ -5,10 +5,9 @@ const ExploringOurTechnologyMobile = () => {
   return (
     <section className="center-section block md:hidden py-24">
       <h2 className="text-black text-3xl font-bold leading-10 tracking-tight w-full">
-          Explore Our Technological Mastery
-        </h2>
+        Explore Our Technological Mastery
+      </h2>
       <div>
-        
         <div>
           <figure className=" justify-between bg-secondary w-fit flex gap-2 mt-6 px-5 py-1.5 rounded-[40px] items-start">
             <img
@@ -29,7 +28,7 @@ const ExploringOurTechnologyMobile = () => {
         >
           Adding a new dimension to text, making it more engaging and inclusive.
           Experience the magic of accurate text to speech, in multiple Indian
-          languages
+          languages, offering numerous applications across various sectors.
         </p>
         <img
           loading="lazy"
@@ -39,7 +38,6 @@ const ExploringOurTechnologyMobile = () => {
         />
       </div>
       <div>
-      
         <div>
           <figure className=" justify-between bg-secondary w-fit flex gap-2 mt-6 px-5 py-1.5 rounded-[40px] items-start">
             <img
@@ -53,11 +51,13 @@ const ExploringOurTechnologyMobile = () => {
           </figure>
         </div>
         <h3 className="text-neutral-900 text-2xl font-bold leading-8 w-full mt-3">
-        Personalized Voice Experiences        </h3>
+          Personalized Voice Experiences{" "}
+        </h3>
         <p
           className={`text-black text-lg leading-7 w-full mt-4 ${nunito_sans.className}`}
         >
-        Welcome the future with our revolutionary voice cloning technology, where personalization meets innovation. Authentic recreation of voices
+          Welcome the future with our revolutionary voice cloning technology,
+          where personalization meets innovation. Authentic recreation of voices
         </p>
         <img
           loading="lazy"
@@ -80,12 +80,15 @@ const ExploringOurTechnologyMobile = () => {
           </figure>
         </div>
         <h3 className="text-neutral-900 text-2xl font-bold leading-8 w-full mt-3">
-        Transcribing Speech
-Into Narration         </h3>
+          Transcribing Speech Into Narration{" "}
+        </h3>
         <p
           className={`text-black text-lg leading-7 w-full mt-4 ${nunito_sans.className}`}
         >
-         Tap into the complete potential of your words to improve accessibility and documentation with our precise speech to text technology
+          Welcome the future with our revolutionary voice cloning technology,
+          where ethical voice replicas resonate with individuality. Achieve
+          exceptional level of personal connectivity and keep your audience
+          engaged.{" "}
         </p>
         <img
           loading="lazy"

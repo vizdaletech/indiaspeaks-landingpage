@@ -26,17 +26,23 @@ function TeamSection(props) {
               </div>
               <div className="self-stretch text-neutral-700 text-base leading-6 mt-4">
                 <NunitoSans>
-                The visioner with a rich background in product development and
-                strategic project management propels IndiaSpeaks towards new
-                frontiers in voice AI technology, ensuring a more connected and
-                accessible future.
+                  The visioner with a rich background in product development and
+                  strategic project management propels IndiaSpeaks towards new
+                  frontiers in voice AI technology, ensuring a more connected
+                  and accessible future.
                 </NunitoSans>
               </div>
-              <img
-                loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/a9d6193e97a30d8265273d5656e89c1027ee52282022dde30698a36e8ebef111?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
-                className="aspect-square object-contain object-center w-6 overflow-hidden max-w-full mt-6 self-start"
-              />
+              <a
+                href="https://www.linkedin.com/in/sasidharan-ayyavu-90842560/?originalSubdomain=in"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/a9d6193e97a30d8265273d5656e89c1027ee52282022dde30698a36e8ebef111?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
+                  className="aspect-square object-contain object-center w-6 overflow-hidden max-w-full mt-6 self-start"
+                />
+              </a>
             </div>
           </div>
           <div className="flex flex-col items-stretch w-[33%] bg-primary/10 rounded-lg ml-5 max-md:w-full max-md:ml-0">
@@ -56,17 +62,23 @@ function TeamSection(props) {
               </div>
               <div className="self-stretch text-neutral-700 text-base leading-6 mt-4">
                 <NunitoSans>
-                Gathering the expertise from Indian Institute of Science, the
-                Innovator harnesses his profound experience in advanced research
-                to enhance communication technologies, shaping the future of
-                voice AI with a focus on inclusivity and innovation.
+                  Gathering the expertise from Indian Institute of Science, the
+                  Innovator harnesses his profound experience in advanced
+                  research to enhance communication technologies, shaping the
+                  future of voice AI with a focus on inclusivity and innovation.
                 </NunitoSans>
               </div>
-              <img
-                loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/a9d6193e97a30d8265273d5656e89c1027ee52282022dde30698a36e8ebef111?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
-                className="aspect-square object-contain object-center w-6 overflow-hidden max-w-full mt-6 self-start"
-              />
+              <a
+                href="https://www.linkedin.com/in/madhavaraj-ayyavu-95373953/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/a9d6193e97a30d8265273d5656e89c1027ee52282022dde30698a36e8ebef111?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
+                  className="aspect-square object-contain object-center w-6 overflow-hidden max-w-full mt-6 self-start"
+                />
+              </a>
             </div>
           </div>
           <div className="flex flex-col items-stretch w-[33%] bg-primary/10 rounded-lg ml-5 max-md:w-full max-md:ml-0">
@@ -86,17 +98,23 @@ function TeamSection(props) {
               </div>
               <div className="self-stretch text-neutral-700 text-base leading-6 mt-4">
                 <NunitoSans>
-                The Magician with more than Five years of experience in the
-                field spearheads our strategic marketing initiatives, infusing
-                creativity and business acumen to expand IndiaSpeaks{`'`}s presence
-                and influence in the realm of voice AI.
+                  The Magician with more than Five years of experience in the
+                  field spearheads our strategic marketing initiatives, infusing
+                  creativity and business acumen to expand IndiaSpeaks{`'`}s
+                  presence and influence in the realm of voice AI.
                 </NunitoSans>
               </div>{" "}
-              <img
-                loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/a9d6193e97a30d8265273d5656e89c1027ee52282022dde30698a36e8ebef111?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
-                className="aspect-square object-contain object-center w-6 overflow-hidden max-w-full mt-6 self-start"
-              />
+              <a
+                href="https://www.linkedin.com/in/gomanirajan/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/a9d6193e97a30d8265273d5656e89c1027ee52282022dde30698a36e8ebef111?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
+                  className="aspect-square object-contain object-center w-6 overflow-hidden max-w-full mt-6 self-start"
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -105,5 +123,4 @@ function TeamSection(props) {
   );
 }
 
-
-export default TeamSection
+export default TeamSection;

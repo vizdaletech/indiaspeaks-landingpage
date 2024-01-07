@@ -13,10 +13,6 @@ const links = [
     content: "Technology",
   },
   {
-    link: "campaign",
-    content: "Campaign",
-  },
-  {
     link: "about",
     content: "About us",
   },

@@ -12,6 +12,8 @@ import CelebratingSection from './desktop/celebrating-section'
 import CelebratingSectionMobile from './mobile/celebrating-section-mobile'
 import CompanyLogos from './desktop/company-logos'
 import CompanyLogosMobile from './mobile/company-logos-mobile'
+import JoinOurTeam from './desktop/join-our-team'
+import ExperienceSection from './desktop/experience-section'
 
 const AboutPage = () => {
   return (
@@ -33,6 +35,9 @@ const AboutPage = () => {
 
       <CompanyLogos/>
       <CompanyLogosMobile/>
+
+    <JoinOurTeam/>
+    <ExperienceSection/>
     </main>
   )
 }
