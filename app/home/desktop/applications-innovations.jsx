@@ -1,6 +1,7 @@
 "use client"
 import { nunito_sans } from "@/typography/font";
 import Image from "next/image";
+import Link from "next/link";
 import * as React from "react";
 
 function ApplicationsInovations(props) {
@@ -28,9 +29,7 @@ function ApplicationsInovations(props) {
                 <p className={`text-neutral-700 text-lg leading-7 mt-3 max-md:max-w-full  ${nunito_sans.className}`}>
                   Transforming news delivery through AI voices for a dynamic, accessible experience. Your news, spoken naturally, keeping you informed effortlessly.
                 </p>
-                <a href="#" className="text-primary text-base font-semibold leading-6 underline mt-3 max-md:max-w-full">
-                  Learn more
-                </a>
+              
                 </div>
               </div>
               <div className="border-l-4 border-primary justify-center items-stretch flex flex-col pl-8 max-md:max-w-full max-md:pl-5 cursor-pointer" onClick={() => setActiveTab(2)}>
@@ -41,9 +40,9 @@ function ApplicationsInovations(props) {
                 <p className={`text-neutral-700 text-lg leading-7 mt-3 max-md:max-w-full ${nunito_sans.className}`}>
                 Disrupting electoral communication with voice cloning{`'`}s personalized touch. Enhancing political interaction , breaking linguistic barriers effortlessly.
                 </p>
-                <a href="#" className="text-primary text-base font-semibold leading-6 underline mt-3 max-md:max-w-full">
+                <Link href="/usecase" className="text-primary text-base font-semibold leading-6 underline mt-3 max-md:max-w-full">
                   Learn more
-                </a>
+                </Link>
                 </div>
               </div>
               <div className="border-l-4 border-primary justify-center items-stretch flex flex-col pl-8 max-md:max-w-full max-md:pl-5 cursor-pointer" onClick={() => setActiveTab(3)}>
@@ -54,9 +53,7 @@ function ApplicationsInovations(props) {
                 <p className={`text-neutral-700 text-lg leading-7 mt-3 max-md:max-w-full ${nunito_sans.className}`}>
                 Pioneering breakthroughs through innovative R&D at IndiaSpeaks, shaping the future of voice technology.
                 </p>
-                <a href="#" className="text-primary text-base font-semibold leading-6 underline mt-3 max-md:max-w-full">
-                  Learn more
-                </a>
+              
                 </div>
               </div>
             </div>
