@@ -58,13 +58,14 @@ function Footer(props) {
                   </a>
                 </div>
                 <div className="items-stretch flex grow basis-[0%] flex-col">
-                  <div className="text-white text-base font-semibold leading-6 whitespace-nowrap">
-                    AI News Broadcasting
-                  </div>
-                  <Link href = "/usecase" className="text-white text-base font-semibold leading-6 whitespace-nowrap mt-3">
+                <Link href = "/usecase" className="text-white text-base font-semibold leading-6 whitespace-nowrap mb-3">
                     AI Electoral Campaign
                   </Link>
-                  <div className="text-white text-base font-semibold leading-6 whitespace-nowrap mt-3">
+                  <div className="text-[#686C6F] text-base font-semibold leading-6 whitespace-nowrap">
+                    AI News Broadcasting
+                  </div>
+                 
+                  <div className="text-[#686C6F] text-base font-semibold leading-6 whitespace-nowrap mt-3">
                     R&D Projects
                   </div>
                 </div>

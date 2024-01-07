@@ -159,7 +159,7 @@ function HeroSectionMobile(props) {
                 <div className="items-center bg-white flex flex-col px-4 py-7 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558043/indiaspeaks/Frame_484-4_evzdt7.png"
+                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704596049/indiaspeaks/Frame_484_1_jcry2f.png"
                     className="w-6/12 mx-auto"
                   />
                   <div className="text-black text-xl text-center font-bold leading-8 self-stretch whitespace-nowrap mt-7">
@@ -351,7 +351,7 @@ function HeroSectionMobile(props) {
                 <div className="items-center bg-white flex flex-col px-4 py-7 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558043/indiaspeaks/Frame_484-4_evzdt7.png"
+                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704596049/indiaspeaks/Frame_484_1_jcry2f.png"
                     className="w-6/12 mx-auto"
                   />
                   <div className="text-black text-xl text-center font-bold leading-8 self-stretch whitespace-nowrap mt-7">
@@ -543,7 +543,7 @@ function HeroSectionMobile(props) {
                 <div className="items-center bg-white flex flex-col px-4 py-7 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558043/indiaspeaks/Frame_484-4_evzdt7.png"
+                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704596049/indiaspeaks/Frame_484_1_jcry2f.png"
                     className="w-6/12 mx-auto"
                   />
                   <div className="text-black text-xl text-center font-bold leading-8 self-stretch whitespace-nowrap mt-7">
@@ -735,7 +735,7 @@ function HeroSectionMobile(props) {
                 <div className="items-center bg-white flex flex-col px-4 py-7 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558043/indiaspeaks/Frame_484-4_evzdt7.png"
+                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704596049/indiaspeaks/Frame_484_1_jcry2f.png"
                     className="w-6/12 mx-auto"
                   />
                   <div className="text-black text-xl text-center font-bold leading-8 self-stretch whitespace-nowrap mt-7">
@@ -927,7 +927,7 @@ function HeroSectionMobile(props) {
                 <div className="items-center bg-white flex flex-col px-4 py-7 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558043/indiaspeaks/Frame_484-4_evzdt7.png"
+                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704596049/indiaspeaks/Frame_484_1_jcry2f.png"
                     className="w-6/12 mx-auto"
                   />
                   <div className="text-black text-xl text-center font-bold leading-8 self-stretch whitespace-nowrap mt-7">

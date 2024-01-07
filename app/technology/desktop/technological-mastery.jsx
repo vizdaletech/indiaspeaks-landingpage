@@ -27,7 +27,7 @@ function TechnologicalMastery(props) {
           </div>
         </div>
       </div>
-      <div className="items-stretch bg-white self-stretch flex w-full flex-col justify-center px-16 py-12 max-md:max-w-full max-md:px-5">
+      <div className="items-stretch bg-white self-stretch flex w-full flex-col my-10 justify-center px-16 py-12 max-md:max-w-full max-md:px-5">
         <div className="my-3.5 max-md:max-w-full max-md:mr-1">
           <div className="gap-16 flex">
             <div className="flex flex-col items-stretch w-[54%] max-md:w-full max-md:ml-0">
@@ -46,7 +46,7 @@ function TechnologicalMastery(props) {
           </div>
         </div>
       </div>
-      <div className="items-stretch bg-white self-stretch flex w-full flex-col justify-center px-16 py-12 max-md:max-w-full max-md:px-5">
+      <div className="items-stretch bg-white self-stretch flex w-full my-10 flex-col justify-center px-16 py-12 max-md:max-w-full max-md:px-5">
         <div className="my-3.5 max-md:max-w-full max-md:mr-1">
           <div className="gap-16 flex">
             <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
