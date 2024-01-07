@@ -1,3 +1,4 @@
+import NunitoSans from "@/shared/typography/NunitoSans";
 import { nunito_sans } from "@/typography/font";
 import Image from "next/image";
 import React from "react";
@@ -22,13 +23,19 @@ function EchoedAuthority(props) {
             </div>
           </div>
           <div className="flex gap-3 w-6/12 ">
+            <div className="w-6/12 relative">
             <Image
-              src="https://res.cloudinary.com/dosjh2min/image/upload/v1704559712/indiaspeaks/stalin_1_c1c1zp.jpg"
+              src="https://res.cloudinary.com/dosjh2min/image/upload/v1704565470/indiaspeaks/stalin_o7q3ms.jpg"
               width={500}
               height={500}
-              className="w-6/12 object-cover  rounded-lg"
+              className="w-full object-cover h-full  rounded-lg"
             />
-
+      <div className="text-xl font-semibold text-white text-center absolute bottom-5 left-1/2 transform -translate-x-1/2">
+        <NunitoSans>
+      M. K. Stalin
+        </NunitoSans>
+      </div>
+</div>
             <Image
               width={500}
               height={500}

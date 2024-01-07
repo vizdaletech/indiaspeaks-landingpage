@@ -10,7 +10,7 @@ const JoinOurTeam = () => {
                 IndiaSpeaks is looking for talented individuals to join our team.
                 </NunitoSans>
             </div>
-            <a href = "" target='_blank' rel = "noreferrer" className='text-primary underline'>
+            <a href = "https://calendly.com/gomanirajan/30min" target='_blank' rel = "noreferrer" className='text-primary underline'>
                 Join our team
             </a>
         </section>

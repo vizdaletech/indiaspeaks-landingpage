@@ -13,15 +13,16 @@ const ExperienceSection = () => {
             Connect deeply with audiences across India through our powerful.
           </NunitoSans>
         </div>
-
-        <a
-          href="https://calendly.com/gomanirajan/30min"
-          target="_blank"
-          rel="noreferrer"
-          className="text-black text-base font-semibold whitespace-nowrap flex justify-center items-center  bg-secondary px-5 py-3 w-8/12 md:w-fit rounded-sm "
-        >
-          Schedule an impact
-        </a>
+        <NunitoSans>
+          <a
+            href="https://calendly.com/gomanirajan/30min"
+            target="_blank"
+            rel="noreferrer"
+            className="text-black text-base font-semibold whitespace-nowrap flex justify-center items-center  bg-secondary px-5 py-3 w-8/12 md:w-fit rounded-sm "
+          >
+            Schedule an impact
+          </a>
+        </NunitoSans>
       </div>
     </section>
   );
