@@ -21,8 +21,8 @@ function ExperienceSectionMobile(props) {
           </h2>
         </header>
         <div className="text-white text-base leading-6 self-stretch mt-5">
-          Connect deeply with audiences across India through our powerful.
-        </div>
+        Connect deeply with audiences across India through our
+                  powerful voice tech.        </div>
         <p  className="mt-8"/> 
         <a href = "https://calendly.com/gomanirajan/30min" target="_blank" rel = "noreferrer" className={`text-black text-base border bg-secondary mt-5 border-solid border-secondary py-2 px-4 rounded-sm ${nunito_sans.className} font-semibold`}
 >

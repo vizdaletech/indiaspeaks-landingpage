@@ -32,7 +32,7 @@ function ExploreOurTechnology(props) {
               <p
                 className={`text-black text-lg leading-7 self-stretch mt-6 max-md:max-w-full ${nunito_sans.className}`}
               >
-                AAdding a new dimension to text, making it more engaging and inclusive.
+                Adding a new dimension to text, making it more engaging and inclusive.
 Experience the magic of accurate text to speech, in multiple Indian languages, offering numerous applications across various sectors.
               </p>
             </div>

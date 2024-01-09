@@ -263,7 +263,7 @@ const JourneySection = () => {
                 campaigns.{" "}
               </figcaption>
               <Image
-                src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545960/indiaspeaks/Frame_634_o1wmvo.jpg"
+                src="https://res.cloudinary.com/dosjh2min/image/upload/v1704777821/indiaspeaks/Frame_633_bj0hbz.png"
                 width={500}
                 height={500}
                 className="w-full md:w-10/12 rounded-lg"

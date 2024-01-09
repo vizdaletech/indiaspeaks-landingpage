@@ -35,12 +35,14 @@ function Footer(props) {
                   info@indiaspeaks.ai
                 </a>
                 <div className="items-stretch flex w-8 max-w-full gap-3 mt-4">
+                  <a href = "https://www.linkedin.com/company/indiaspeaks-research-labs/" target="_blank" rel = "noreferrer" className="w-10 h-10">
                   <img
                     loading="lazy"
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/9986f2b20094d62306406bb6caba4e4e2df6c26bb2cbd0256e8361d2274fae99?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
                     className="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1"
                     alt="Social Media Icon"
                   />
+                  </a>
                 </div>
               </div>
             </div>

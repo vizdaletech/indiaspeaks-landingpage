@@ -39,7 +39,7 @@ function ImpactSection(props) {
                 Enhanced voter understanding
               </div>
               <p className={` ${nunito_sans.className} text-black text-base leading-6 w-full max-w-full mt-3.5`}>
-                Communicating the parties ideology, making people know more about thm and increasing awareness.{" "}
+                Communicating the parties ideology, making people know more about them and increasing awareness.{" "}
               </p>
             </div>
           </div>
