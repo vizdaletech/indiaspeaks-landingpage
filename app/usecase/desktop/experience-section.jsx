@@ -21,7 +21,7 @@ function ExperienceSection(props) {
                 </h1>
                 <p className={`subtitle-text text-white text-base leading-6 max-md:max-w-full ${nunito_sans.className}`}>
                   Connect deeply with audiences across India through our
-                  powerful.
+                  powerful voice tech.
                 </p>
               </div>
              

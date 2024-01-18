@@ -90,7 +90,7 @@ Experience the magic of accurate text to speech, in multiple Indian languages, o
                     src="https://res.cloudinary.com/dosjh2min/image/upload/v1704524430/indiaspeaks/peronalised-voice-illustration_thj7ol.svg"
                     width={500}
                     height={500}
-                    className="w-full"
+                    className="w-full border"
                   />
                 </div>
               </div>
