@@ -73,6 +73,12 @@ const Navbar = (props) => {
           >
             About Us
           </Link>
+          <Link
+            href="/news-reading"
+            className={` text-base whitespace-nowrap px-4 relative py-2 rounded-sm navlink-animation navlink-about hover:text-white z-20   border-transparent `}
+          >
+            News Reading
+          </Link>
 
           <Link
            href = "https://calendly.com/gomanirajan/30min" target="_blank" rel = "noreferrer"
