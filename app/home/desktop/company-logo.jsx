@@ -3,7 +3,7 @@ import React from "react";
 
 function CompanyLogos(props) {
   return (
-    <div className="items-center bg-white md:flex hidden flex-col justify-center px-16 py-12 max-md:px-5">
+    <div className="items-center bg-white md:flex hidden flex-col justify-center mt-10 px-16 py-12 max-md:px-5">
       <h3 className={`text-neutral-900 text-center text-xl font-bold leading-8 self-center max-md:max-w-full ${nunito_sans.className}`}>
         Trusted by industry-leading companies around the globe
       </h3>

@@ -15,7 +15,8 @@ function FooterMobile(props) {
             />
           </Link>
           <p className="self-stretch text-white text-base leading-7 whitespace-nowrap mt-4">
-            AIC, Anna University, Guindy Chennai 91
+          Platinum Jubilee building, AC Tech Campus, <br/>
+Anna University, Guindy, Chennai 600025
           </p>
           <a
             href="tel:+917010389351"

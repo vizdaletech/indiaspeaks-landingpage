@@ -4,7 +4,7 @@ import * as React from "react";
 
 function HeroSection(props) {
   return (
-    <section className="bg-blue-50  bg-[url(https://res.cloudinary.com/dosjh2min/image/upload/v1704531122/indiaspeaks/Grid_13_pcuf2t.jpg)] bg-cover hidden md:block ">
+    <section className=" bg-[url(https://res.cloudinary.com/dosjh2min/image/upload/v1704531122/indiaspeaks/Grid_13_pcuf2t.jpg)] bg-cover hidden md:block ">
     <header className="flex flex-col center-section h-screen justify-center items-center">
      <div className="w-[500px] text-center">
         <h1 className="text-6xl font-bold leading-[120%]"> 
