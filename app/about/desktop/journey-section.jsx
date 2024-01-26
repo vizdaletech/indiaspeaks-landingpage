@@ -1,3 +1,5 @@
+import { DATA } from "@/shared/contents";
+import ImageSlider from "@/shared/image-slider";
 import NunitoSans from "@/shared/typography/NunitoSans";
 import Image from "next/image";
 import React from "react";
@@ -257,17 +259,12 @@ const JourneySection = () => {
             <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
               Dec 2023{" "}
             </div>
-            <figure className="md:w-8/12 w-full">
+            <figure className="ml-48  w-full">
               <figcaption className="text-lg leading-snug mb-5 md:mt-5">
                 Deploying the our integral use case, Voice cloning for political
                 campaigns.{" "}
               </figcaption>
-              <Image
-                src="https://res.cloudinary.com/dosjh2min/image/upload/v1704777821/indiaspeaks/Frame_633_bj0hbz.png"
-                width={500}
-                height={500}
-                className="w-full md:w-10/12 rounded-lg"
-              />
+             <ImageSlider DATA = {DATA}/>
             </figure>
           </article>
         </section>

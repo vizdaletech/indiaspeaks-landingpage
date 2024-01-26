@@ -22,7 +22,7 @@ const Slider = () => {
             trigger: section.current,
             // markers: true,
             pin: true,
-            start: "100px 100px",
+            start: "100px 150px",
             end: () => "+=" + box?.current?.offsetWidth + "px",
             scrub: 1,
           },

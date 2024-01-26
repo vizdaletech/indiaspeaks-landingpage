@@ -61,28 +61,56 @@ const Navbar = (props) => {
             Technology
           </Link>
        
-            <Link href = "/usecase"
-              className={` text-base whitespace-nowrap py-2 px-4  relative rounded-sm  navlink-services hover:text-white z-20
-                border-transparent `}
+          <div
+            className="justify-center  relative items-center self-center flex my-auto cursor-pointer px-4  py-2 gap-3"
+            onClick={handleServiceClick}
+          >
+            <div className="flex gap-2 items-center navlink-animation">
+          <p
+              
+              className={`text-neutral-950 text-base whitespace-nowrap  relative rounded-sm z-20
+               hover:-2 -2 border-transparent`}
             >
-              Use case
-              </Link>
+              Use Cases
+            </p>
+            <CaretDown
+              size={16}
+              className={`${
+                isDropOpen ? `rotate-180` : `rotate-0`
+              } transition-transform duration-300`}
+            />
+            </div>
+              <div className={`w-[250px] ${isDropOpen ?  `h-34` : `h-0 `} transition-all duration-300 overflow-hidden dropdown z-[100]  bg-primary  flex flex-col items-start justify-between absolute right-0 top-[50px] text-sm`}>
+                <Link
+                  href="/political"
+                    className={` border-transparent w-full px-6 py-3 ${isDropOpen ? `translate-y-0 opacity-1` : `-translate-y-full opacity-0`} transition-all duration-300 hover:delay-0 hover:duration-75 text-white hover:text-primary hover:bg-white`}
+                >
+                 AI Electoral Campign
+                                 </Link>
+                <Link
+                  href="/news-reading"
+                  className={` border-transparent w-full px-6 py-3 ${isDropOpen ? `translate-y-0 opacity-1` : `-translate-y-full opacity-0`} transition-all duration-300  hover:delay-0 hover:duration-75 text-white hover:text-primary hover:bg-white`}
+                >
+                 AI News Reading
+                </Link>
+                <Link
+                  href="/rnd"
+                  className={` border-transparent w-full px-6 py-3 ${isDropOpen ? `translate-y-0 opacity-1` : `-translate-y-full opacity-0`} transition-all duration-300  hover:delay-0 hover:duration-75 text-white hover:text-primary hover:bg-white`}
+                >
+              R & D Projects
+                </Link>
+              </div>
+          </div>
           <Link
             href="/about"
             className={` text-base whitespace-nowrap px-4 relative py-2 rounded-sm navlink-animation navlink-about hover:text-white z-20   border-transparent `}
           >
             About Us
           </Link>
-          <Link
-            href="/news-reading"
-            className={` text-base whitespace-nowrap px-4 relative py-2 rounded-sm navlink-animation navlink-about hover:text-white z-20   border-transparent `}
-          >
-            News Reading
-          </Link>
 
           <Link
-           href = "https://calendly.com/gomanirajan/30min" target="_blank" rel = "noreferrer"
-            className="text-black text-base font-semibold whitespace-nowrap flex justify-center items-center  bg-secondary px-5 py-3  rounded-sm "
+           href = "/contact-us" 
+           className="text-black text-base font-semibold whitespace-nowrap flex justify-center items-center  bg-secondary px-5 py-3  rounded-sm "
           >
             Schedule an impact
           </Link>

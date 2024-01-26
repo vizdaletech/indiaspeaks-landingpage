@@ -1,6 +1,7 @@
 import NunitoSans from "@/shared/typography/NunitoSans";
 import { nunito_sans } from "@/typography/font";
 import Image from "next/image";
+import Link from "next/link";
 import * as React from "react";
 
 const HeroSection = (props) => {
@@ -29,9 +30,9 @@ const HeroSection = (props) => {
                   technology. Schedule a meeting to know more :)
                 </div>
                 <div className="items-stretch flex gap-4 mt-6 self-start">
-                  <a href = "https://calendly.com/gomanirajan/30min" target="_blank" rel = "noreferrer" className="text-black text-lg bg-secondary font-bold leading-7  justify-center items-stretch rounded px-6 py-3">
+                  <Link href = "/contact-us" className="text-black text-lg bg-secondary font-bold leading-7  justify-center items-stretch rounded px-6 py-3">
                     Schedule an impact
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

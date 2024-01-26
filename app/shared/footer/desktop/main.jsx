@@ -66,14 +66,12 @@ function Footer(props) {
                   >
                     About us
                   </Link>
-                  <a
-                    href="https://calendly.com/gomanirajan/30min"
-                    target="_blank"
-                    rel="noreferrer"
+                  <Link
+                    href="/contact-us"
                     className="text-white text-base font-semibold leading-6 whitespace-nowrap mt-3"
                   >
                     Contact us
-                  </a>
+                  </Link>
                 </div>
                 <div className="items-stretch flex grow basis-[0%] flex-col">
                   <Link
@@ -82,13 +80,13 @@ function Footer(props) {
                   >
                     AI Electoral Campaign
                   </Link>
-                  <div className="text-[#686C6F] text-base font-semibold leading-6 whitespace-nowrap">
+                  <Link href = "/news-reading" className="text-white text-base font-semibold leading-6 whitespace-nowrap">
                     AI News Broadcasting
-                  </div>
+                  </Link>
 
-                  <div className="text-[#686C6F] text-base font-semibold leading-6 whitespace-nowrap mt-3">
+                  <Link href = "/rnd" className="text-white text-base font-semibold leading-6 whitespace-nowrap mt-3">
                     R&D Projects
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
