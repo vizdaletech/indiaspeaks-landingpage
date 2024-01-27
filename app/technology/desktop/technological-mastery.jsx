@@ -61,10 +61,7 @@ function TechnologicalMastery(props) {
           </div>
           {/* Second images */}
           <div className="items-stretch bg-white self-stretch flex w-full flex-col my-10 justify-center px-16 py-12 max-md:max-w-full max-md:px-5">
-            <div
-              className="my-3.5 max-md:max-w-full max-md:mr-1"
-          
-            >
+            <div className="my-3.5 max-md:max-w-full max-md:mr-1">
               <div className="gap-16 flex">
                 <div className="flex flex-col items-stretch w-full max-md:w-full max-md:ml-0">
                   <div className="items-stretch self-stretch flex flex-col my-auto max-md:max-w-full max-md:mt-10">
@@ -75,7 +72,7 @@ function TechnologicalMastery(props) {
                     <p
                       className={`text-black text-lg leading-7 mt-6 ${nunito_sans.className}`}
                       ref={section2}
-                   >
+                    >
                       Step into the future of efficient communication with our
                       Speech-to-Text tech. Beyond transcription, it{`'`}s a
                       mastery of speed and accuracy, revolutionizing spoken
@@ -93,17 +90,14 @@ function TechnologicalMastery(props) {
               <div className="gap-16 flex">
                 <div className="flex flex-col items-stretch w-full max-md:w-full max-md:ml-0">
                   <div className="items-stretch flex flex-col my-auto max-md:max-w-full max-md:mt-10">
-                    <h3
-                      className="text-primary text-4xl font-bold w-[400px] leading-10 max-md:max-w-full"
-                     
-                    >
+                    <h3 className="text-primary text-4xl font-bold w-[400px] leading-10 max-md:max-w-full">
                       Mastering the Art of Voice Cloning
                     </h3>
 
                     <p
                       className={`${nunito_sans.className} text-black text-lg leading-7 mt-6 w-[500px]`}
                       ref={section3}
-                  >
+                    >
                       In voice cloning, our tech sets a new standard,
                       authentically replicating a target individual{`'`}s voice
                       with efficiency. Our innovation preserves uniqueness,
@@ -116,43 +110,58 @@ function TechnologicalMastery(props) {
             </div>
           </div>
         </aside>
-        <figure className="sticky top-[20%] left-1/2 w-6/12 h-[300px]">
+        <figure className="sticky top-[30%] left-1/2 w-6/12 h-[300px] mt-20">
           <div className="relative">
             <div
               className={`flex flex-col items-stretch mx-auto w-10/12 ml-5 max-md:w-full max-md:ml-0 ${
                 activeRow === "one" ? "opacity-1 z-20" : "opacity-0 -z-20"
               } transition-all duration-300 absolute top-0 left-0`}
             >
-              <img
-                loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/848d10e71d643a1a0170e3d349092e55c955551ac5d1e2763c811296a341d268?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
-                alt="Efficiency Refined in Speech-to-Text"
-                className="aspect-[1.04] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
-              />
+              <video
+                autoPlay={true}
+                loop={true}
+                muted={true}
+                // controls
+              >
+                <source
+                  src="https://res.cloudinary.com/dosjh2min/video/upload/v1706334431/indiaspeaks/TTS_jjs9ue.mp4"
+                  type="video/mp4"
+                />
+              </video>
             </div>
             <div
-              className={`flex flex-col items-stretch mx-auto w-10/12 ml-5 max-md:w-full max-md:ml-0 ${
+              className={`flex flex-col items-stretch mx-auto w-8/12  max-md:w-full max-md:ml-0 ${
                 activeRow === "two" ? "opacity-1 z-20" : "opacity-0 -z-20"
               } transition-all duration-300 absolute top-0 left-0`}
             >
-              <img
-                loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/6719c2a5ea6514fe95d4cc7a98078adbf57e84ae90a7547904c0e32c8138fe30?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
-                alt="Harmonic Text-to-Speech"
-                className="aspect-[1.77] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
-              />
+              <video
+                autoPlay={true}
+                loop={true}
+                muted={true}
+                // controls
+              >
+                <source
+                  src="https://res.cloudinary.com/dosjh2min/video/upload/v1706334664/indiaspeaks/stt_1_r0e48b.mp4"
+                  type="video/mp4"
+                />
+              </video>
             </div>
             <div
               className={`flex flex-col items-stretch mx-auto w-10/12 ml-5 max-md:w-full max-md:ml-0 ${
                 activeRow === "three" ? "opacity-1 z-20" : "opacity-0 -z-20"
               } transition-all duration-300 absolute top-0 left-0`}
             >
-              <img
-                loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b92585517ffc73b1265ee0338c67f0ccba26af33abb66dfaf8e6398c7d77373?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
-                alt="Mastering the Art of Voice Cloning"
-                className="aspect-[1.97] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
-              />
+                  <video
+                autoPlay={true}
+                loop={true}
+                muted={true}
+                // controls
+              >
+                <source
+                  src="https://res.cloudinary.com/dosjh2min/video/upload/v1706335053/indiaspeaks/VC_2_dimfp2.mp4"
+                  type="video/mp4"
+                />
+              </video>
             </div>
           </div>
         </figure>

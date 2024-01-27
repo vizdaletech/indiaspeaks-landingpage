@@ -155,26 +155,24 @@ function ExploreOurTechnology(props) {
         <figure className="sticky top-[20%] left-1/2 h-fit">
           <div className="relative">
         <div className={`flex flex-col items-stretch w-full ml-5 max-md:w-full max-md:ml-0 ${activeRow === "one" ? "opacity-1 z-20" : "opacity-0 -z-20" } transition-all duration-300 absolute top-0 left-0`}>
-            <div className="justify-center items-stretch flex grow flex-col w-full px-5 py-7 rounded-xl max-md:max-w-full max-md:mt-10">
+            <div className="justify-center items-stretch flex grow flex-col w-full px-5 pb-12 pt-24 rounded-xl max-md:max-w-full max-md:mt-10">
              
-                <Image
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/bef7566b01d2729e5a72fcdc59a49ce2c2f2524e76f21f09d49bb9e7e78a296b?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
-                    width={500}
-                    height={500}
-                    className="w-full border"
+            <video autoPlay = {true} loop = {true} >
+                  <source src = "https://res.cloudinary.com/dosjh2min/video/upload/v1706251041/indiaspeaks/VC_drk0r9.mp4"
+                  type="video/mp4"
                   />
+                </video>
             </div>
           </div>
 
           <div className={`flex flex-col items-stretch w-full ml-5 max-md:w-full max-md:ml-0 ${activeRow === "two" ? "opacity-1 z-20" : "opacity-0 -z-20" } bsolute top-0 left-0 transition-all duration-300`}>
               <div className="container justify-center flex flex-col w-full py-12 rounded-xl items-end">
                 <div className="box flex flex-col items-stretch mt-6 mb-11 pb-6 rounded">
-                  <Image
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704524430/indiaspeaks/peronalised-voice-illustration_thj7ol.svg"
-                    width={500}
-                    height={500}
-                    className="w-full border"
+                <video autoPlay = {true} loop = {true} >
+                  <source src = "https://res.cloudinary.com/dosjh2min/video/upload/v1706251183/indiaspeaks/STT_v5fzma.mp4"
+                  type="video/mp4"
                   />
+                </video>
                 </div>
               </div>
             </div>

@@ -55,12 +55,12 @@ const Slider = () => {
                   </div>
                 </span>
               </div>
-              <div className="flex flex-col items-stretch w-[42%] ml-5 max-md:w-full max-md:ml-0">
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/aced8a2aac612aced7082bcacdf7498bc3c9fec7e0d19fba4a5add1352e5ae9f?"
-                  className="aspect-[0.96] object-contain object-center w-full justify-end items-center overflow-hidden grow max-md:max-w-full max-md:mt-10"
-                />
+              <div className="flex flex-col items-stretch w-[30%] ml-5 max-md:w-full max-md:ml-0">
+                <video autoPlay = {true} loop = {true} >
+                  <source src = "https://res.cloudinary.com/dosjh2min/video/upload/v1706250375/indiaspeaks/Call_Centre_qnjh06.mp4"
+                  type="video/mp4"
+                  />
+                </video>
               </div>
             </div>
           </div>
@@ -82,12 +82,12 @@ const Slider = () => {
                   </div>
                 </span>
               </div>
-              <div className="flex flex-col items-stretch w-[42%] ml-5 max-md:w-full max-md:ml-0">
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/c8a70622d71d66678cc41210eaf9a8d8f39719456955f09f82190f6ee23661aa?"
-                  className="aspect-[0.96] object-contain object-center w-full justify-center items-center overflow-hidden grow max-md:max-w-full max-md:mt-10"
-                />
+              <div className="flex flex-col items-stretch w-[30%] ml-5 max-md:w-full max-md:ml-0">
+              <video autoPlay = {true} loop = {true} >
+                  <source src = "https://res.cloudinary.com/dosjh2min/video/upload/v1706250599/indiaspeaks/Audio_Book_hh7gyp.mp4"
+                  type="video/mp4"
+                  />
+                </video>
               </div>
             </div>
           </div>
@@ -108,12 +108,12 @@ const Slider = () => {
                   </div>
                 </span>
               </div>{" "}
-              <div className="flex flex-col items-stretch w-[42%] ml-5 max-md:w-full max-md:ml-0">
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/bb8105b0b7cccf02a49c2e49ec7e7d0a8ed1e5e928f0727e3c08b79f75b7a49e?"
-                  className="aspect-[0.96] object-contain object-center w-full items-center overflow-hidden grow max-md:max-w-full max-md:mt-10"
-                />
+              <div className="flex flex-col items-stretch w-[30%] ml-5 max-md:w-full max-md:ml-0">
+              <video autoPlay = {true} loop = {true} >
+                  <source src = "https://res.cloudinary.com/dosjh2min/video/upload/v1706250690/indiaspeaks/Dubbing_p6ulw3.mp4"
+                  type="video/mp4"
+                  />
+                </video>
               </div>
             </div>
           </div>
@@ -137,16 +137,12 @@ const Slider = () => {
               </div>
               <div className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
                 <div className="flex-col overflow-hidden relative flex min-h-[276px] grow justify-center px-16 py-12 items-start max-md:max-w-full max-md:mt-9 max-md:px-5">
-                  <img
-                    loading="lazy"
-                    src= "https://res.cloudinary.com/dosjh2min/image/upload/v1705986944/indiaspeaks/Frame_631_wa0ycl.png"
-                    className="absolute h-full w-full object-cover object-center inset-0"
+                <video autoPlay = {true} loop = {true} >
+                  <source src = "https://res.cloudinary.com/dosjh2min/video/upload/v1706250747/indiaspeaks/Assistive_tech_frogxi.mp4"
+                  type="video/mp4"
                   />
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/db6fa927bf91188525a67d66cfdaccbcba2366e7b182f66c97418671557bcd36?"
-                    className="aspect-[4] object-contain object-center w-2 stroke-[2.44px] stroke-black overflow-hidden max-w-full ml-36 mt-16 mb-20 max-md:ml-2.5 max-md:my-10"
-                  />
+                </video>
+                  
                 </div>
               </div>
             </div>

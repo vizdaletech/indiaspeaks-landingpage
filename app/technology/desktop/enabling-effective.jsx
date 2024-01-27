@@ -23,7 +23,11 @@ function EnablingEffective(props) {
             className="flex flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0 cursor-pointer"
             onClick={() => setActiveTab(1)}
           >
-            <div className={`justify-center items-center ${activeTab === 1 && `border-b-primary border-b-[5px]`} bg-white flex grow flex-col w-full px-6 py-4  border-solid max-md:max-w-full max-md:px-5`}>
+            <div
+              className={`justify-center items-center ${
+                activeTab === 1 && `border-b-primary border-b-[5px]`
+              } bg-white flex grow flex-col w-full px-6 py-4  border-solid max-md:max-w-full max-md:px-5`}
+            >
               <header className="text-primary text-3xl font-bold leading-10 whitespace-nowrap">
                 Entertainment
               </header>
@@ -39,7 +43,11 @@ function EnablingEffective(props) {
             className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0 cursor-pointer"
             onClick={() => setActiveTab(2)}
           >
-            <div className={`justify-center items-center ${activeTab === 2 && `border-b-[5px] border-b-primary`} bg-white flex grow flex-col w-full px-6 py-4 border-solid max-md:max-w-full max-md:px-5`}>
+            <div
+              className={`justify-center items-center ${
+                activeTab === 2 && `border-b-[5px] border-b-primary`
+              } bg-white flex grow flex-col w-full px-6 py-4 border-solid max-md:max-w-full max-md:px-5`}
+            >
               <header className="text-primary text-3xl font-bold leading-10 whitespace-nowrap">
                 Journalism
               </header>
@@ -55,7 +63,11 @@ function EnablingEffective(props) {
             className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0 cursor-pointer"
             onClick={() => setActiveTab(3)}
           >
-            <div className={`justify-center items-center ${activeTab === 3 && `border-b-[5px] border-b-primary`} bg-white flex grow flex-col w-full px-6 py-4  border-solid max-md:max-w-full max-md:px-5`}>
+            <div
+              className={`justify-center items-center ${
+                activeTab === 3 && `border-b-[5px] border-b-primary`
+              } bg-white flex grow flex-col w-full px-6 py-4  border-solid max-md:max-w-full max-md:px-5`}
+            >
               <header className="text-primary text-3xl font-bold leading-10 whitespace-nowrap">
                 Marketing
               </header>
@@ -69,30 +81,53 @@ function EnablingEffective(props) {
           </div>
         </div>
       </div>
-      <div className="relative h-[500px] w-full">
-        <img
-          loading="lazy"
-          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/300b5258bb6f7f9f23917eb6fe14fe828effecf89b45f7526cbe3239492ffcc7?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/300b5258bb6f7f9f23917eb6fe14fe828effecf89b45f7526cbe3239492ffcc7?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/300b5258bb6f7f9f23917eb6fe14fe828effecf89b45f7526cbe3239492ffcc7?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/300b5258bb6f7f9f23917eb6fe14fe828effecf89b45f7526cbe3239492ffcc7?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/300b5258bb6f7f9f23917eb6fe14fe828effecf89b45f7526cbe3239492ffcc7?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/300b5258bb6f7f9f23917eb6fe14fe828effecf89b45f7526cbe3239492ffcc7?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/300b5258bb6f7f9f23917eb6fe14fe828effecf89b45f7526cbe3239492ffcc7?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/300b5258bb6f7f9f23917eb6fe14fe828effecf89b45f7526cbe3239492ffcc7?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
-          className={`aspect-[1.41] object-contain object-center w-5/12 overflow-hidden self-center max-w-full mt-36 mb-28 max-md:my-10 absolute top-[30%]  left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${
-            activeTab === 1 ? `opacity-1` : `opacity-0`
-          } transition-all duration-300`}
-        />
+      <div className="h-screen w-full relative">
+        <video
+          // autoPlay={true}
+          // loop={true}
+          muted = {true}
+          controls
+          className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full mx-auto duration-300 ${
+            activeTab === 1 ? `opacity-1 z-20` : `opacity-0 -z-20`
+          }`}
+        > 
+          <source
+            src="https://res.cloudinary.com/dosjh2min/video/upload/v1706251574/indiaspeaks/Media_pc2ej0.mp4"
+            type="video/mp4"
+          />
+        </video>
 
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/f429f19bb5089e18894beb42b1958655b42c53debadae3282608cc69b6a496ad?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
-          className={`aspect-[1.78] object-contain object-center justify-center items-center  self-stretch mt-16 mb-10 w-8/12 mx-auto z-50 absolute top-[30%] left-1/2 transform -translate-x-1/2 transition-all duration-300 -translate-y-1/2 ${
-            activeTab === 2 ? `opacity-1` : `opacity-0`
+        <video
+          // autoPlay={true}
+          // loop={true}
+          muted = {true}
+
+          controls
+          className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full mx-auto duration-300 ${
+            activeTab === 2 ? `opacity-1 z-20` : `opacity-0 -z-20`
           }`}
-        />
-        <img
-          loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/aa192067497f5e821913521033ed37e865d01c070a8c0b6859d978f007eab210?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
-          className={`aspect-[1.78] object-contain object-center justify-center items-center  self-stretch mt-16 mb-10 w-8/12 mx-auto z-50 absolute top-[30%] left-1/2 transform -translate-x-1/2 transition-all duration-300 -translate-y-1/2 ${
-            activeTab === 3 ? `opacity-1` : `opacity-0`
+        > 
+          <source
+            src="https://res.cloudinary.com/dosjh2min/video/upload/v1706333654/indiaspeaks/Marketing.mp4_swlenk.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <video
+          // autoPlay={true}
+          // loop={true}
+          muted = {true}
+          controls
+          className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full mx-auto duration-300 ${
+            activeTab === 3 ? `opacity-1 z-20` : `opacity-0 -z-20`
           }`}
-          alt="Communication"
-        />
+        > 
+          <source
+            src="https://res.cloudinary.com/dosjh2min/video/upload/v1706334135/indiaspeaks/Journalism_f6aemh.mp4"
+            type="video/mp4"
+          />
+        </video>
       </div>
+      
     </div>
   );
 }
