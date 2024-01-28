@@ -83,19 +83,19 @@ const Navbar = (props) => {
               <div className={`w-[250px] ${isDropOpen ?  `h-34` : `h-0 `} transition-all duration-300 overflow-hidden dropdown z-[100]  bg-primary  flex flex-col items-start justify-between absolute right-0 top-[50px] text-sm`}>
                 <Link
                   href="/political"
-                    className={` border-transparent w-full px-6 py-3 ${isDropOpen ? `translate-y-0 opacity-1` : `-translate-y-full opacity-0`} transition-all duration-300 hover:delay-0 hover:duration-75 text-white hover:text-primary hover:bg-white`}
+                    className={` border-transparent w-full px-6 py-3 ${isDropOpen ? `translate-y-0 opacity-1` : `-translate-y-full opacity-0`} transition-all duration-300 hover:delay-0 hover:duration-75 text-white hover:text-black hover:bg-secondary`}
                 >
                  AI Electoral Campign
                                  </Link>
                 <Link
                   href="/news-reading"
-                  className={` border-transparent w-full px-6 py-3 ${isDropOpen ? `translate-y-0 opacity-1` : `-translate-y-full opacity-0`} transition-all duration-300  hover:delay-0 hover:duration-75 text-white hover:text-primary hover:bg-white`}
+                  className={` border-transparent w-full px-6 py-3 ${isDropOpen ? `translate-y-0 opacity-1` : `-translate-y-full opacity-0`} transition-all duration-300  hover:delay-0 hover:duration-75 text-white hover:text-black hover:bg-secondary`}
                 >
                  AI News Reading
                 </Link>
                 <Link
                   href="/rnd"
-                  className={` border-transparent w-full px-6 py-3 ${isDropOpen ? `translate-y-0 opacity-1` : `-translate-y-full opacity-0`} transition-all duration-300  hover:delay-0 hover:duration-75 text-white hover:text-primary hover:bg-white`}
+                  className={` border-transparent w-full px-6 py-3 ${isDropOpen ? `translate-y-0 opacity-1` : `-translate-y-full opacity-0`} transition-all duration-300  hover:delay-0 hover:duration-75 text-white hover:text-black hover:bg-secondary`}
                 >
               R & D Projects
                 </Link>

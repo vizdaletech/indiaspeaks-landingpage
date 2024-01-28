@@ -1,3 +1,5 @@
+import { DATA } from "@/shared/contents";
+import ImageSlider from "@/shared/image-slider";
 import { nunito_sans } from "@/typography/font";
 import Image from "next/image";
 import React from "react";
@@ -21,27 +23,7 @@ function EchoedAuthority(props) {
               </p>
             </div>
           </div>
-          <div className="flex gap-3 w-6/12 ">
-            <Image
-              src="https://res.cloudinary.com/dosjh2min/image/upload/v1704559712/indiaspeaks/stalin_1_c1c1zp.jpg"
-              width={500}
-              height={500}
-              className="w-6/12 object-cover  rounded-lg"
-            />
-
-            <Image
-              width={500}
-              height={500}
-              src="https://res.cloudinary.com/dosjh2min/image/upload/v1704559932/indiaspeaks/jayalalitha_u6kzig.jpg"
-              className=" rounded-lg w-3/12 object-cover bg-center"
-            />
-            <Image
-              width={500}
-              height={500}
-              src="https://res.cloudinary.com/dosjh2min/image/upload/v1704560020/indiaspeaks/modi_qf0j1a.png"
-              className="w-3/12 object-cover  rounded-lg"
-            />
-          </div>
+        <ImageSlider DATA = {DATA}/>
         </div>
       </div>
     </section>

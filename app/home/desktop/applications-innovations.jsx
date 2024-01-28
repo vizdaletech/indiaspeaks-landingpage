@@ -21,7 +21,7 @@ function ApplicationsInovations(props) {
         <form className="gap-5 flex  max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
             <div className="items-stretch flex flex-col gap-8 py-6 max-md:max-w-full max-md:mt-10">
-              <div className="border-l-4 border-primary justify-center items-stretch flex flex-col pl-8  cursor-pointer" onClick={() => setActiveTab(1)}>
+              <div className={`border-l-4 ${activeTab === 1 ?  ` border-primary` : `border-transparent`} justify-center items-stretch flex flex-col pl-8  cursor-pointer`} onClick={() => setActiveTab(1)}>
                 <p className="text-primary text-2xl font-bold leading-8 max-md:max-w-full">
                   AI News Reading
                 </p>
@@ -29,10 +29,12 @@ function ApplicationsInovations(props) {
                 <p className={`text-neutral-700 text-lg leading-7 mt-3 max-md:max-w-full  ${nunito_sans.className}`}>
                   Transforming news delivery through AI voices for a dynamic, accessible experience. Your news, spoken naturally, keeping you informed effortlessly.
                 </p>
-              
+                <Link href="/news-reading" className="text-primary text-base font-semibold leading-6 underline mt-3 max-md:max-w-full">
+                  Learn more
+                </Link>
                 </div>
               </div>
-              <div className="border-l-4 border-primary justify-center items-stretch flex flex-col pl-8 max-md:max-w-full max-md:pl-5 cursor-pointer" onClick={() => setActiveTab(2)}>
+              <div className={`border-l-4 ${activeTab === 2 ?  ` border-primary` : `border-transparent`} justify-center items-stretch flex flex-col pl-8  cursor-pointer`} onClick={() => setActiveTab(2)}>
                 <p className="text-primary text-2xl font-bold leading-8 max-md:max-w-full">
                 Voice Cloning - Election campaign 
                 </p>
@@ -40,12 +42,12 @@ function ApplicationsInovations(props) {
                 <p className={`text-neutral-700 text-lg leading-7 mt-3 max-md:max-w-full ${nunito_sans.className}`}>
                 Disrupting electoral communication with voice cloning{`'`}s personalized touch. Enhancing political interaction , breaking linguistic barriers effortlessly.
                 </p>
-                <Link href="/usecase" className="text-primary text-base font-semibold leading-6 underline mt-3 max-md:max-w-full">
+                <Link href="/political" className="text-primary text-base font-semibold leading-6 underline mt-3 max-md:max-w-full">
                   Learn more
                 </Link>
                 </div>
               </div>
-              <div className="border-l-4 border-primary justify-center items-stretch flex flex-col pl-8 max-md:max-w-full max-md:pl-5 cursor-pointer" onClick={() => setActiveTab(3)}>
+              <div className={`border-l-4 ${activeTab === 3 ?  ` border-primary` : `border-transparent`} justify-center items-stretch flex flex-col pl-8  cursor-pointer`} onClick={() => setActiveTab(3)}>
                 <p className="text-primary text-2xl font-bold leading-8 max-md:max-w-full">
                 R&D Project
                 </p>
@@ -53,16 +55,18 @@ function ApplicationsInovations(props) {
                 <p className={`text-neutral-700 text-lg leading-7 mt-3 max-md:max-w-full ${nunito_sans.className}`}>
                 Pioneering breakthroughs through innovative R&D at IndiaSpeaks, shaping the future of voice technology.
                 </p>
-              
+                <Link href="/rnd" className="text-primary text-base font-semibold leading-6 underline mt-3 max-md:max-w-full">
+                  Learn more
+                </Link>
                 </div>
               </div>
             </div>
           </div>
           <div className="flex flex-col items-stretch w-[58%] ml-5 max-md:w-full max-md:ml-0">
             <div className="justify-center items-stretch flex grow flex-col w-full px-5 py-7 rounded-xl max-md:max-w-full max-md:mt-10 relative">
-            <Image src= "https://res.cloudinary.com/dosjh2min/image/upload/v1704527003/indiaspeaks/Frame_590_bma5tp.svg" width = {400} height = {500} className = {`w-11/12 absolute top-0 left-0 right-0 bottom-0 ${activeTab === 1 ? `opacity-1 z-20` : `opacity-0 -z-10`} transition-all duration-300`} />
-            <Image src= "https://res.cloudinary.com/dosjh2min/image/upload/v1704561234/indiaspeaks/Placeholder_vecahm.png" width = {400} height = {500} className = {`w-11/12 absolute top-0 left-0 right-0 bottom-0 ${activeTab === 2 ? `opacity-1 z-20` : `opacity-0 -z-10`} transition-all duration-300`} />
-            <Image src= "https://res.cloudinary.com/dosjh2min/image/upload/v1704561234/indiaspeaks/Placeholder-1_uruzv0.png" width = {400} height = {500} className = {`w-11/12 absolute top-0 left-0 right-0 bottom-0 ${activeTab === 3 ? `opacity-1 z-20` : `opacity-0 -z-10`} transition-all duration-300`} />
+            <Image src= "https://res.cloudinary.com/dosjh2min/image/upload/v1706420773/indiaspeaks/Frame_590_quckqz.png" width = {400} height = {500} className = {`w-11/12 absolute top-0 left-0 right-0 bottom-0 ${activeTab === 1 ? `opacity-1 z-20` : `opacity-0 -z-10`} transition-all duration-300`} />
+            <Image src= "https://res.cloudinary.com/dosjh2min/image/upload/v1706420772/indiaspeaks/Frame_547_tfqo3z.png" width = {400} height = {500} className = {`w-11/12 absolute top-0 left-0 right-0 bottom-0 ${activeTab === 2 ? `opacity-1 z-20` : `opacity-0 -z-10`} transition-all duration-300`} />
+            <Image src= "https://res.cloudinary.com/dosjh2min/image/upload/v1706420773/indiaspeaks/Frame_590-1_vpxbws.png" width = {400} height = {500} className = {`w-11/12 absolute top-0 left-0 right-0 bottom-0 ${activeTab === 3 ? `opacity-1 z-20` : `opacity-0 -z-10`} transition-all duration-300`} />
             </div>
           </div>
         </form>

@@ -10,7 +10,9 @@ module.exports = {
       primary : "#1F38EA",
       secondary : "#FBBB40",
       black : "#000",
-      white : "#ffff"
+      white : "#ffff",
+      transparent: 'transparent',
+
 }
   },
 

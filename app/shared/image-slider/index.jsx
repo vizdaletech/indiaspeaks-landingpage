@@ -9,6 +9,7 @@ const ImageSlider = ({DATA}) => {
     {
       DATA?.map(data => (
         <div
+        key = {data.name}
         className={`${
           activeSlide === data.name ? `w-6/12` : `w-3/12`
         } h-[400px] rounded-md  relative bg-center ${data?.imageUrl} bg-cover p-3 transition-all duration-300 ease-in-out cursor-pointer`}
