@@ -22,10 +22,6 @@ export const DATA = [
         imageUrl : "bg-[url('https://res.cloudinary.com/dosjh2min/image/upload/v1706248363/indiaspeaks/Frame_513_ztgyaz.png')]"
       },
       {
-        name : "Hindi",
-        imageUrl : "bg-[url('https://res.cloudinary.com/dosjh2min/image/upload/v1706248363/indiaspeaks/Frame_513-1_tnhqnz.png')]"
-      },
-      {
         name : "English",
         imageUrl : "bg-[url('https://res.cloudinary.com/dosjh2min/image/upload/v1706248363/indiaspeaks/Frame_513-2_l03dwn.png')]"
       }

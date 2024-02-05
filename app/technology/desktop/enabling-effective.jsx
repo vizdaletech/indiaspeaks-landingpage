@@ -17,16 +17,16 @@ function EnablingEffective(props) {
         communication across industries. Our technology ensures clarity and{" "}
         <br /> precision, ensuring every voice is truly understood.
       </p>
-      <div className="self-stretch mt-20 max-md:max-w-full max-md:mt-10">
+      <div className="self-stretch mt-20">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div
-            className="flex flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0 cursor-pointer"
+            className="flex flex-col items-stretch w-4/12 max-md:w-full max-md:ml-0 cursor-pointer"
             onClick={() => setActiveTab(1)}
           >
             <div
               className={`justify-center items-center ${
                 activeTab === 1 && `border-b-primary border-b-[5px]`
-              } bg-white flex grow flex-col w-full px-6 py-4  border-solid max-md:max-w-full max-md:px-5`}
+              } bg-white flex grow flex-col w-full py-4  border-solid max-md:max-w-full`}
             >
               <header className="text-primary text-3xl font-bold leading-10 whitespace-nowrap">
                 Entertainment
@@ -40,7 +40,7 @@ function EnablingEffective(props) {
             </div>
           </div>
           <div
-            className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0 cursor-pointer"
+            className="flex flex-col items-stretch w-4/12 ml-5 max-md:w-full max-md:ml-0 cursor-pointer"
             onClick={() => setActiveTab(2)}
           >
             <div
@@ -60,13 +60,13 @@ function EnablingEffective(props) {
             </div>
           </div>
           <div
-            className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0 cursor-pointer"
+            className="flex flex-col items-stretch w-4/12 ml-5 max-md:w-full max-md:ml-0 cursor-pointer"
             onClick={() => setActiveTab(3)}
           >
             <div
               className={`justify-center items-center ${
                 activeTab === 3 && `border-b-[5px] border-b-primary`
-              } bg-white flex grow flex-col w-full px-6 py-4  border-solid max-md:max-w-full max-md:px-5`}
+              } bg-white flex grow flex-col w-full  py-4  border-solid max-md:max-w-full 5`}
             >
               <header className="text-primary text-3xl font-bold leading-10 whitespace-nowrap">
                 Marketing
@@ -81,10 +81,10 @@ function EnablingEffective(props) {
           </div>
         </div>
       </div>
-      <div className="h-screen w-full relative">
+      <div className="h-screen w-10/12 mx-auto relative">
         <video
-          // autoPlay={true}
-          // loop={true}
+          autoPlay={true}
+          loop={true}
           muted = {true}
           controls
           className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full mx-auto duration-300 ${
@@ -98,8 +98,8 @@ function EnablingEffective(props) {
         </video>
 
         <video
-          // autoPlay={true}
-          // loop={true}
+          autoPlay={true}
+          loop={true}
           muted = {true}
 
           controls
@@ -113,8 +113,8 @@ function EnablingEffective(props) {
           />
         </video>
         <video
-          // autoPlay={true}
-          // loop={true}
+          autoPlay={true}
+          loop={true}
           muted = {true}
           controls
           className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full mx-auto duration-300 ${

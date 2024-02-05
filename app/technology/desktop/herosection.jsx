@@ -4,7 +4,19 @@ import * as React from "react";
 
 function HeroSection(props) {
   return (
-    <section className=" bg-[url(https://res.cloudinary.com/dosjh2min/image/upload/v1704531122/indiaspeaks/Grid_13_pcuf2t.jpg)] bg-cover hidden md:block ">
+    <section className=" bg-[url(https://res.cloudinary.com/dosjh2min/image/upload/v1704531122/indiaspeaks/Grid_13_pcuf2t.jpg)] bg-cover hidden md:block relative">
+      <div className="bg-[#FFF456] w-8 h-8 rounded-full absolute left-1/4 bottom-[30%]" />
+      <div className="bg-[#FFF456] w-8 h-8 rounded-full absolute right-[30%] top-[20%]" />
+      <div className="bg-[#FFF456] w-8 h-8 rounded-full absolute right-[5%] top-[10%]" />
+      <div className="bg-[#FFF456] w-8 h-8 rounded-full absolute right-[5%] bottom-[10%]" />
+      <div className="bg-[#55C28D] w-8 h-8 rounded-full absolute left-[5%] top-[20%]" />
+
+      <div className="bg-[#55C28D] w-8 h-8 rounded-full absolute left-[10%] bottom-[10%]" />
+
+      <div className="bg-[#55C28D] w-8 h-8 rounded-full absolute right-1/4 bottom-1/2" />
+
+
+
     <header className="flex flex-col center-section h-screen justify-center items-center">
      <div className="w-[500px] text-center">
         <h1 className="text-6xl font-bold leading-[120%]"> 

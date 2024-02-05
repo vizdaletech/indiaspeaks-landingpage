@@ -177,7 +177,7 @@ const HeroSection = (props) => {
                 <div className="items-center bg-white flex flex-col px-4 py-7 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704596049/indiaspeaks/Frame_484_1_jcry2f.png"
+                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1707104933/indiaspeaks/Group_558_pj3kwe.png"
                     className="w-6/12 mx-auto"
                   />
                   <div className="text-black text-xl text-center font-bold leading-8 self-stretch whitespace-nowrap mt-7">
@@ -197,7 +197,7 @@ const HeroSection = (props) => {
                 <div className="items-stretch bg-white flex flex-col px-8 py-6 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558043/indiaspeaks/Frame_484-2_j7jxpu.png"
+                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1707104933/indiaspeaks/Frame_706_w9cjql.png"
                     className="w-7/12 mx-auto"
                   />
                   <div className="text-black text-xl font-bold leading-8 self-center whitespace-nowrap mt-7">
@@ -369,7 +369,7 @@ const HeroSection = (props) => {
                 <div className="items-center bg-white flex flex-col px-4 py-7 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704596049/indiaspeaks/Frame_484_1_jcry2f.png"
+                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1707104933/indiaspeaks/Group_558_pj3kwe.png"
                     className="w-6/12 mx-auto"
                   />
                   <div className="text-black text-xl text-center font-bold leading-8 self-stretch whitespace-nowrap mt-7">
@@ -389,7 +389,7 @@ const HeroSection = (props) => {
                 <div className="items-stretch bg-white flex flex-col px-8 py-6 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558043/indiaspeaks/Frame_484-2_j7jxpu.png"
+                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1707104933/indiaspeaks/Frame_706_w9cjql.png"
                     className="w-7/12 mx-auto"
                   />
                   <div className="text-black text-xl font-bold leading-8 self-center whitespace-nowrap mt-7">
@@ -561,7 +561,7 @@ const HeroSection = (props) => {
                 <div className="items-center bg-white flex flex-col px-4 py-7 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704596049/indiaspeaks/Frame_484_1_jcry2f.png"
+                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1707104933/indiaspeaks/Group_558_pj3kwe.png"
                     className="w-6/12 mx-auto"
                   />
                   <div className="text-black text-xl text-center font-bold leading-8 self-stretch whitespace-nowrap mt-7">
@@ -581,7 +581,7 @@ const HeroSection = (props) => {
                 <div className="items-stretch bg-white flex flex-col px-8 py-6 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558043/indiaspeaks/Frame_484-2_j7jxpu.png"
+                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1707104933/indiaspeaks/Frame_706_w9cjql.png"
                     className="w-7/12 mx-auto"
                   />
                   <div className="text-black text-xl font-bold leading-8 self-center whitespace-nowrap mt-7">
@@ -753,7 +753,7 @@ const HeroSection = (props) => {
                 <div className="items-center bg-white flex flex-col px-4 py-7 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704596049/indiaspeaks/Frame_484_1_jcry2f.png"
+                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1707104933/indiaspeaks/Group_558_pj3kwe.png"
                     className="w-6/12 mx-auto"
                   />
                   <div className="text-black text-xl text-center font-bold leading-8 self-stretch whitespace-nowrap mt-7">
@@ -773,7 +773,7 @@ const HeroSection = (props) => {
                 <div className="items-stretch bg-white flex flex-col px-8 py-6 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558043/indiaspeaks/Frame_484-2_j7jxpu.png"
+                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1707104933/indiaspeaks/Frame_706_w9cjql.png"
                     className="w-7/12 mx-auto"
                   />
                   <div className="text-black text-xl font-bold leading-8 self-center whitespace-nowrap mt-7">
@@ -945,7 +945,7 @@ const HeroSection = (props) => {
                 <div className="items-center bg-white flex flex-col px-4 py-7 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704596049/indiaspeaks/Frame_484_1_jcry2f.png"
+                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1707104933/indiaspeaks/Group_558_pj3kwe.png"
                     className="w-6/12 mx-auto"
                   />
                   <div className="text-black text-xl text-center font-bold leading-8 self-stretch whitespace-nowrap mt-7">
@@ -965,7 +965,7 @@ const HeroSection = (props) => {
                 <div className="items-stretch bg-white flex flex-col px-8 py-6 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558043/indiaspeaks/Frame_484-2_j7jxpu.png"
+                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1707104933/indiaspeaks/Frame_706_w9cjql.png"
                     className="w-7/12 mx-auto"
                   />
                   <div className="text-black text-xl font-bold leading-8 self-center whitespace-nowrap mt-7">

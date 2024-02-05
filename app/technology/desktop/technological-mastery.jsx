@@ -132,7 +132,7 @@ function TechnologicalMastery(props) {
             <div
               className={`flex flex-col items-stretch mx-auto w-8/12  max-md:w-full max-md:ml-0 ${
                 activeRow === "two" ? "opacity-1 z-20" : "opacity-0 -z-20"
-              } transition-all duration-300 absolute top-0 left-0`}
+              } transition-all duration-300 absolute top-0 left-1/2 transform -translate-x-1/2`}
             >
               <video
                 autoPlay={true}
@@ -141,7 +141,7 @@ function TechnologicalMastery(props) {
                 // controls
               >
                 <source
-                  src="https://res.cloudinary.com/dosjh2min/video/upload/v1706334664/indiaspeaks/stt_1_r0e48b.mp4"
+                  src="https://res.cloudinary.com/dosjh2min/video/upload/v1707105558/indiaspeaks/STT_1_qsef30.mp4"
                   type="video/mp4"
                 />
               </video>

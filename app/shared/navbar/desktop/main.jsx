@@ -80,22 +80,22 @@ const Navbar = (props) => {
               } transition-transform duration-300`}
             />
             </div>
-              <div className={`w-[250px] ${isDropOpen ?  `h-34` : `h-0 `} transition-all duration-300 overflow-hidden dropdown z-[100]  bg-primary  flex flex-col items-start justify-between absolute right-0 top-[50px] text-sm`}>
+              <div className={`w-[250px] ${isDropOpen ?  `h-34` : `h-0 `} transition-all duration-300 overflow-hidden dropdown z-[100] font-semibold shadow-md bg-primary  flex flex-col items-start justify-between absolute left-3 top-[57px] text-sm`}>
                 <Link
                   href="/political"
-                    className={` border-transparent w-full px-6 py-3 ${isDropOpen ? `translate-y-0 opacity-1` : `-translate-y-full opacity-0`} transition-all duration-300 hover:delay-0 hover:duration-75 text-white hover:text-black hover:bg-secondary`}
+                    className={` border-transparent w-full px-6 py-3 ${isDropOpen ? `translate-y-0 opacity-1` : `-translate-y-full opacity-0`} transition-all duration-300 hover:delay-0 hover:duration-75 text-white hover:text-black hover:bg-white`}
                 >
                  AI Electoral Campign
                                  </Link>
                 <Link
                   href="/news-reading"
-                  className={` border-transparent w-full px-6 py-3 ${isDropOpen ? `translate-y-0 opacity-1` : `-translate-y-full opacity-0`} transition-all duration-300  hover:delay-0 hover:duration-75 text-white hover:text-black hover:bg-secondary`}
+                  className={` border-transparent w-full px-6 py-3 ${isDropOpen ? `translate-y-0 opacity-1` : `-translate-y-full opacity-0`} transition-all duration-300  hover:delay-0 hover:duration-75 text-white hover:text-black hover:bg-white`}
                 >
                  AI News Reading
                 </Link>
                 <Link
                   href="/rnd"
-                  className={` border-transparent w-full px-6 py-3 ${isDropOpen ? `translate-y-0 opacity-1` : `-translate-y-full opacity-0`} transition-all duration-300  hover:delay-0 hover:duration-75 text-white hover:text-black hover:bg-secondary`}
+                  className={` border-transparent w-full px-6 py-3 ${isDropOpen ? `translate-y-0 opacity-1` : `-translate-y-full opacity-0`} transition-all duration-300  hover:delay-0 hover:duration-75 text-white hover:text-black hover:bg-white`}
                 >
               R & D Projects
                 </Link>
