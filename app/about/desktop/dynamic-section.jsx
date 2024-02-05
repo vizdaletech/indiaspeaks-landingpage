@@ -9,7 +9,7 @@ function DynamicSection(props) {
           <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
             <div className="items-stretch self-stretch flex flex-col my-auto max-md:max-w-full max-md:mt-10">
               <h1 className="text-primary text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px]" aria-label="Dynamic support from StartupTN" role="heading">Dynamic support from StartupTN</h1>
-              <p className="text-black text-lg leading-7 mt-6 max-md:max-w-full">IndiaSpeaks, fueled by unwavering support from StartupTN, is at the forefront of redefining communication across the diverse landscape of India. With a reliable commitment to innovation, we strive to connect communities, transforming the way people communicate and share ideas nationwide.</p>
+              <p className="text-black text-lg leading-7 mt-6 max-md:max-w-full">IndiaSpeaks is fueled by unwavering support from StartupTN. With a reliable commitment to innovation, we strive to connect humanity and transform the way people communicate.</p>
             </div>
           </div>
           <div className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0 rounded-md overflow-hidden">

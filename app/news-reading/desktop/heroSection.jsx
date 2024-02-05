@@ -15,11 +15,7 @@ const HeroSection = () => {
                   AI: News Broadcasting
                 </div>
                 <div className="text-neutral-700 text-lg leading-7 mt-3 max-md:max-w-full">
-                  Step into the world of AI News Broadcasting, where artificial
-                  intelligence completely reforms the way news is delivered. Our
-                  technology engages a broad audience and ensures that the news
-                  is heard and understood by everyone through life like voices
-                  in various languages.
+                Immerse yourself in the innovative world of AI News Broadcasting, a domain where the power of artificial intelligence is harnessed to completely transform the traditional methods of news delivery.
                 </div>
               </span>
             </div>

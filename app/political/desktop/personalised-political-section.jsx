@@ -1,4 +1,5 @@
 import { nunito_sans } from "@/typography/font";
+import Image from "next/image";
 import * as React from "react";
 
 function PersonalisedPoliticalSection(props) {
@@ -23,8 +24,7 @@ function PersonalisedPoliticalSection(props) {
                         Voice Broadcasting{" "}
                       </h2>
                       <p className={`${nunito_sans.className} text-black text-lg leading-6 mt-2.5`}>
-                        Delivering voice campaigns from political leaders to every voter, tailored to them.
-                      </p>
+                      Delivering voice campaigns from political leaders to every voter by addressing their name                      </p>
                     </div>
                   </div>
                   <div className="flex flex-col items-stretch w-[49%] ml-5 max-md:w-full max-md:ml-0">
@@ -42,9 +42,10 @@ function PersonalisedPoliticalSection(props) {
             </div>
           </div>
           <div className="flex flex-col items-stretch w-[45%] ml-5 max-md:w-full max-md:ml-0">
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/5b36d9d948bfabcddb57ac509c309b9d7db5a311770e3f86f17e0b74f364d3fc?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
+            <Image
+              width={500}
+              height={500}
+              src="https://res.cloudinary.com/dosjh2min/image/upload/v1707103669/indiaspeaks/lady-with-the-finger_fgbuuz.png"
               className="aspect-[1.02] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
               alt=""
             />

@@ -14,6 +14,7 @@ import CompanyLogos from './desktop/company-logos'
 import CompanyLogosMobile from './mobile/company-logos-mobile'
 import JoinOurTeam from './desktop/join-our-team'
 import ExperienceSection from './desktop/experience-section'
+import ExperienceSectionMobile from './mobile/experience-section-mobile'
 
 const AboutPage = () => {
   return (
@@ -38,6 +39,7 @@ const AboutPage = () => {
 
     <JoinOurTeam/>
     <ExperienceSection/>
+    <ExperienceSectionMobile/>
     </main>
   )
 }

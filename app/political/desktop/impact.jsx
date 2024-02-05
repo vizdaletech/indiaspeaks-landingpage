@@ -36,10 +36,10 @@ function ImpactSection(props) {
                 className="aspect-square object-contain object-center w-9 overflow-hidden max-w-full"
               />
               <div className="text-primary text-3xl font-bold leading-9 max-w-[277px] mt-3.5">
-                Enhanced voter understanding
+              Understanding our leaders
               </div>
               <p className={` ${nunito_sans.className} text-black text-base leading-6 w-full max-w-full mt-3.5`}>
-                Communicating the parties ideology, making people know more about them and increasing awareness.{" "}
+              Communicating the parties ideology, to ensure the voters clearly understand the schemes and benefits.
               </p>
             </div>
           </div>

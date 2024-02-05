@@ -1,4 +1,5 @@
 import { nunito_sans } from "@/typography/font";
+import Image from "next/image";
 import * as React from "react";
 
 function HeroSection
@@ -19,9 +20,10 @@ function HeroSection
             </div>
           </div>
           <div className="flex flex-col items-stretch w-[46%] ml-5 max-md:w-full max-md:ml-0">
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/ce97dcde91a9817a4362103e23fa203698bee314458af367b91f8d069cb29514?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
+            <Image
+              width={500}
+              height={500}
+              src="https://res.cloudinary.com/dosjh2min/image/upload/v1706420772/indiaspeaks/Frame_547_tfqo3z.png"
               className="aspect-[1.12] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
               alt=""
             />

@@ -1,4 +1,5 @@
 import { nunito_sans } from "@/typography/font";
+import Image from "next/image";
 import * as React from "react";
 
 function HeroSectionMobile(props) {
@@ -11,9 +12,9 @@ function HeroSectionMobile(props) {
             Innovating Electoral Campaigns{" "}
           </h1>
           <p className={`text-white text-base leading-6 mt-3 ${nunito_sans.className}`}>
-          Harnessing the power of Voice Cloning to bring our leaders election campaign's message to life. Connect deeply with every voter through personalized, multilingual communication.
+          Harness the power of Voice Cloning and Connect deeply with every voter through personalized, multilingual communication.
           </p>{" "}
-          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a25734904036777f6af07c2cc334827e9864f2c1756f10b68083b3faf7382d13?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&" className="aspect-[1.08] object-contain object-center w-full overflow-hidden mt-4" />
+          <Image width={500} height={500} src="https://res.cloudinary.com/dosjh2min/image/upload/v1706420772/indiaspeaks/Frame_547_tfqo3z.png" className="aspect-[1.08] object-contain object-center w-full overflow-hidden mt-4" />
         </header>
       </header>
     </form>

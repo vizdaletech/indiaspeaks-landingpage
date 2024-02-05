@@ -10,9 +10,7 @@ function DynamicSectionMobile(props) {
       </h2>
       <div className="text-black text-lg leading-7 mt-7">
         <NunitoSans>
-        IndiaSpeaks, fueled by unwavering support from StartupTN, is at the forefront of redefining communication across
-        the diverse landscape of India. With a reliable commitment to innovation, we strive to connect communities,
-        transforming the way people communicate and share ideas nationwide.
+        IndiaSpeaks is fueled by unwavering support from StartupTN. With a reliable commitment to innovation, we strive to connect humanity and transform the way people communicate.
         </NunitoSans>
       </div>
     </form>

@@ -9,7 +9,7 @@ function HeroSectionMobile(props) {
         Guiding Progress with Technology
         </h1>
         <p className={`text-base font-normal mt-5 leading-[150%] ${nunito_sans}`}>
-        Our approach focuses on user-centered innovation, ensuring that every technological advancement contributes to social betterment and the continuous progress of humanity.
+        Our approach is centered on user-driven innovation, ensuring that each technological advancement contributes to societal improvement and the continuous progress of humanity
         </p>
         </div>
       <header className="flex-col overflow-hidden relative flex aspect-[0.5217391304347826] w-full items-stretch py-0.5">
