@@ -98,7 +98,7 @@ const Slider = () => {
               <div className="flex flex-col items-stretch w-[58%] max-md:w-full max-md:ml-0">
                 <span className="items-stretch self-stretch flex flex-col my-auto max-md:max-w-full max-md:mt-10">
                   <div className="text-black text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
-                    Breaking Language Barriers AI Dubbing
+                    Breaking Language Barriers <br/> AI Dubbing
                   </div>
                   <div className="text-black text-lg leading-7 mt-6 max-md:max-w-full">
                     Disrupting entertainment with AI dubbing, seamlessly
