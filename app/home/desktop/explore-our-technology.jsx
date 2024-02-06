@@ -162,7 +162,7 @@ function ExploreOurTechnology(props) {
               <div className="justify-center items-stretch flex grow flex-col w-full px-5 pb-12 pt-24 rounded-xl max-md:max-w-full max-md:mt-10">
                 <video autoPlay={true} loop={true}>
                   <source
-                    src=" https://res.cloudinary.com/dosjh2min/video/upload/v1706420080/indiaspeaks/TTS_1_wto4qd.mp4"
+                    src=" https://res.cloudinary.com/dosjh2min/video/upload/v1707205649/indiaspeaks/Home/TTS_hovvil.mp4"
                     type="video/mp4"
                   />
                 </video>
@@ -178,7 +178,7 @@ function ExploreOurTechnology(props) {
                 <div className="box flex flex-col items-stretch mt-6 mb-11 pb-6 rounded">
                   <video autoPlay={true} loop={true}>
                     <source
-                      src="https://res.cloudinary.com/dosjh2min/video/upload/v1706251183/indiaspeaks/STT_v5fzma.mp4"
+                      src="https://res.cloudinary.com/dosjh2min/video/upload/v1707205648/indiaspeaks/Home/stt_k4cvau.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -192,7 +192,7 @@ function ExploreOurTechnology(props) {
             >
               <video autoPlay={true} loop={true}>
                 <source
-                  src="https://res.cloudinary.com/dosjh2min/video/upload/v1706251041/indiaspeaks/VC_drk0r9.mp4"
+                  src="https://res.cloudinary.com/dosjh2min/video/upload/v1707205649/indiaspeaks/Home/VC_ge9dwo.mp4"
                   type="video/mp4"
                 />
               </video>

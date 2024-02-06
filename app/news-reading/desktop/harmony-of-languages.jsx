@@ -1,8 +1,12 @@
+"use client";
 import { NEWS } from "@/shared/contents";
-import ImageSlider from "@/shared/image-slider";
-import React from "react";
+import Image from "next/image";
+import React, { useEffect, useRef, useState } from "react";
+import NewsGallary from "./newsgallary";
 
 const HarmonyOfLanguages = () => {
+  const [playedName, setPlayedName] = useState("")
+ 
   return (
     <section className="hidden md:block">
       <div className="items-stretch center-section bg-white flex flex-col justify-center px-7 py-12 max-md:px-5">
@@ -23,26 +27,9 @@ const HarmonyOfLanguages = () => {
               </span>
             </div>
             <div className="w-8/12 ml-auto  flex gap-5 justify-end">
-              <div
-                className={`w-6/12 h-[400px] rounded-md bg-[url('https://res.cloudinary.com/dosjh2min/image/upload/v1706248363/indiaspeaks/Frame_513_ztgyaz.png')] relative bg-center bg-cover p-3 transition-all duration-300 ease-in-out cursor-pointer`}
-              >
-                 <div
-                  className={`font-semibold absolute bottom-5 flex justify-between w-10/12 text-white left-1/2 -translate-x-1/2 transition-all duration-300 `}
-                >
-                  <span>Tamil</span>
-                  <button>P</button>
-                </div>
-              </div>
-              <div
-                className={`w-6/12 h-[400px] rounded-md bg-[url('https://res.cloudinary.com/dosjh2min/image/upload/v1706248363/indiaspeaks/Frame_513-2_l03dwn.png')] relative bg-center bg-cover p-3 transition-all duration-300 ease-in-out cursor-pointer`}
-              >
-                <div
-                  className={`font-semibold absolute bottom-5 flex justify-between w-10/12 text-white left-1/2 -translate-x-1/2 transition-all duration-300 `}
-                >
-                  <span>English</span>
-                  <button>P</button>
-                </div>
-              </div>
+              {NEWS?.map((news) => (
+              <NewsGallary news = {news} key= {news.name} playedName = {playedName} setPlayedName = {setPlayedName}/>
+              ))}
             </div>
           </div>
         </div>

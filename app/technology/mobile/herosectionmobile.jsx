@@ -80,6 +80,15 @@ function HeroSectionMobile(props) {
           <div className="flex w-2 shrink-0 h-2 flex-col mr-2.5 mt-4 rounded-[50%] self-end" />
         </div>
       </div>
+      <div className="bg-[#FFF456] w-4 h-4 rounded-full absolute left-1/4 bottom-[30%]" />
+      <div className="bg-[#FFF456] w-4 h-4 rounded-full absolute right-[30%] top-[20%]" />
+      <div className="bg-[#FFF456] w-4 h-4 rounded-full absolute right-[5%] top-[10%]" />
+      <div className="bg-[#FFF456] w-4 h-4 rounded-full absolute right-[5%] bottom-[10%]" />
+      <div className="bg-[#55C28D] w-4 h-4 rounded-full absolute left-[5%] top-[20%]" />
+
+      <div className="bg-[#55C28D] w-4 h-4 rounded-full absolute left-[10%] bottom-[10%]" />
+
+      <div className="bg-[#55C28D] w-4 h-4 rounded-full absolute right-1/4 bottom-1/2" />
     </div>
   );
 }

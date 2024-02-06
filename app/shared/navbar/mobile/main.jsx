@@ -17,8 +17,20 @@ const links = [
     content: "About us",
   },
   {
-    link : "usecase",
-    content : "Use case"
+    link : "political",
+    content : "AI Electoral Campign"
+  },
+  {
+    link : "news-reading",
+    content : "AI News Reading",
+  },
+  {
+    link : "rnd",
+    content : "R & D Projects"
+  },
+  {
+    link : "contact-us",
+    content : "Schedule a Meet"
   }
 ];
 

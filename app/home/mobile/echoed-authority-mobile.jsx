@@ -1,33 +1,20 @@
-"use client";
+"use client"
 import { nunito_sans } from "@/typography/font";
 import * as React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
 import Image from "next/image";
 import { Autoplay } from "swiper/modules";
+import { DATA } from "@/shared/contents";
+import MobileAudioGallary from "./mobile-audio-gallary";
 function EchoedAuthorityMobile(props) {
-  const swiperRef = React.useRef();
+  const [playerName, setPlayerName] = React.useState("")
+
   return (
     <article className="justify-center center-section items-center bg-white flex md:hidden flex-col">
-    
-            <Image
-              src="https://res.cloudinary.com/dosjh2min/image/upload/v1704565470/indiaspeaks/stalin_o7q3ms.jpg"
-              width={500}
-              height={500}
-              className="w-full z-20"
-            />
-            <Image
-              src="https://res.cloudinary.com/dosjh2min/image/upload/v1704565470/indiaspeaks/modi_uwziqy.jpg"
-              width={500}
-              height={500}
-              className="w-full my-5"
-            />
-            <Image
-              src="https://res.cloudinary.com/dosjh2min/image/upload/v1704565471/indiaspeaks/jayalalitha_snvhz7.jpg"
-              width={500}
-              height={500}
-              className="w-full rounded-lg"
-            />
+      {DATA?.map(data => (
+     <MobileAudioGallary data = {data} key = {data.name} playerName={playerName} setPlayerName={setPlayerName}/>
+      ))}
       <div className="items-stretch self-center flex w-[65px] max-w-full gap-2 mt-6 px-5">
         <img
           loading="lazy"

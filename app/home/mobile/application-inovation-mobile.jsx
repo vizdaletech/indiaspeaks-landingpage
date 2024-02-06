@@ -13,21 +13,21 @@ function ApplicationsInovationsMobile(props) {
       <p className= {`text-black text-lg leading-6 w-full mt-3 ${nunito_sans.className}`}>
         Transforming news delivery through AI voices for a dynamic, accessible experience. Your news, spoken naturally, keeping you informed effortlessly.
       </p>
-      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/97228be5b8fdc4f18c4b99283bda443b128018ff35110c9e3a323777a8c1a2df?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&" className="aspect-[1.65] object-contain object-center w-full justify-center items-center overflow-hidden mt-7" />
+      <img loading="lazy" src="https://res.cloudinary.com/dosjh2min/image/upload/v1706420773/indiaspeaks/Frame_590_quckqz.png" className="borderaspect-[1.65] object-contain object-center w-full justify-center items-center overflow-hidden mt-7" />
       <h4 className="text-primary text-2xl font-bold leading-8 w-full mt-7">
         Election campaign{" "}
       </h4>
       <p className={`text-black text-lg leading-6 w-full mt-3 ${nunito_sans.className}`}>
         Disrupting electoral communication with voice cloning{`'`}s personalized touch. Enhancing political interaction , breaking linguistic barriers effortlessly.
       </p>
-      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d3aa5d7cabd661b71535f24e48d5f70c69b0d2f76685090af5bca02444028308?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&" className="aspect-[1.07] object-contain object-center w-full overflow-hidden mt-6" />
+      <img loading="lazy" src="https://res.cloudinary.com/dosjh2min/image/upload/v1706420772/indiaspeaks/Frame_547_tfqo3z.png" className="aspect-[1.07] object-contain object-center w-full overflow-hidden mt-6" />
       <h4 className="text-primary text-2xl font-bold leading-8 w-full mt-7">
         R&D Project
       </h4>{" "}
       <p className= {`text-black text-lg leading-6 w-full mt-3 ${nunito_sans.className}`}>
         Pioneering breakthroughs through innovative R&D at IndiaSpeaks, shaping the future of voice technology.
       </p>{" "}
-      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/fd134c0bec9d3488b58d10873f89b988df1678ed7f0cb8dc8cf0a89d1a4fc7c4?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&" className=" object-contain w-full items-center mt-5" />
+      <img loading="lazy" src="https://res.cloudinary.com/dosjh2min/image/upload/v1706420773/indiaspeaks/Frame_590-1_vpxbws.png" className=" object-contain w-full items-center mt-5" />
     </section>
   );
 }

@@ -45,12 +45,13 @@ Anna University, Guindy, Chennai 600025
             AI Electoral Campaign
           </Link>
 
-          <h3 className="text-[#686C6F] text-base font-semibold leading-6 self-stretch mt-5">
+          <Link
+            href="/news-reading" className="text-base text-white font-semibold leading-6 self-stretch mt-5">
             AI News Broadcasting
-          </h3>
-          <h3 className="text-[#686C6F] text-base font-semibold leading-6 self-stretch mt-5">
+          </Link>
+          <Link href = "/rnd" className=" text-base text-white font-semibold leading-6 self-stretch mt-5">
             R&D Projects
-          </h3>
+          </Link>
           <Link
             href="/technology"
             className="text-white text-base font-semibold leading-6 self-stretch mt-5"

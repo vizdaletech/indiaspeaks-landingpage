@@ -151,7 +151,7 @@ function TechnologicalMastery(props) {
                 activeRow === "three" ? "opacity-1 z-20" : "opacity-0 -z-20"
               } transition-all duration-300 absolute top-0 left-0`}
             >
-                  <video
+              <video
                 autoPlay={true}
                 loop={true}
                 muted={true}

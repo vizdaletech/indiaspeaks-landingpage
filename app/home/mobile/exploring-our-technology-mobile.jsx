@@ -30,12 +30,12 @@ const ExploringOurTechnologyMobile = () => {
           Experience the magic of accurate text to speech, in multiple Indian
           languages, offering numerous applications across various sectors.
         </p>
-        <img
-          loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/370fb723118a21a9270d34da10085fe0491c8ee1f193e41c40aac20e690bf010?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
-          className="aspect-[1.65] object-contain object-center w-full overflow-hidden"
-          alt="Image"
-        />
+        <video autoPlay={true} loop={true} className="my-5">
+          <source
+            src="https://res.cloudinary.com/dosjh2min/video/upload/v1707205648/indiaspeaks/Home/stt_k4cvau.mp4"
+            type="video/mp4"
+          />
+        </video>
       </div>
       <div>
         <div>
@@ -59,12 +59,12 @@ const ExploringOurTechnologyMobile = () => {
           Welcome the future with our revolutionary voice cloning technology,
           where personalization meets innovation. Authentic recreation of voices
         </p>
-        <img
-          loading="lazy"
-          src="https://res.cloudinary.com/dosjh2min/image/upload/v1704524430/indiaspeaks/peronalised-voice-illustration_thj7ol.svg"
-          className="aspect-[1.65] object-contain object-center w-full overflow-hidden"
-          alt="Image"
-        />
+        <video autoPlay={true} loop={true} className="my-5">
+          <source
+            src="https://res.cloudinary.com/dosjh2min/video/upload/v1707205648/indiaspeaks/Home/stt_k4cvau.mp4"
+            type="video/mp4"
+          />
+        </video>
       </div>
       <div>
         <div>
@@ -90,12 +90,12 @@ const ExploringOurTechnologyMobile = () => {
           exceptional level of personal connectivity and keep your audience
           engaged.{" "}
         </p>
-        <img
-          loading="lazy"
-          src="https://res.cloudinary.com/dosjh2min/image/upload/v1704525640/indiaspeaks/transcribing-speech_ocscxy.svg"
-          className="aspect-[1.65] object-contain object-center w-full overflow-hidden"
-          alt="Image"
-        />
+        <video autoPlay={true} loop={true} className="my-5">
+          <source
+            src="https://res.cloudinary.com/dosjh2min/video/upload/v1707205649/indiaspeaks/Home/VC_ge9dwo.mp4"
+            type="video/mp4"
+          />
+        </video>
       </div>
     </section>
   );

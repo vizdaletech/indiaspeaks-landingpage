@@ -212,6 +212,28 @@ const JourneySection = () => {
               className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
             />
             <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
+              May 2023
+            </div>
+            <figure className="md:w-8/12 w-full">
+              <figcaption className="text-lg leading-snug mb-5 md:mt-5">
+              Our First Magazine Feature 
+              </figcaption>
+              <Image
+                src="https://res.cloudinary.com/dosjh2min/image/upload/v1707213419/indiaspeaks/image_73_vy21mx.png"
+                width={500}
+                height={500}
+                className="w-full md:w-10/12 rounded-lg"
+              />
+            </figure>
+          </article>
+          <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
+            <Image
+              src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
+              width={500}
+              height={500}
+              className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
+            />
+            <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
               July 2023{" "}
             </div>
             <figure className="md:w-8/12 w-full">
@@ -249,6 +271,7 @@ const JourneySection = () => {
               />
             </figure>
           </article>
+          
           <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
             <Image
               src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
@@ -265,6 +288,27 @@ const JourneySection = () => {
                 campaigns.{" "}
               </figcaption>
              <ImageSlider DATA = {DATA}/>
+            </figure>
+          </article>
+          <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
+            <Image
+              src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
+              width={500}
+              height={500}
+              className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
+            />
+            <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
+              Jan 2024{" "}
+            </div>
+            <figure className="ml-48  w-full">
+              <figcaption className="text-lg leading-snug mb-5 md:mt-5">
+              Our first public Feature, an interview to Vikatan TV
+              </figcaption>
+              <video controls className="w-10/12 rounded-md" >
+                  <source src = "/assets/vikatan-interview.mp4"
+                  type="video/mp4"
+                  />
+                </video>
             </figure>
           </article>
         </section>

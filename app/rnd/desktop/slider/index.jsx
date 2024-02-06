@@ -138,7 +138,7 @@ const Slider = () => {
               <div className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
                 <div className="flex-col overflow-hidden relative flex min-h-[276px] grow justify-center px-16 py-12 items-start max-md:max-w-full max-md:mt-9 max-md:px-5">
                 <video autoPlay = {true} loop = {true} >
-                  <source src = "https://res.cloudinary.com/dosjh2min/video/upload/v1706250747/indiaspeaks/Assistive_tech_frogxi.mp4"
+                  <source src = "https://res.cloudinary.com/dosjh2min/video/upload/v1707205745/indiaspeaks/RandD/Assistive_Tech_rfkhbd.mp4"
                   type="video/mp4"
                   />
                 </video>

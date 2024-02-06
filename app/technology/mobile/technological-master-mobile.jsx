@@ -18,11 +18,18 @@ function TechnologicalMasteryMobile(props) {
         information to life, making it universally accessible and engaging for
         all.
       </p>
-      <img
-        loading="lazy"
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/883b3da05821e6025ebb1e7e21c839c514171e3ecf8e8bdcb32133789397d70b?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
-        className="aspect-[1.78] object-contain object-center w-full overflow-hidden mt-7"
-      />
+      <video
+        autoPlay={true}
+        loop={true}
+        muted={true}
+        className="my-10"
+        // controls
+      >
+        <source
+          src="https://res.cloudinary.com/dosjh2min/video/upload/v1706334431/indiaspeaks/TTS_jjs9ue.mp4"
+          type="video/mp4"
+        />
+      </video>
       <h3 className="text-primary text-2xl font-bold leading-8 tracking-normal mt-8">
         Efficiency Refined in Speech-to-Text
       </h3>
@@ -33,11 +40,18 @@ function TechnologicalMasteryMobile(props) {
         tech. Beyond transcription, it{`'`}s a mastery of speed and accuracy,
         revolutionizing spoken words into written brilliance.
       </p>
-      <img
-        loading="lazy"
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/680428c9ba233c7fd58c4cc2ca0b927ddaa6c146f68199b3640a97bc27100c23?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
-        className="aspect-[1.04] object-contain object-center w-full overflow-hidden mt-7"
-      />
+      <video
+        autoPlay={true}
+        loop={true}
+        muted={true}
+        className="my-10"
+        // controls
+      >
+        <source
+          src="https://res.cloudinary.com/dosjh2min/video/upload/v1707105558/indiaspeaks/STT_1_qsef30.mp4"
+          type="video/mp4"
+        />
+      </video>
       <h3 className="text-primary text-2xl font-bold leading-8 tracking-normal mt-8">
         Mastering the Art of Voice Cloning
       </h3>
@@ -49,11 +63,18 @@ function TechnologicalMasteryMobile(props) {
         innovation preserves uniqueness, ushering in the future of ethical voice
         cloning precision.
       </p>
-      <img
-        loading="lazy"
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/a574ee1cdbf245f2490a50cca3ff2e640efb8826a989608d0f235a2e896a70bb?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
-        className="aspect-[1.99] object-contain object-center w-full overflow-hidden mt-7"
-      />
+      <video
+                autoPlay={true}
+                loop={true}
+                muted={true}
+                className="my-10"
+                // controls
+              >
+                <source
+                  src="https://res.cloudinary.com/dosjh2min/video/upload/v1706335053/indiaspeaks/VC_2_dimfp2.mp4"
+                  type="video/mp4"
+                />
+              </video>
     </form>
   );
 }
