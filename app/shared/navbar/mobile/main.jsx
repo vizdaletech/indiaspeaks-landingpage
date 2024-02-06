@@ -18,7 +18,7 @@ const links = [
   },
   {
     link : "political",
-    content : "AI Electoral Campign"
+    content : "AI Electoral Campaign"
   },
   {
     link : "news-reading",

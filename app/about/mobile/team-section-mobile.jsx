@@ -87,7 +87,7 @@ function TeamSectionMobile(props) {
         <div className="bg-zinc-400 flex flex-col justify-center items-stretch py-px rounded-md">
           <img
             loading="lazy"
-            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/edc3573c8c9e901c2b43856e65d806c31ca4989cce2f28d0d601ab2b63292246?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/edc3573c8c9e901c2b43856e65d806c31ca4989cce2f28d0d601ab2b63292246?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/edc3573c8c9e901c2b43856e65d806c31ca4989cce2f28d0d601ab2b63292246?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/edc3573c8c9e901c2b43856e65d806c31ca4989cce2f28d0d601ab2b63292246?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/edc3573c8c9e901c2b43856e65d806c31ca4989cce2f28d0d601ab2b63292246?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/edc3573c8c9e901c2b43856e65d806c31ca4989cce2f28d0d601ab2b63292246?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/edc3573c8c9e901c2b43856e65d806c31ca4989cce2f28d0d601ab2b63292246?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/edc3573c8c9e901c2b43856e65d806c31ca4989cce2f28d0d601ab2b63292246?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
+            src = "https://res.cloudinary.com/dosjh2min/image/upload/v1707218529/indiaspeaks/Photo_3_cureti.png"
             className="aspect-[0.92] object-contain object-center w-full overflow-hidden"
           />
         </div>
@@ -104,7 +104,7 @@ function TeamSectionMobile(props) {
             and business acumen to expand IndiaSpeaks{`'`} presence and
             influence in the realm voicsivity and innovation.
           </NunitoSans>
-        </div>{" "}
+        </div>
         <div className="items-stretch flex gap-2.5 mt-4 pr-20">
         <a
                 href="https://www.linkedin.com/in/gomanirajan/"

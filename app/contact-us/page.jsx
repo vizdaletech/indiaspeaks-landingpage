@@ -8,7 +8,7 @@ const ContactUsPage = () => {
     <section>
         <HeroSection/>
         <RedefiningCommunication/>
-        <PhoneEmailOffice/>
+        {/* <PhoneEmailOffice/> */}
     </section>
   )
 }

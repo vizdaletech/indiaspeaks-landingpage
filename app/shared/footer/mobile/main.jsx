@@ -1,3 +1,5 @@
+"use client"
+import { Envelope, Phone } from "@phosphor-icons/react";
 import Link from "next/link";
 import * as React from "react";
 
@@ -22,13 +24,15 @@ Anna University, Guindy, Chennai 600025
             href="tel:+917010389351"
             className="text-white text-base leading-7 self-stretch mt-1.5"
           >
-            +91 70103 89351
+            <Phone size={32} weight="fill" color = "white" />
+
+
           </a>
           <a
             href="mailto:info@indiaspeaks.ai"
             className="text-white text-base leading-7 self-stretch mt-1.5"
           >
-            info@indiaspeaks.ai
+           <Envelope size={32} weight="fill" />
           </a>
           <div className="items-stretch flex w-10 max-w-full gap-3 mt-1.5 self-start">
             <img

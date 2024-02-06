@@ -160,7 +160,7 @@ function ExploreOurTechnology(props) {
               } transition-all duration-300 absolute top-0 left-0`}
             >
               <div className="justify-center items-stretch flex grow flex-col w-full px-5 pb-12 pt-24 rounded-xl max-md:max-w-full max-md:mt-10">
-                <video autoPlay={true} loop={true}>
+                <video autoPlay={true} muted loop={true}>
                   <source
                     src=" https://res.cloudinary.com/dosjh2min/video/upload/v1707205649/indiaspeaks/Home/TTS_hovvil.mp4"
                     type="video/mp4"
@@ -176,7 +176,7 @@ function ExploreOurTechnology(props) {
             >
               <div className="container justify-center flex flex-col w-full py-12 rounded-xl items-end">
                 <div className="box flex flex-col items-stretch mt-6 mb-11 pb-6 rounded">
-                  <video autoPlay={true} loop={true}>
+                  <video autoPlay={true} muted loop={true}>
                     <source
                       src="https://res.cloudinary.com/dosjh2min/video/upload/v1707205648/indiaspeaks/Home/stt_k4cvau.mp4"
                       type="video/mp4"
@@ -190,7 +190,7 @@ function ExploreOurTechnology(props) {
                 activeRow === "three" ? "opacity-1 z-20" : "opacity-0 -z-20"
               } absolute top-0 left-0 transition-all duration-300`}
             >
-              <video autoPlay={true} loop={true}>
+              <video autoPlay={true} muted loop={true}>
                 <source
                   src="https://res.cloudinary.com/dosjh2min/video/upload/v1707205649/indiaspeaks/Home/VC_ge9dwo.mp4"
                   type="video/mp4"

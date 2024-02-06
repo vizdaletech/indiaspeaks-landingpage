@@ -1,3 +1,5 @@
+"use client";
+import { Envelope, Phone } from "@phosphor-icons/react";
 import Image from "next/image";
 import Link from "next/link";
 import * as React from "react";
@@ -22,24 +24,13 @@ function Footer(props) {
                   Platinum Jubilee building, AC Tech Campus, <br />
                   Anna University, Guindy, Chennai 600025
                 </p>
-                <a
-                  href="tel:+917010389351"
-                  className="self-stretch text-white text-sm leading-5 underline mt-4 max-md:max-w-full"
-                >
-                  +91 70103 89351
-                </a>
-                <a
-                  href="mailto:info@indiaspeaks.ai"
-                  className="self-stretch text-white text-sm leading-5 underline mt-4 max-md:max-w-full"
-                >
-                  info@indiaspeaks.ai
-                </a>
-                <div className="items-stretch flex w-8 max-w-full gap-3 mt-4">
+
+                <div className="items-center flex max-w-full gap-3 mt-4">
                   <a
                     href="https://www.linkedin.com/company/indiaspeaks-research-labs/"
                     target="_blank"
                     rel="noreferrer"
-                    className="w-10 h-10"
+                    className="w-8 h-8"
                   >
                     <img
                       loading="lazy"
@@ -47,6 +38,18 @@ function Footer(props) {
                       className="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1"
                       alt="Social Media Icon"
                     />
+                  </a>
+                  <a
+                    href="tel:+917010389351"
+                    className="self-stretch text-white text-sm leading-5 underline max-md:max-w-full"
+                  >
+                    <Phone size={32} weight="fill" />
+                  </a>
+                  <a
+                    href="mailto:info@indiaspeaks.ai"
+                    className="self-stretch text-white text-sm leading-5 underline max-md:max-w-full"
+                  >
+                    <Envelope size={32} weight="fill" />
                   </a>
                 </div>
               </div>
@@ -80,11 +83,17 @@ function Footer(props) {
                   >
                     AI Electoral Campaign
                   </Link>
-                  <Link href = "/news-reading" className="text-white text-base font-semibold leading-6 whitespace-nowrap">
+                  <Link
+                    href="/news-reading"
+                    className="text-white text-base font-semibold leading-6 whitespace-nowrap"
+                  >
                     AI News Broadcasting
                   </Link>
 
-                  <Link href = "/rnd" className="text-white text-base font-semibold leading-6 whitespace-nowrap mt-3">
+                  <Link
+                    href="/rnd"
+                    className="text-white text-base font-semibold leading-6 whitespace-nowrap mt-3"
+                  >
                     R&D Projects
                   </Link>
                 </div>

@@ -14,7 +14,7 @@ function EchoedAuthorityMobile(props) {
     <article className="justify-center center-section items-center bg-white flex md:hidden flex-col">
     
             {DATA.map(data => (
-              <MobileAudioGallary data = {data} setPlayerName={setPlayerName} playerName={playerName}/>
+              <MobileAudioGallary data = {data} setPlayerName={setPlayerName} key = {data.name} playerName={playerName}/>
 
             ))}
       <div className="items-stretch self-center flex w-[65px] max-w-full gap-2 mt-6 px-5">

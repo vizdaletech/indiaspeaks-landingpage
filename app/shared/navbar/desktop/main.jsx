@@ -85,7 +85,7 @@ const Navbar = (props) => {
                   href="/political"
                     className={` border-transparent w-full px-6 py-3 ${isDropOpen ? `translate-y-0 opacity-1` : `-translate-y-full opacity-0`} transition-all duration-300 hover:delay-0 hover:duration-75 text-white hover:text-black hover:bg-white`}
                 >
-                 AI Electoral Campign
+                 AI Electoral Campaign
                                  </Link>
                 <Link
                   href="/news-reading"
