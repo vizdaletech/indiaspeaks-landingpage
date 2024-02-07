@@ -64,7 +64,7 @@ function Footer(props) {
                     Technology
                   </Link>
                   <Link
-                    href="/about-us"
+                    href="/about"
                     className="text-white text-base font-semibold leading-6 whitespace-nowrap mt-3"
                   >
                     About us

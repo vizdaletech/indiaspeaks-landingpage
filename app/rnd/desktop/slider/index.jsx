@@ -36,7 +36,7 @@ const Slider = () => {
     return () => rndctx?.revert();
   }, []);
   return (
-    <section className="hidden md:block overflow-x-hidden" ref = {section}>
+    <section className="hidden md:block overflow-x-hidden  overflow-hidden " ref = {section}>
       <div className="flex w-[400vw]" ref = {box}>
         <div className="items-stretch center-section w-[100vw] bg-white flex flex-col justify-center px-16 py-12 max-md:px-5">
           <div className="mt-16 mb-10 max-md:max-w-full max-md:mr-1 max-md:mt-10">
@@ -55,7 +55,7 @@ const Slider = () => {
                   </div>
                 </span>
               </div>
-              <div className="flex flex-col items-stretch w-[30%] ml-5 max-md:w-full max-md:ml-0">
+              <div className="flex flex-col items-stretch w-4/12 ml-5 max-md:w-full max-md:ml-0">
                 <video autoPlay = {true} loop = {true} >
                   <source src = "https://res.cloudinary.com/dosjh2min/video/upload/v1706250375/indiaspeaks/Call_Centre_qnjh06.mp4"
                   type="video/mp4"
@@ -82,7 +82,7 @@ const Slider = () => {
                   </div>
                 </span>
               </div>
-              <div className="flex flex-col items-stretch w-[30%] ml-5 max-md:w-full max-md:ml-0">
+              <div className="flex flex-col items-stretch w-4/12 ml-5 max-md:w-full max-md:ml-0">
               <video autoPlay = {true} loop = {true} >
                   <source src = "https://res.cloudinary.com/dosjh2min/video/upload/v1706250599/indiaspeaks/Audio_Book_hh7gyp.mp4"
                   type="video/mp4"
@@ -108,7 +108,7 @@ const Slider = () => {
                   </div>
                 </span>
               </div>{" "}
-              <div className="flex flex-col items-stretch w-[30%] ml-5 max-md:w-full max-md:ml-0">
+              <div className="flex flex-col items-stretch w-4/12 ml-5 max-md:w-full max-md:ml-0">
               <video autoPlay = {true} loop = {true} >
                   <source src = "https://res.cloudinary.com/dosjh2min/video/upload/v1706250690/indiaspeaks/Dubbing_p6ulw3.mp4"
                   type="video/mp4"
@@ -118,7 +118,7 @@ const Slider = () => {
             </div>
           </div>
         </div>
-        <div className="items-center center-section w-[100vw] bg-white flex flex-col justify-center px-16 py-12 max-md:px-5">
+        <div className="items-center center-section w-[100vw] bg-white flex flex-col justify-centerpx-16 py-12 max-md:px-5">
           <div className="w-full max-w-[1266px] mt-52 mb-32 max-md:max-w-full max-md:my-10">
             <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
               <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
@@ -135,8 +135,8 @@ const Slider = () => {
                   </div>
                 </span>
               </div>
-              <div className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
-                <div className="flex-col overflow-hidden relative flex min-h-[276px] grow justify-center px-16 py-12 items-start max-md:max-w-full max-md:mt-9 max-md:px-5">
+              <div className="flex flex-col items-stretch w-7/12 ml-5 max-md:w-full max-md:ml-0">
+                <div className="flex-col overflow-hidden relative flex grow justify-center px-16 py-12 items-start max-md:max-w-full max-md:mt-9 max-md:px-5">
                 <video autoPlay = {true} loop = {true} >
                   <source src = "https://res.cloudinary.com/dosjh2min/video/upload/v1707205745/indiaspeaks/RandD/Assistive_Tech_rfkhbd.mp4"
                   type="video/mp4"

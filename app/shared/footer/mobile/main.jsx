@@ -1,5 +1,5 @@
-"use client"
-import { Envelope, Phone } from "@phosphor-icons/react";
+"use client";
+import { Envelope, LinkedinLogo, Phone } from "@phosphor-icons/react";
 import Link from "next/link";
 import * as React from "react";
 
@@ -17,30 +17,30 @@ function FooterMobile(props) {
             />
           </Link>
           <p className="self-stretch text-white text-base leading-7 whitespace-nowrap mt-4">
-          Platinum Jubilee building, AC Tech Campus, <br/>
-Anna University, Guindy, Chennai 600025
+            Platinum Jubilee building, AC Tech Campus, <br />
+            Anna University, Guindy, Chennai 600025
           </p>
-          <a
-            href="tel:+917010389351"
-            className="text-white text-base leading-7 self-stretch mt-1.5"
-          >
-            <Phone size={32} weight="fill" color = "white" />
 
-
-          </a>
-          <a
-            href="mailto:info@indiaspeaks.ai"
-            className="text-white text-base leading-7 self-stretch mt-1.5"
-          >
-           <Envelope size={32} weight="fill" />
-          </a>
-          <div className="items-stretch flex w-10 max-w-full gap-3 mt-1.5 self-start">
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/ed3f40f14765686e4eb6b739370ce0f37ee26f5612ba3a8a3fc18344e618c265?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
-              className="aspect-square object-contain object-center w-2/12 overflow-hidden shrink-0 flex-1"
-              alt=""
-            />
+          <div className="flex gap-3 mr-auto items-center">
+            <a
+              href="https://www.linkedin.com/company/indiaspeaks-research-labs/?originalSubdomain=in"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LinkedinLogo size={32} weight="fill" color="white" />
+            </a>
+            <a
+              href="tel:+917010389351"
+              className="text-white text-base leading-7 self-stretch mt-1.5"
+            >
+              <Phone size={32} weight="fill" color="white" />
+            </a>
+            <a
+              href="mailto:info@indiaspeaks.ai"
+              className="text-white text-base leading-7 self-stretch mt-1.5"
+            >
+              <Envelope size={32} weight="fill" />
+            </a>
           </div>
           <Link
             href="/usecase"
@@ -50,10 +50,15 @@ Anna University, Guindy, Chennai 600025
           </Link>
 
           <Link
-            href="/news-reading" className="text-base text-white font-semibold leading-6 self-stretch mt-5">
+            href="/news-reading"
+            className="text-base text-white font-semibold leading-6 self-stretch mt-5"
+          >
             AI News Broadcasting
           </Link>
-          <Link href = "/rnd" className=" text-base text-white font-semibold leading-6 self-stretch mt-5">
+          <Link
+            href="/rnd"
+            className=" text-base text-white font-semibold leading-6 self-stretch mt-5"
+          >
             R&D Projects
           </Link>
           <Link

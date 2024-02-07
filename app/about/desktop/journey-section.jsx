@@ -1,10 +1,13 @@
+"use client"
+import MobileAudioGallary from "@/home/mobile/mobile-audio-gallary";
 import { DATA } from "@/shared/contents";
 import ImageSlider from "@/shared/image-slider";
 import NunitoSans from "@/shared/typography/NunitoSans";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 
 const JourneySection = () => {
+  const [playerName, setPlayerName] = useState("")
   return (
     <section>
       <div className="center-section py-24">
@@ -282,12 +285,20 @@ const JourneySection = () => {
             <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
               Dec 2023{" "}
             </div>
-            <figure className="ml-48  w-full">
+            <figure className="md:ml-48  w-full">
               <figcaption className="text-lg leading-snug mb-5 md:mt-5">
                 Deploying the our integral use case, Voice cloning for political
                 campaigns.{" "}
               </figcaption>
+              <div className="md:block hidden">
              <ImageSlider DATA = {DATA}/>
+              </div>
+              <div className="md:hidden">
+                {DATA.map(data => (
+
+                  <MobileAudioGallary data = {data} key = {data.name} playerName={playerName} setPlayerName={setPlayerName} />
+                ))}
+              </div>
             </figure>
           </article>
           <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
@@ -300,11 +311,11 @@ const JourneySection = () => {
             <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
               Jan 2024{" "}
             </div>
-            <figure className="ml-48  w-full">
+            <figure className="md:ml-48  w-full">
               <figcaption className="text-lg leading-snug mb-5 md:mt-5">
               Our first public Feature, an interview to Vikatan TV
               </figcaption>
-              <video controls className="w-10/12 rounded-md" >
+              <video controls className="md:w-10/12 rounded-md" >
                   <source src = "/assets/vikatan-interview.mp4"
                   type="video/mp4"
                   />
