@@ -13,6 +13,12 @@ import CompanyLogosMobile from './home/mobile/company-logo-mobile'
 import ApplicationsInovations from './home/desktop/applications-innovations'
 import ApplicationsInovationsMobile from './home/mobile/application-inovation-mobile'
 
+
+export const metadata = {
+  title : "Indiaspeaks",
+  description : "Redefining communication Using Artificial Intelligence"
+}
+
 const HomePage = () => {
   return (
     <main>

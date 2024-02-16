@@ -18,6 +18,7 @@ const ImageSlider = ({ DATA }) => {
 
   return (
     <div className="flex gap-3 w-10/12 ">
+      
       {DATA?.map((data) => (
         <div
           key={data.name}
@@ -25,11 +26,12 @@ const ImageSlider = ({ DATA }) => {
             activeSlide === data.name ? `w-6/12` : `w-3/12`
           } h-[400px] rounded-md  relative bg-center ${
             data?.imageUrl
-          } bg-cover p-3 transition-all duration-300 ease-in-out cursor-pointer`}
+          } bg-cover p-3 transition-all duration-300 ease-in-out ${isAudioPlaying && data.name === activeSlide && `scale-110 z-20`}`}
           onMouseEnter={() => {
             isAudioPlaying ? null : setActiveSlide(data?.name);
           }}
         >
+          {activeSlide !== data.name && isAudioPlaying &&<div className="absolute top-0 left-0 right-0 bottom-0 bg-black/50 rounded-md"></div>}
           <div
             className={`${
               activeSlide === data.name ? `opacity-1` : `opacity-0`
