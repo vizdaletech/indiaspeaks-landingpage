@@ -322,6 +322,61 @@ const JourneySection = () => {
                 </video>
             </figure>
           </article>
+          <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
+            <Image
+              src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
+              width={500}
+              height={500}
+              className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
+            />
+            <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
+              Feb 2024{" "}
+            </div>
+            <figure className="md:ml-48  w-full">
+              <figcaption className="text-lg leading-snug mb-5 md:mt-5">
+              தலைவர்கள் குரலில் அசத்தும் AI தொழில்நுட்பம்.. இதில் இன்னொரு விஷயமும் இருக்கு! 
+              </figcaption>
+            <iframe src="https://www.youtube.com/embed/ZdtwKBkv0qs" className="w-full md:w-10/12 h-[200px] md:h-[400px] rounded-md"></iframe>
+            </figure>
+          </article>
+          <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
+            <Image
+              src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
+              width={500}
+              height={500}
+              className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
+            />
+            <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
+              Feb 2024{" "}
+            </div>
+            <figure className="md:ml-48  w-full">
+              <figcaption className="text-lg leading-snug mb-5 md:mt-5">
+              எல்லார போலவும் பேசும்!! ஒரு மணி நேர ஆடியோ போதும்!! அசத்தும் AI !!
+              </figcaption>
+              <iframe src="https://res.cloudinary.com/dosjh2min/video/upload/v1708598261/indiaspeaks/Reelvideo-42313_hnsuu3.mp4" className="w-full md:w-10/12 h-[200px] md:h-[400px] rounded-md"></iframe>
+
+            </figure>
+          </article>
+          <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
+            <Image
+              src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
+              width={500}
+              height={500}
+              className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
+            />
+            <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
+             Feb 2024{" "}
+            </div>
+            <figure className="md:ml-48  w-full">
+              <figcaption className="text-lg leading-snug mb-5 md:mt-5">
+              அரசியல் கட்சிகளுக்கு உதவும் AI தொழில்நுட்பம்!
+              </figcaption>
+              <iframe src="https://www.youtube.com/embed/d9bdO0Bc1Fk" className="w-full md:w-10/12 h-[200px] md:h-[400px] rounded-md"></iframe>
+
+
+
+            </figure>
+          </article>
         </section>
       </div>
     </section>
