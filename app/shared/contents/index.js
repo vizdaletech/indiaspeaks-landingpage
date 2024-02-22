@@ -4,7 +4,8 @@ export const DATA = [
       role : "CM",
       imageUrl : "bg-[url('https://res.cloudinary.com/dosjh2min/image/upload/v1706094880/indiaspeaks/Frame_513_rb6dm2.png')]",
       image : "https://res.cloudinary.com/dosjh2min/image/upload/v1706094880/indiaspeaks/Frame_513_rb6dm2.png",
-      audio : "/assets/stalin.wav"
+      audio : "/assets/stalin.wav",
+      audio2 : "/assets/stalin_2.wav"
     },
     {
       name : "J. Jayalalitha",
@@ -12,6 +13,7 @@ export const DATA = [
       imageUrl : "bg-[url('https://res.cloudinary.com/dosjh2min/image/upload/v1706094880/indiaspeaks/Frame_711_zo9m5k.png')]",
       image : "https://res.cloudinary.com/dosjh2min/image/upload/v1706094880/indiaspeaks/Frame_711_zo9m5k.png",
       audio : "/assets/jayalalitha.wav",
+      audio2 : "/assets/jayalalitha_2.wav",
     
     },
     {
@@ -19,7 +21,8 @@ export const DATA = [
       role : "Political Leader",
       imageUrl : "bg-[url('https://res.cloudinary.com/dosjh2min/image/upload/v1707131928/indiaspeaks/Mask_group_1_opg8s0.png')]",
       image : "https://res.cloudinary.com/dosjh2min/image/upload/v1707131928/indiaspeaks/Mask_group_1_opg8s0.png",
-      audio : "/assets/annamalai.wav"
+      audio : "/assets/annamalai.wav",
+      audio2 : "/assets/annamalai_2.wav",
     }
   ]
 
