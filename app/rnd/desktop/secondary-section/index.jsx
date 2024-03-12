@@ -3,11 +3,11 @@ import * as React from "react";
 
 function MyComponent() {
   return (
-    <div className="flex flex-col justify-center px-16 py-10 bg-slate-50  max-md:px-5">
+    <div className=" hidden md:block  flex flex-col justify-center px-16 py-10 bg-slate-50  max-md:px-5">
     <div className="justify-center mx-4 max-md:mr-2.5 max-md:max-w-full">
       <div className="flex gap-5 max-md:flex-col max-md:gap-0">
         <div className="flex flex-col w-[43%] max-md:ml-0 max-md:w-full">
-          <div className="flex flex-col grow justify-center self-stretch px-6 py-20 w-full text-black bg-violet-100 max-md:px-5 max-md:mt-6 max-md:max-w-full">
+          <div className="flex flex-col grow justify-center self-stretch px-6 py-20 w-full bg-[#C4C3C3] text-black bg-violet-100 max-md:px-5 max-md:mt-6 max-md:max-w-full">
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/e6868c97f3e0be440a4218316226665b6aa48761b1e7403c341283762d056951?apiKey=85083f12911c44128348fc4cf6136fa2&"
@@ -24,18 +24,18 @@ function MyComponent() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col ml-5 w-[57%] max-md:ml-0 max-md:w-full">
-          <div className="flex flex-col grow max-md:mt-6 max-md:max-w-full">
-            <div className="justify-center px-4 py-6 bg-violet-100 rounded-lg max-md:max-w-full">
+        <div className="flex flex-col ml-5 w-[57%] max-md:ml-0 max-md:w-full ">
+          <div className="flex flex-col grow max-md:mt-6 max-md:max-w-full ">
+            <div className="justify-center px-4 py-6 bg-[#C4C3C3] bg-violet-100 rounded-lg max-md:max-w-full">
               <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-                <div className="flex flex-col w-[41%] max-md:ml-0 max-md:w-full">
+                <div className="flex flex-col w-[41%] max-md:ml-0 max-md:w-full ">
                   <img
                     loading="lazy"
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/5a9318db3e769aafc776228ece36d114ad651c49e7a3ee92bf9f9406a021ee1a?apiKey=85083f12911c44128348fc4cf6136fa2&"
                     className="grow w-full aspect-[0.96] max-md:mt-10"
                   />
                 </div>
-                <div className="flex flex-col ml-5 w-[59%] max-md:ml-0 max-md:w-full">
+                <div className="flex flex-col ml-5 w-[59%] max-md:ml-0 max-md:w-full ">
                   <div className="flex flex-col self-stretch my-auto w-full text-black  max-md:mt-10">
                     <div className="text-2xl font-bold leading-9">
                       Rediscovering the Author's Voice in Audiobooks
@@ -54,7 +54,7 @@ function MyComponent() {
             <div className="mt-6 max-md:max-w-full">
               <div className="flex gap-5 max-md:flex-col max-md:gap-0">
                 <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-                  <div className="flex flex-col grow justify-center px-4 py-9 w-full text-black bg-violet-100 rounded-md max-md:mt-6">
+                  <div className="flex flex-col grow justify-center px-4 py-9 w-full text-black bg-[#C4C3C3] bg-violet-100 rounded-md max-md:mt-6">
                     <img
                       loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/651ba9167cc26e529108be3b98e2cf5a975e86aa8f8bce4abd1e1fe18dd68359?apiKey=85083f12911c44128348fc4cf6136fa2&"
@@ -73,7 +73,7 @@ function MyComponent() {
                   </div>
                 </div>
                 <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
-                  <div className="flex flex-col grow justify-center px-5 py-12 w-full text-black bg-violet-100 rounded-md max-md:mt-6">
+                  <div className="flex flex-col grow justify-center px-5 py-12 w-full  text-black bg-violet-100 bg-[#C4C3C3] rounded-md max-md:mt-6">
                     <img
                       loading="lazy"
                       srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/2434668982e411f76f9b39732a8d1a9bd5ecce29af87aab7b2bb80aa6edee81f?apiKey=85083f12911c44128348fc4cf6136fa2&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/2434668982e411f76f9b39732a8d1a9bd5ecce29af87aab7b2bb80aa6edee81f?apiKey=85083f12911c44128348fc4cf6136fa2&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/2434668982e411f76f9b39732a8d1a9bd5ecce29af87aab7b2bb80aa6edee81f?apiKey=85083f12911c44128348fc4cf6136fa2&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/2434668982e411f76f9b39732a8d1a9bd5ecce29af87aab7b2bb80aa6edee81f?apiKey=85083f12911c44128348fc4cf6136fa2&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/2434668982e411f76f9b39732a8d1a9bd5ecce29af87aab7b2bb80aa6edee81f?apiKey=85083f12911c44128348fc4cf6136fa2&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/2434668982e411f76f9b39732a8d1a9bd5ecce29af87aab7b2bb80aa6edee81f?apiKey=85083f12911c44128348fc4cf6136fa2&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/2434668982e411f76f9b39732a8d1a9bd5ecce29af87aab7b2bb80aa6edee81f?apiKey=85083f12911c44128348fc4cf6136fa2&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/2434668982e411f76f9b39732a8d1a9bd5ecce29af87aab7b2bb80aa6edee81f?apiKey=85083f12911c44128348fc4cf6136fa2&"

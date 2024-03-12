@@ -13,11 +13,10 @@ const RndPage = () => {
         <MyComponent />
         <Ribbon/>
        
-
         {/**Mobile responsive */}
 
         <HeroSectionMobile/>
-        {/* <SliderMobile/>  */}
+        <SliderMobile/> 
         <RibbonMobile/>
     </main>
   )
