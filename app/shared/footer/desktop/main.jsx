@@ -21,37 +21,11 @@ function Footer(props) {
                   />
                 </Link>
                 <p className="text-white text-sm leading-5 self-stretch mt-6 max-md:max-w-full">
-                  Platinum Jubilee building, AC Tech Campus, <br />
-                  Anna University, Guindy, Chennai 600025
+                  Platinum Jubilee building, AC Tech<br />Campus, 
+                  Anna University, Guindy,<br />Chennai 600025
                 </p>
 
-                <div className="items-center flex max-w-full gap-3 mt-4">
-                  <a
-                    href="https://www.linkedin.com/company/indiaspeaks-research-labs/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="w-8 h-8"
-                  >
-                    <img
-                      loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/9986f2b20094d62306406bb6caba4e4e2df6c26bb2cbd0256e8361d2274fae99?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
-                      className="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1"
-                      alt="Social Media Icon"
-                    />
-                  </a>
-                  <a
-                    href="tel:+917010389351"
-                    className="self-stretch text-white text-sm leading-5 underline max-md:max-w-full"
-                  >
-                    <Phone size={32} weight="fill" />
-                  </a>
-                  <a
-                    href="mailto:info@indiaspeaks.ai"
-                    className="self-stretch text-white text-sm leading-5 underline max-md:max-w-full"
-                  >
-                    <Envelope size={32} weight="fill" />
-                  </a>
-                </div>
+                
               </div>
             </div>
             <div className="flex flex-col items-stretch w-[31%] ml-5 max-md:w-full max-md:ml-0">
@@ -81,22 +55,72 @@ function Footer(props) {
                     href="/usecase"
                     className="text-white text-base font-semibold leading-6 whitespace-nowrap mb-3"
                   >
-                    AI Electoral Campaign
+                  AI News Broadcasting
                   </Link>
                   <Link
                     href="/news-reading"
                     className="text-white text-base font-semibold leading-6 whitespace-nowrap"
                   >
-                    AI News Broadcasting
+                    AI Electoral Campaign
                   </Link>
 
                   <Link
                     href="/rnd"
                     className="text-white text-base font-semibold leading-6 whitespace-nowrap mt-3"
                   >
-                    R&D Projects
+                   Technological Forge
                   </Link>
                 </div>
+                <div className="items-stretch flex grow basis-[0%] flex-col">
+                  <p
+                    href="/usecase"
+                    className="text-white text-base font-semibold leading-6 whitespace-nowrap mb-3"
+                  >
+                  +91 70103 89351
+                  </p>
+                  <Link
+                    href="/news-reading"
+                    className="text-white text-base font-semibold leading-6 whitespace-nowrap"
+                  >
+                   info@indiaspeaks.ai
+                  </Link>
+
+                  {/* <Link
+                    href="/rnd"
+                    className="text-white text-base font-semibold leading-6 whitespace-nowrap mt-3"
+                  >
+                   Technological Forge
+                  </Link> */}
+                  <div className="items-center flex max-w-full gap-3 mt-4">
+                  
+                  <a
+                    href="tel:+917010389351"
+                    className="self-stretch text-white text-sm leading-5 underline max-md:max-w-full"
+                  >
+                    <Phone size={32} weight="fill" />
+                  </a>
+                  <a
+                    href="mailto:info@indiaspeaks.ai"
+                    className="self-stretch text-white text-sm leading-5 underline max-md:max-w-full"
+                  >
+                    <Envelope size={32} weight="fill" />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/company/indiaspeaks-research-labs/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="w-8 h-8"
+                  >
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/9986f2b20094d62306406bb6caba4e4e2df6c26bb2cbd0256e8361d2274fae99?apiKey=b5e5f0f3194e4a2bbb3631aa331ddab2&"
+                      className="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1"
+                      alt="Social Media Icon"
+                    />
+                  </a>
+                </div>
+                </div>
+                
               </div>
             </div>
           </div>
