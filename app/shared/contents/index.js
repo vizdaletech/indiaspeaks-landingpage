@@ -2,16 +2,16 @@ export const DATA = [
     {
       name : "M.K. Stalin",
       role : "CM",
-      imageUrl : "bg-[url('https://res.cloudinary.com/dosjh2min/image/upload/v1706094880/indiaspeaks/Frame_513_rb6dm2.png')]",
-      image : "https://res.cloudinary.com/dosjh2min/image/upload/v1706094880/indiaspeaks/Frame_513_rb6dm2.png",
+      imageUrl : "bg-[url('/assets/stalin.png')]",
+      image : "/assets/stalin.png",
       audio : "/assets/stalin.wav",
       audio2 : "/assets/stalin_2.wav"
     },
     {
       name : "J. Jayalalitha",
       role : "Former CM",
-      imageUrl : "bg-[url('https://res.cloudinary.com/dosjh2min/image/upload/v1706094880/indiaspeaks/Frame_711_zo9m5k.png')]",
-      image : "https://res.cloudinary.com/dosjh2min/image/upload/v1706094880/indiaspeaks/Frame_711_zo9m5k.png",
+      imageUrl : "bg-[url('/assets/jayalalitha.png')]",
+      image : "/assets/jayalalitha.png",
       audio : "/assets/jayalalitha.wav",
       audio2 : "/assets/jayalalitha_2.wav",
     
@@ -19,8 +19,8 @@ export const DATA = [
     {
       name : "Annamalai",
       role : "Political Leader",
-      imageUrl : "bg-[url('https://res.cloudinary.com/dosjh2min/image/upload/v1707131928/indiaspeaks/Mask_group_1_opg8s0.png')]",
-      image : "https://res.cloudinary.com/dosjh2min/image/upload/v1707131928/indiaspeaks/Mask_group_1_opg8s0.png",
+      imageUrl : "bg-[url('/assets/annamalai.png')]",
+      image : "/assets/annamalai.png",
       audio : "/assets/annamalai.wav",
       audio2 : "/assets/annamalai_2.wav",
     }
@@ -29,13 +29,13 @@ export const DATA = [
   export const NEWS = [
     {
         name : "Tamil",
-        imageUrl : "bg-[url('https://res.cloudinary.com/dosjh2min/image/upload/v1706248363/indiaspeaks/Frame_513_ztgyaz.png')]",
+        imageUrl : "bg-[url('/assets/news-tamil.png')]",
         audio : "/assets/tamil-news.wav",
-        image : "https://res.cloudinary.com/dosjh2min/image/upload/v1706248363/indiaspeaks/Frame_513_ztgyaz.png"
+        image : "/assets/news-tamil.png"
       },
       {
         name : "English",
-        imageUrl : "bg-[url('https://res.cloudinary.com/dosjh2min/image/upload/v1706248363/indiaspeaks/Frame_513-2_l03dwn.png')]",
-        image : "https://res.cloudinary.com/dosjh2min/image/upload/v1706248363/indiaspeaks/Frame_513-2_l03dwn.png"
+        imageUrl : "bg-[url('/assets/news-english.png')]",
+        image : "assets/news-english.png"
       }
   ] 

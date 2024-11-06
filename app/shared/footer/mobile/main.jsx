@@ -1,5 +1,6 @@
 "use client";
 import { Envelope, LinkedinLogo, Phone } from "@phosphor-icons/react";
+import Image from "next/image";
 import Link from "next/link";
 import * as React from "react";
 
@@ -82,8 +83,20 @@ function FooterMobile(props) {
             Contact us
           </a>
           <p className="text-white text-sm leading-5 self-stretch mt-8">
-            &copy; 2023 IndiaSpeaks. All rights reserved.
+            &copy; ${new Date().getFullYear()} IndiaSpeaks. All rights reserved.
           </p>
+      <a
+            href="https://www.vizdale.com"
+            target="_blank"
+            rel="noreferrer"
+            className="block mt-5"
+          >
+            <Image
+              src="/assets/powered-by-vizdale.png"
+              width={200}
+              height={50}
+            />
+          </a>
         </div>
       </div>
     </footer>

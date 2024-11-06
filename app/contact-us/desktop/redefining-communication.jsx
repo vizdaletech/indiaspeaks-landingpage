@@ -9,7 +9,7 @@ const RedefiningCommunication = () => {
           <div className="flex flex-col items-stretch w-[54%] max-md:w-full max-md:ml-0">
             <img
               loading="lazy"
-              src = "https://res.cloudinary.com/dosjh2min/image/upload/v1705937325/indiaspeaks/Group_425_xalvav.png"
+              src = "/assets/contact.png"
               className="aspect-[1.27] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
             />
           </div>

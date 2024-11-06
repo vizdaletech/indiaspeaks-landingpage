@@ -27,17 +27,17 @@ function HeroSection(props) {
         </p>
         </div>
 
-        <Image src = "https://res.cloudinary.com/dosjh2min/image/upload/v1704531400/indiaspeaks/Group_469_sfovrk.png" width={80} height={80} className="absolute top-[50%] right-[10%]" />
+        <Image src = "/assets/hero (1).png" width={80} height={80} className="absolute top-[50%] right-[10%]" />
         
-        <Image src = "https://res.cloudinary.com/dosjh2min/image/upload/v1704531398/indiaspeaks/Group_470_bopoun.png" width={80} height={80} className="absolute top-[20%] right-[20%]" />
+        <Image src = "/assets/hero (4).png" width={80} height={80} className="absolute top-[20%] right-[20%]" />
         
-        <Image src = "https://res.cloudinary.com/dosjh2min/image/upload/v1704531400/indiaspeaks/Group_468_pbtjrt.png" width={80} height={80} className="absolute bottom-[10%] right-[20%]" />
+        <Image src = "/assets/hero (2).png" width={80} height={80} className="absolute bottom-[10%] right-[20%]" />
         
-        <Image src = "https://res.cloudinary.com/dosjh2min/image/upload/v1704531399/indiaspeaks/Group_226_zlzsce.png" width={80} height={80} className="absolute top-[20%] left-[20%]" />
+        <Image src = "/assets/hero (6).png" width={80} height={80} className="absolute top-[20%] left-[20%]" />
         
-        <Image src = "https://res.cloudinary.com/dosjh2min/image/upload/v1704531399/indiaspeaks/Group_471_f8oceu.png" width={80} height={80} className="absolute top-[50%] left-[10%]" />
+        <Image src = "/assets/hero (5).png" width={80} height={80} className="absolute top-[50%] left-[10%]" />
         
-        <Image src = "https://res.cloudinary.com/dosjh2min/image/upload/v1704531400/indiaspeaks/Group_467_lt0bke.png" width={80} height={80} className="absolute bottom-[10%] left-[20%]" />
+        <Image src = "/assets/hero (3).png" width={80} height={80} className="absolute bottom-[10%] left-[20%]" />
     </header>
     </section>
   );

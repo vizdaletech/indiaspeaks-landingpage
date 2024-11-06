@@ -45,7 +45,7 @@ function PersonalisedPoliticalSection(props) {
             <Image
               width={500}
               height={500}
-              src="https://res.cloudinary.com/dosjh2min/image/upload/v1707103669/indiaspeaks/lady-with-the-finger_fgbuuz.png"
+              src="/assets/electoral-women.png"
               className="aspect-[1.02] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
               alt=""
             />

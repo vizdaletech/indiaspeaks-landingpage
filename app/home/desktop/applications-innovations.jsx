@@ -64,9 +64,9 @@ function ApplicationsInovations(props) {
           </div>
           <div className="flex flex-col items-stretch w-[58%] ml-5 max-md:w-full max-md:ml-0">
             <div className="justify-center items-stretch flex grow flex-col w-full px-5 py-7 rounded-xl max-md:max-w-full max-md:mt-10 relative">
-            <Image src= "https://res.cloudinary.com/dosjh2min/image/upload/v1706420773/indiaspeaks/Frame_590_quckqz.png" width = {400} height = {500} className = {`w-11/12 absolute top-0 left-0 right-0 bottom-0 ${activeTab === 1 ? `opacity-1 z-20` : `opacity-0 -z-10`} transition-all duration-300`} />
-            <Image src= "https://res.cloudinary.com/dosjh2min/image/upload/v1706420772/indiaspeaks/Frame_547_tfqo3z.png" width = {400} height = {500} className = {`w-11/12 absolute top-0 left-0 right-0 bottom-0 ${activeTab === 2 ? `opacity-1 z-20` : `opacity-0 -z-10`} transition-all duration-300`} />
-            <Image src= "https://res.cloudinary.com/dosjh2min/image/upload/v1706420773/indiaspeaks/Frame_590-1_vpxbws.png" width = {400} height = {500} className = {`w-11/12 absolute top-0 left-0 right-0 bottom-0 ${activeTab === 3 ? `opacity-1 z-20` : `opacity-0 -z-10`} transition-all duration-300`} />
+            <Image src= "/assets/ai-news.png" width = {400} height = {500} className = {`w-8/12 absolute top-0 left-0 right-0 bottom-0 ${activeTab === 1 ? `opacity-1 z-20` : `opacity-0 -z-10`} transition-all duration-300`} />
+            <Image src= "/assets/voice-cloning.png" width = {400} height = {500} className = {`w-11/12 absolute top-0 left-0 right-0 bottom-0 ${activeTab === 2 ? `opacity-1 z-20` : `opacity-0 -z-10`} transition-all duration-300`} />
+            <Image src= "/assets/rnd.png" width = {400} height = {500} className = {`w-11/12 absolute top-0 left-0 right-0 bottom-0 ${activeTab === 3 ? `opacity-1 z-20` : `opacity-0 -z-10`} transition-all duration-300`} />
             </div>
           </div>
         </form>

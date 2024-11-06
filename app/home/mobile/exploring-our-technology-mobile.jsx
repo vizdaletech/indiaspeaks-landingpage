@@ -32,7 +32,7 @@ const ExploringOurTechnologyMobile = () => {
         </p>
         <video autoPlay={true} loop={true} className="my-5">
           <source
-            src="https://res.cloudinary.com/dosjh2min/video/upload/v1707205648/indiaspeaks/Home/stt_k4cvau.mp4"
+            src="https://res.cloudinary.com/dgld9tarv/video/upload/v1730869024/India%20Speaks/TTS_dn9rdh.mp4"
             type="video/mp4"
           />
         </video>
@@ -61,7 +61,7 @@ const ExploringOurTechnologyMobile = () => {
         </p>
         <video autoPlay={true} loop={true} className="my-5">
           <source
-            src="https://res.cloudinary.com/dosjh2min/video/upload/v1707205648/indiaspeaks/Home/stt_k4cvau.mp4"
+            src="https://res.cloudinary.com/dgld9tarv/video/upload/v1730869018/India%20Speaks/STT_ysbznu.mp4"
             type="video/mp4"
           />
         </video>
@@ -92,7 +92,7 @@ const ExploringOurTechnologyMobile = () => {
         </p>
         <video autoPlay={true} loop={true} className="my-5">
           <source
-            src="https://res.cloudinary.com/dosjh2min/video/upload/v1707205649/indiaspeaks/Home/VC_ge9dwo.mp4"
+            src="https://res.cloudinary.com/dgld9tarv/video/upload/v1730869018/India%20Speaks/VC_u3dgcr.mp4"
             type="video/mp4"
           />
         </video>

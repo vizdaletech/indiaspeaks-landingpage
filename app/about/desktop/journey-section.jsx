@@ -22,12 +22,12 @@ const JourneySection = () => {
         </div>
         <section className="mt-24 flex flex-col gap-[80px]">
           <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
-            <Image
+            {/* <Image
               src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
               width={500}
               height={500}
               className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
-            />
+            /> */}
             <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
               Feb 2019
             </div>
@@ -37,7 +37,7 @@ const JourneySection = () => {
                 quest.
               </figcaption>
               <Image
-                src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545529/indiaspeaks/image_27_giv4pt.jpg"
+                src="/assets/about-1.jpg"
                 width={500}
                 height={500}
                 className="w-full md:w-10/12 rounded-lg"
@@ -45,12 +45,12 @@ const JourneySection = () => {
             </figure>
           </article>
           <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
-            <Image
+            {/* <Image
               src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
               width={500}
               height={500}
               className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
-            />
+            /> */}
             <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
               Jan 2022
             </div>
@@ -60,7 +60,7 @@ const JourneySection = () => {
                 groundwork.{" "}
               </figcaption>
               <Image
-                src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545962/indiaspeaks/Frame_600_laqhtt.jpg"
+                src="/assets/about-2.jpg"
                 width={500}
                 height={500}
                 className="w-full md:w-10/12 rounded-lg"
@@ -68,12 +68,12 @@ const JourneySection = () => {
             </figure>
           </article>
           <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
-            <Image
+            {/* <Image
               src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
               width={500}
               height={500}
               className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
-            />
+            /> */}
             <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
               Feb 2020
             </div>
@@ -93,12 +93,12 @@ const JourneySection = () => {
             </figure>
           </article>
           <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
-            <Image
+            {/* <Image
               src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
               width={500}
               height={500}
               className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
-            />
+            /> */}
             <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
               June 2021{" "}
             </div>
@@ -117,12 +117,12 @@ const JourneySection = () => {
             </figure>
           </article>
           <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
-            <Image
+            {/* <Image
               src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
               width={500}
               height={500}
               className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
-            />
+            /> */}
             <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
               Jan 2022
             </div>
@@ -132,7 +132,7 @@ const JourneySection = () => {
                 potential and excellence.{" "}
               </figcaption>
               <Image
-                src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545962/indiaspeaks/Frame_616_ufbbzz.jpg"
+                src="/assets/fund.jpg"
                 width={500}
                 height={500}
                 className="w-full md:w-10/12 rounded-lg"
@@ -140,12 +140,12 @@ const JourneySection = () => {
             </figure>
           </article>
           <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
-            <Image
+            {/* <Image
               src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
               width={500}
               height={500}
               className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
-            />
+            /> */}
             <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
               Jan 2022
             </div>
@@ -155,7 +155,7 @@ const JourneySection = () => {
                 and received the runners up award.{" "}
               </figcaption>
               <Image
-                src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545961/indiaspeaks/Frame_616-1_mooueg.jpg"
+src="/assets/about-4.jpg"
                 width={500}
                 height={500}
                 className="w-full md:w-10/12 rounded-lg"
@@ -163,12 +163,12 @@ const JourneySection = () => {
             </figure>
           </article>
           <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
-            <Image
+            {/* <Image
               src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
               width={500}
               height={500}
               className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
-            />
+            /> */}
             <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
               March 2022
             </div>
@@ -178,7 +178,7 @@ const JourneySection = () => {
                 summit and Dubai-expo.{" "}
               </figcaption>
               <Image
-                src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545969/indiaspeaks/Frame_603_oamdxj.jpg"
+                src="/assets/about-5.jpg"
                 width={500}
                 height={500}
                 className="w-full md:w-10/12 rounded-lg"
@@ -186,12 +186,12 @@ const JourneySection = () => {
             </figure>
           </article>
           <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
-            <Image
+            {/* <Image
               src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
               width={500}
               height={500}
               className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
-            />
+            /> */}
             <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
               Feb 2023{" "}
             </div>
@@ -200,7 +200,7 @@ const JourneySection = () => {
                 Honoured to engage on a project with DRDO, show{" "}
               </figcaption>
               <Image
-                src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545960/indiaspeaks/Frame_620_etkct1.jpg"
+                src="/assets/about-6.jpg"
                 width={500}
                 height={500}
                 className="w-full md:w-10/12 rounded-lg"
@@ -208,12 +208,12 @@ const JourneySection = () => {
             </figure>
           </article>
           <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
-            <Image
+            {/* <Image
               src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
               width={500}
               height={500}
               className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
-            />
+            /> */}
             <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
               May 2023
             </div>
@@ -222,7 +222,7 @@ const JourneySection = () => {
               Our First Magazine Feature 
               </figcaption>
               <Image
-                src="https://res.cloudinary.com/dosjh2min/image/upload/v1707213419/indiaspeaks/image_73_vy21mx.png"
+               src="/assets/content.jpg"
                 width={500}
                 height={500}
                 className="w-full md:w-10/12 rounded-lg"
@@ -230,12 +230,12 @@ const JourneySection = () => {
             </figure>
           </article>
           <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
-            <Image
+            {/* <Image
               src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
               width={500}
               height={500}
               className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
-            />
+            /> */}
             <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
               July 2023{" "}
             </div>
@@ -245,7 +245,7 @@ const JourneySection = () => {
                 language.{" "}
               </figcaption>
               <Image
-                src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545961/indiaspeaks/transcribing-speech_dcmrzf.svg"
+               src="/assets/about-8.jpg"
                 width={500}
                 height={500}
                 className="w-full md:w-10/12 rounded-lg"
@@ -253,12 +253,12 @@ const JourneySection = () => {
             </figure>
           </article>
           <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
-            <Image
+            {/* <Image
               src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
               width={500}
               height={500}
               className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
-            />
+            /> */}
             <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
               Oct 2023{" "}
             </div>
@@ -267,7 +267,7 @@ const JourneySection = () => {
                 Developed text to speech recolonization for multiple languages.{" "}
               </figcaption>
               <Image
-                src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545958/indiaspeaks/Frame_623_j56boo.jpg"
+              src="/assets/about-6.jpg"
                 width={500}
                 height={500}
                 className="w-full md:w-10/12 rounded-lg"
@@ -276,12 +276,12 @@ const JourneySection = () => {
           </article>
           
           <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
-            <Image
+            {/* <Image
               src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
               width={500}
               height={500}
               className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
-            />
+            /> */}
             <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
               Dec 2023{" "}
             </div>
@@ -302,12 +302,12 @@ const JourneySection = () => {
             </figure>
           </article>
           <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
-            <Image
+            {/* <Image
               src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
               width={500}
               height={500}
               className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
-            />
+            /> */}
             <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
               Jan 2024{" "}
             </div>
@@ -323,12 +323,12 @@ const JourneySection = () => {
             </figure>
           </article>
           <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
-            <Image
+            {/* <Image
               src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
               width={500}
               height={500}
               className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
-            />
+            /> */}
             <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
               Feb 2024{" "}
             </div>
@@ -340,12 +340,12 @@ const JourneySection = () => {
             </figure>
           </article>
           <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
-            <Image
+            {/* <Image
               src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
               width={500}
               height={500}
               className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
-            />
+            /> */}
             <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
               Feb 2024{" "}
             </div>
@@ -358,12 +358,12 @@ const JourneySection = () => {
             </figure>
           </article>
           <article className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 items-start relative">
-            <Image
+            {/* <Image
               src="https://res.cloudinary.com/dosjh2min/image/upload/v1704545702/indiaspeaks/Content_tepuvi.svg"
               width={500}
               height={500}
               className="absolute left-[17%] hidden md:block transform translate-x-full -top-[8%] w-20 h-[650px]"
-            />
+            /> */}
             <div className="text-lg md:text-3xl mt-5 text-primary font-bold w-full md:w-3/12 leading-snug text-left md:text-center relative">
              Feb 2024{" "}
             </div>

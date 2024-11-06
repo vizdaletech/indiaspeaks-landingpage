@@ -153,7 +153,7 @@ function ExploreOurTechnology(props) {
           </div>
         </aside>
         <figure className="sticky top-[30%] left-1/2 h-[350px]">
-          <div className="relative">
+          <div className="relative"> 
             <div
               className={`flex flex-col items-stretch w-full ml-5 max-md:w-full max-md:ml-0 ${
                 activeRow === "one" ? "opacity-1 z-20" : "opacity-0 -z-20"
@@ -162,7 +162,7 @@ function ExploreOurTechnology(props) {
               <div className="justify-center items-stretch flex grow flex-col w-full px-5 pb-12 pt-24 rounded-xl max-md:max-w-full max-md:mt-10">
                 <video autoPlay={true} muted loop={true}>
                   <source
-                    src=" https://res.cloudinary.com/dosjh2min/video/upload/v1707205649/indiaspeaks/Home/TTS_hovvil.mp4"
+                    src="https://res.cloudinary.com/dgld9tarv/video/upload/v1730869024/India%20Speaks/TTS_dn9rdh.mp4"
                     type="video/mp4"
                   />
                 </video>
@@ -178,7 +178,7 @@ function ExploreOurTechnology(props) {
                 <div className="box flex flex-col items-stretch mt-6 mb-11 pb-6 rounded">
                   <video autoPlay={true} muted loop={true}>
                     <source
-                      src="https://res.cloudinary.com/dosjh2min/video/upload/v1707205648/indiaspeaks/Home/stt_k4cvau.mp4"
+                      src="https://res.cloudinary.com/dgld9tarv/video/upload/v1730869018/India%20Speaks/STT_ysbznu.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -192,7 +192,7 @@ function ExploreOurTechnology(props) {
             >
               <video autoPlay={true} muted loop={true}>
                 <source
-                  src="https://res.cloudinary.com/dosjh2min/video/upload/v1707205649/indiaspeaks/Home/VC_ge9dwo.mp4"
+                  src="https://res.cloudinary.com/dgld9tarv/video/upload/v1730869018/India%20Speaks/VC_u3dgcr.mp4"
                   type="video/mp4"
                 />
               </video>

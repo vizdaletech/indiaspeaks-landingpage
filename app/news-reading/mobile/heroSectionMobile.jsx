@@ -10,7 +10,7 @@ const HeroSectionMobile = () => {
            width = {500}
            height = {500}
            alt = "news-reading"
-           src = "https://res.cloudinary.com/dosjh2min/image/upload/v1705581313/indiaspeaks/news-reading-hero-section_rn402w.png"
+         src = "/assets/ai-news.png"
           className="aspect-[1.34] object-contain object-center w-full items-center overflow-hidden"
         />
         <div className="text-primary text-2xl font-bold leading-7  whitespace-nowrap mt-5">

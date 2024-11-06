@@ -23,7 +23,7 @@ function HeroSection
             <Image
               width={500}
               height={500}
-              src="https://res.cloudinary.com/dosjh2min/image/upload/v1706420772/indiaspeaks/Frame_547_tfqo3z.png"
+              src="/assets/voice-cloning.png"
               className="aspect-[1.12] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
               alt=""
             />

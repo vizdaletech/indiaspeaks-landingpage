@@ -28,7 +28,7 @@ function Footer(props) {
                 
               </div>
             </div>
-            <div className="flex flex-col items-stretch w-[31%] ml-5 max-md:w-full max-md:ml-0">
+            <div className="flex borderflex-col items-stretch w-[40%] ml-5 max-md:w-full max-md:ml-0">
               <div className="items-stretch flex justify-between gap-5 max-md:mt-10">
                 <div className="items-stretch flex grow basis-[0%] flex-col">
                   <Link
@@ -128,7 +128,7 @@ function Footer(props) {
         <div className="bg-white bg-opacity-10 flex shrink-0 h-px flex-col mt-20 max-md:max-w-full max-md:mt-10" />
         <div className="justify-between items-stretch flex w-full gap-5 mt-8 max-md:max-w-full max-md:flex-wrap">
           <div className="text-white text-sm leading-5 grow shrink basis-auto">
-            © 2024 IndiaSpeaks. All rights reserved.
+            © {new Date().getFullYear()} IndiaSpeaks. All rights reserved.
           </div>
           <a
             href="https://www.vizdale.com"
@@ -137,7 +137,7 @@ function Footer(props) {
             className=""
           >
             <Image
-              src="https://res.cloudinary.com/dosjh2min/image/upload/v1704563803/indiaspeaks/vizdale_fbkrwv.svg"
+              src="/assets/powered-by-vizdale.png"
               width={200}
               height={50}
             />

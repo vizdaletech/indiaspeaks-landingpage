@@ -26,7 +26,7 @@ function TechnologicalMasteryMobile(props) {
         // controls
       >
         <source
-          src="https://res.cloudinary.com/dosjh2min/video/upload/v1706334431/indiaspeaks/TTS_jjs9ue.mp4"
+          src="https://res.cloudinary.com/dgld9tarv/video/upload/v1730870375/India%20Speaks/TTS-2_chpwjl.mp4"
           type="video/mp4"
         />
       </video>
@@ -48,7 +48,7 @@ function TechnologicalMasteryMobile(props) {
         // controls
       >
         <source
-          src="https://res.cloudinary.com/dosjh2min/video/upload/v1707105558/indiaspeaks/STT_1_qsef30.mp4"
+          src="https://res.cloudinary.com/dgld9tarv/video/upload/v1730870374/India%20Speaks/STT-2_dkovif.mp4"
           type="video/mp4"
         />
       </video>
@@ -71,7 +71,7 @@ function TechnologicalMasteryMobile(props) {
                 // controls
               >
                 <source
-                  src="https://res.cloudinary.com/dosjh2min/video/upload/v1706335053/indiaspeaks/VC_2_dimfp2.mp4"
+                  src="https://res.cloudinary.com/dgld9tarv/video/upload/v1730870378/India%20Speaks/VC-2_ikeji7.mp4"
                   type="video/mp4"
                 />
               </video>
