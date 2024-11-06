@@ -82,48 +82,43 @@ function EnablingEffective(props) {
         </div>
       </div>
       <div className="h-screen w-10/12 mx-auto relative">
-        {activeTab === 1 && (<video
-          autoPlay={true}
-          loop={true}
-          muted = {true}
-          className={`absolute top-[40%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full mx-auto duration-300`}
-        > 
-          <source
-            src="https://res.cloudinary.com/dosjh2min/video/upload/v1706251574/indiaspeaks/Media_pc2ej0.mp4"
-            type="video/mp4"
-          />
-        </video>)}
+        {activeTab === 1 && (
+          <video
+            autoPlay={true}
+            loop={true}
+            muted={true}
+            className={`absolute top-[40%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full mx-auto duration-300`}
+          >
+            <source src="/assets/entertainment.mp4" type="video/mp4" />
+          </video>
+        )}
 
-       {activeTab === 2 && (<video
-          autoPlay={true}
-          loop={true}
-          muted = {true}
-          className={`absolute top-[40%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full mx-auto duration-300 ${
-            activeTab === 2 ? `opacity-1 z-20` : `opacity-0 -z-20`
-          }`}
-        > 
-          <source
-            src="https://res.cloudinary.com/dosjh2min/video/upload/v1706333654/indiaspeaks/Marketing.mp4_swlenk.mp4"
-            type="video/mp4"
-          />
-        </video>)}
+        {activeTab === 2 && (
+          <video
+            autoPlay={true}
+            loop={true}
+            muted={true}
+            className={`absolute top-[40%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full mx-auto duration-300 ${
+              activeTab === 2 ? `opacity-1 z-20` : `opacity-0 -z-20`
+            }`}
+          >
+            <source src="/assets/journalism.mp4" type="video/mp4" />
+          </video>
+        )}
 
         {activeTab === 3 && (
-        <video
-          autoPlay={true}
-          loop={true}
-          muted = {true}
-          className={`absolute top-[40%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full mx-auto duration-300 ${
-            activeTab === 3 ? `opacity-1 z-20` : `opacity-0 -z-20`
-          }`}
-        > 
-          <source
-            src="https://res.cloudinary.com/dosjh2min/video/upload/v1706334135/indiaspeaks/Journalism_f6aemh.mp4"
-            type="video/mp4"
-          />
-        </video>)}
+          <video
+            autoPlay={true}
+            loop={true}
+            muted={true}
+            className={`absolute top-[40%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full mx-auto duration-300 ${
+              activeTab === 3 ? `opacity-1 z-20` : `opacity-0 -z-20`
+            }`}
+          >
+            <source src="/assets/marketing.mp4" type="video/mp4" />
+          </video>
+        )}
       </div>
-      
     </div>
   );
 }

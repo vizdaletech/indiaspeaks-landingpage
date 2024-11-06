@@ -8,19 +8,7 @@ function CompanyLogosMobile(props) {
         Trusted by industry-leading companies around the globe 
       </h3>
 
-      <div className="grid grid-cols-2 mt-10">
-    <Image src = "https://res.cloudinary.com/dosjh2min/image/upload/v1707287108/indiaspeaks/Frame_138_nqhpjf.png" width={500} height={500} className="w-10/12 " />
-    <Image src = "https://res.cloudinary.com/dosjh2min/image/upload/v1707287107/indiaspeaks/Frame_133_lgx6f6.png" width={500} height={500} className="w-10/12 " />
-    <Image src = "https://res.cloudinary.com/dosjh2min/image/upload/v1707287108/indiaspeaks/Frame_139_mugirf.png" width={500} height={500} className="w-10/12 " />
-    <Image src = "https://res.cloudinary.com/dosjh2min/image/upload/v1707287107/indiaspeaks/Frame_134_rtpmni.png" width={500} height={500} className="w-10/12 " />
-    <Image src = "https://res.cloudinary.com/dosjh2min/image/upload/v1707287107/indiaspeaks/Frame_140_nmitl4.png" width={500} height={500} className="w-10/12 " />
-    <Image src = "https://res.cloudinary.com/dosjh2min/image/upload/v1707287107/indiaspeaks/Frame_135_lcndxf.png" width={500} height={500} className="w-10/12 " />
-    <Image src = "https://res.cloudinary.com/dosjh2min/image/upload/v1707287107/indiaspeaks/Frame_141_e5xhf4.png" width={500} height={500} className="w-10/12 " />
-    <Image src = "https://res.cloudinary.com/dosjh2min/image/upload/v1707287108/indiaspeaks/Frame_137_r1gqd0.png" width={500} height={500} className="w-10/12 " />
-    <Image src = "https://res.cloudinary.com/dosjh2min/image/upload/v1707287108/indiaspeaks/Frame_142_cijyqv.png" width={500} height={500} className="w-10/12 " />
-    <Image src = "https://res.cloudinary.com/dosjh2min/image/upload/v1707287108/indiaspeaks/Frame_136_bgx4oj.png" width={500} height={500} className="w-10/12 " />
-    <Image src = "https://res.cloudinary.com/dosjh2min/image/upload/v1707287107/indiaspeaks/Frame_143_juovkv.png" width={500} height={500} className="w-10/12 " />
-      </div>
+    <Image src = "/assets/company-logos.png" width={500} height={500} className="w-10/12 mt-5 mx-auto" />
     </section>
   );
 }

@@ -14,7 +14,8 @@ function HeroSectionMobile(props) {
           <p className={`text-white text-base leading-6 mt-3 ${nunito_sans.className}`}>
           Harness the power of Voice Cloning and Connect deeply with every voter through personalized, multilingual communication.
           </p>{" "}
-          <Image width={500} height={500} src="https://res.cloudinary.com/dosjh2min/image/upload/v1706420772/indiaspeaks/Frame_547_tfqo3z.png" className="aspect-[1.08] object-contain object-center w-full overflow-hidden mt-4" />
+          <Image width={500} height={500}               src="/assets/voice-cloning.png"
+ className="aspect-[1.08] object-contain object-center w-full overflow-hidden mt-4" />
         </header>
       </header>
     </form>

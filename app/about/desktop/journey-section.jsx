@@ -85,7 +85,7 @@ const JourneySection = () => {
               {/* <Image src = "https://res.cloudinary.com/dosjh2min/image/upload/v1704545969/indiaspeaks/Frame_603_oamdxj.jpg" width={500} height={500} className="w-full md:w-10/12 rounded-lg"/> */}
               <video controls className="w-full md:w-10/12 rounded-lg">
                 <source
-                  src="https://res.cloudinary.com/dosjh2min/video/upload/v1704590963/indiaspeaks/PC_-_Voice_reg_uy3nfc.mp4"
+                  src="/assets/voice.mp4"
                   type="video/mp4"
                 />
                 Your browser does not support the video tag.
@@ -109,7 +109,7 @@ const JourneySection = () => {
               </figcaption>
               <video controls className="w-full md:w-10/12 rounded-lg">
                 <source
-                  src="https://res.cloudinary.com/dosjh2min/video/upload/v1704590971/indiaspeaks/Grocerry_-_IS_go9c7e.mp4"
+                  src="/assets/grocery.mp4"
                   type="video/mp4"
                 />
                 Your browser does not support the video tag.
@@ -353,7 +353,7 @@ src="/assets/about-4.jpg"
               <figcaption className="text-lg leading-snug mb-5 md:mt-5">
               எல்லார போலவும் பேசும்!! ஒரு மணி நேர ஆடியோ போதும்!! அசத்தும் AI !!
               </figcaption>
-              <iframe src="https://res.cloudinary.com/dosjh2min/video/upload/v1708598261/indiaspeaks/Reelvideo-42313_hnsuu3.mp4" className="w-full md:w-10/12 h-[200px] md:h-[400px] rounded-md"></iframe>
+              {/* <iframe src="https://res.cloudinary.com/dosjh2min/video/upload/v1708598261/indiaspeaks/Reelvideo-42313_hnsuu3.mp4" className="w-full md:w-10/12 h-[200px] md:h-[400px] rounded-md"></iframe> */}
 
             </figure>
           </article>

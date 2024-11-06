@@ -87,7 +87,7 @@ function TeamSectionMobile(props) {
         <div className="bg-zinc-400 flex flex-col justify-center items-stretch py-px rounded-md">
           <img
             loading="lazy"
-            src = "https://res.cloudinary.com/dosjh2min/image/upload/v1707218529/indiaspeaks/Photo_3_cureti.png"
+            src = "/assets/gomani.png"
             className="aspect-[0.92] object-contain object-center w-full overflow-hidden"
           />
         </div>

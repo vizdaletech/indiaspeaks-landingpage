@@ -8,65 +8,68 @@ function EnablingEffectiveMobile(props) {
       <h4 className="text-primary text-center text-3xl font-bold leading-10">
         Enabling Effective Communication across Industries
       </h4>
-      <p className = {`text-black text-center text-base leading-6  ${nunito_sans.className} mt-5`}>
-        Dedicated to dismantling language barriers, IndiaSpeaks facilitates seamless communication
-        across a spectrum of industries. With our technology, we ensure clarity and precision,
-        ensuring every voice is not just heard but truly understood.
+      <p
+        className={`text-black text-center text-base leading-6  ${nunito_sans.className} mt-5`}
+      >
+        Dedicated to dismantling language barriers, IndiaSpeaks facilitates
+        seamless communication across a spectrum of industries. With our
+        technology, we ensure clarity and precision, ensuring every voice is not
+        just heard but truly understood.
       </p>
       <div className="justify-center items-center flex flex-col mt-12  py-4">
         <h4 className="text-primary text-2xl font-bold leading-8 whitespace-nowrap">
           Entertainment
         </h4>
-        <p className={`self-stretch text-black text-center text-base leading-6 ${nunito_sans.className} mt-1`}>
-          Revolutionizing the Entertainment Industry with Voice Technology Solutions
+        <p
+          className={`self-stretch text-black text-center text-base leading-6 ${nunito_sans.className} mt-1`}
+        >
+          Revolutionizing the Entertainment Industry with Voice Technology
+          Solutions
         </p>
         <video
           autoPlay={true}
           loop={true}
-          muted = {true}
+          muted={true}
           className={`mt-5 w-full mx-auto duration-300 rounded-md`}
-        > 
-          <source
-            src="https://res.cloudinary.com/dosjh2min/video/upload/v1706251574/indiaspeaks/Media_pc2ej0.mp4"
-            type="video/mp4"
-          />
+        >
+          <source src="/assets/entertainment.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="justify-center items-center  flex flex-col py-8">
         <h4 className="text-primary text-2xl font-bold leading-8 whitespace-nowrap">
           Journalism
         </h4>
-        <p className={`self-stretch text-black text-center text-base leading-6 ${nunito_sans.className} mt-1`}>
+        <p
+          className={`self-stretch text-black text-center text-base leading-6 ${nunito_sans.className} mt-1`}
+        >
           Transforming Journalism with Cutting-Edge Voice Technology Solutions
         </p>
         <video
           autoPlay={true}
           loop={true}
-          muted = {true}
+          muted={true}
           className={`mt-5 w-full mx-auto duration-300 rounded-md`}
-        > 
-          <source
-            src="https://res.cloudinary.com/dosjh2min/video/upload/v1706333654/indiaspeaks/Marketing.mp4_swlenk.mp4"
-            type="video/mp4"
-          />
+        >
+          <source src="/assets/journalism.mp4" type="video/mp4" />
         </video>
-        
       </div>
       <div className="justify-center items-center flex flex-col py-9">
-        <h4 className="text-primary text-2xl font-bold leading-8 whitespace-nowrap">Marketing</h4>
-        <p className={`self-stretch text-black text-center text-base leading-6 ${nunito_sans.className} mt-1`}>
-          Empowering Marketing Activities with Advanced Voice Technology Solutions
+        <h4 className="text-primary text-2xl font-bold leading-8 whitespace-nowrap">
+          Marketing
+        </h4>
+        <p
+          className={`self-stretch text-black text-center text-base leading-6 ${nunito_sans.className} mt-1`}
+        >
+          Empowering Marketing Activities with Advanced Voice Technology
+          Solutions
         </p>
         <video
           autoPlay={true}
           loop={true}
-          muted = {true}
+          muted={true}
           className={`mt-5 w-full mx-auto duration-300 rounded-md`}
-        > 
-          <source
-            src="https://res.cloudinary.com/dosjh2min/video/upload/v1706334135/indiaspeaks/Journalism_f6aemh.mp4"
-            type="video/mp4"
-          />
+        >
+          <source src="/assets/marketing.mp4" type="video/mp4" />
         </video>
       </div>
     </form>
