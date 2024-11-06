@@ -115,7 +115,7 @@ function EnablingEffective(props) {
               activeTab === 3 ? `opacity-1 z-20` : `opacity-0 -z-20`
             }`}
           >
-            <source src="/assets/marketing.mp4" type="video/mp4" />
+            <source src="/assets/marketing-video.mp4" type="video/mp4" />
           </video>
         )}
       </div>
