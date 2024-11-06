@@ -69,7 +69,7 @@ function EnablingEffectiveMobile(props) {
           muted={true}
           className={`mt-5 w-full mx-auto duration-300 rounded-md`}
         >
-          <source src="/assets/marketing.mp4" type="video/mp4" />
+          <source src="/assets/marketing-video.mp4" type="video/mp4" />
         </video>
       </div>
     </form>
