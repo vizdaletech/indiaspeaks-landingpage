@@ -222,7 +222,7 @@ src="/assets/about-4.jpg"
               Our First Magazine Feature 
               </figcaption>
               <Image
-               src="/assets/content.jpg"
+               src="/assets/magazine.jpg"
                 width={500}
                 height={500}
                 className="w-full md:w-10/12 rounded-lg"
