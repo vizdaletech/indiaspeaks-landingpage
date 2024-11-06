@@ -103,7 +103,7 @@ function HeroSectionMobile(props) {
                 <div className="items-stretch bg-white flex flex-col px-8 py-6 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558044/indiaspeaks/Frame_484_cqz0ng.png"
+                    src="/assets/sand-clock.png"
                     className="w-7/12 mx-auto"
                   />
                   <div className="text-black text-xl font-bold leading-8 self-center whitespace-nowrap mt-7">
@@ -121,7 +121,7 @@ function HeroSectionMobile(props) {
                 <div className="items-stretch bg-white  flex-col px-8 py-[30px] rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558043/indiaspeaks/Frame_484-3_amqebo.png"
+                    src="/assets/hand-shake.png"
                     className="w-8/12 mx-auto"
                   />
                   <div className="text-black text-xl text-center font-bold leading-8 self-center whitespace-nowrap mt-8">
@@ -141,8 +141,7 @@ function HeroSectionMobile(props) {
                 <div className="items-stretch bg-white flex flex-col px-4 py-6 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558043/indiaspeaks/Frame_484-1_fsyrhq.png"
-                    className="w-8/12 mx-auto"
+                    src="/assets/dollar-circle.png"                    className="w-8/12 mx-auto"
                   />
                   <div className="text-black text-xl font-bold leading-8 self-center whitespace-nowrap mt-7">
                     Cost Effective{" "}
@@ -159,7 +158,7 @@ function HeroSectionMobile(props) {
                 <div className="items-center bg-white flex flex-col px-4 py-7 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704596049/indiaspeaks/Frame_484_1_jcry2f.png"
+                    src="/assets/potrait-frame.png"
                     className="w-6/12 mx-auto"
                   />
                   <div className="text-black text-xl text-center font-bold leading-8 self-stretch whitespace-nowrap mt-7">
@@ -295,7 +294,7 @@ function HeroSectionMobile(props) {
                 <div className="items-stretch bg-white flex flex-col px-8 py-6 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558044/indiaspeaks/Frame_484_cqz0ng.png"
+                    src="/assets/sand-clock.png"
                     className="w-7/12 mx-auto"
                   />
                   <div className="text-black text-xl font-bold leading-8 self-center whitespace-nowrap mt-7">
@@ -313,7 +312,7 @@ function HeroSectionMobile(props) {
                 <div className="items-stretch bg-white  flex-col px-8 py-[30px] rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558043/indiaspeaks/Frame_484-3_amqebo.png"
+                    src="/assets/hand-shake.png"
                     className="w-8/12 mx-auto"
                   />
                   <div className="text-black text-xl text-center font-bold leading-8 self-center whitespace-nowrap mt-8">
@@ -333,8 +332,7 @@ function HeroSectionMobile(props) {
                 <div className="items-stretch bg-white flex flex-col px-4 py-6 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558043/indiaspeaks/Frame_484-1_fsyrhq.png"
-                    className="w-8/12 mx-auto"
+                    src="/assets/dollar-circle.png"                    className="w-8/12 mx-auto"
                   />
                   <div className="text-black text-xl font-bold leading-8 self-center whitespace-nowrap mt-7">
                     Cost Effective{" "}
@@ -351,7 +349,7 @@ function HeroSectionMobile(props) {
                 <div className="items-center bg-white flex flex-col px-4 py-7 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704596049/indiaspeaks/Frame_484_1_jcry2f.png"
+                    src="/assets/potrait-frame.png"
                     className="w-6/12 mx-auto"
                   />
                   <div className="text-black text-xl text-center font-bold leading-8 self-stretch whitespace-nowrap mt-7">
@@ -487,7 +485,7 @@ function HeroSectionMobile(props) {
                 <div className="items-stretch bg-white flex flex-col px-8 py-6 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558044/indiaspeaks/Frame_484_cqz0ng.png"
+                    src="/assets/sand-clock.png"
                     className="w-7/12 mx-auto"
                   />
                   <div className="text-black text-xl font-bold leading-8 self-center whitespace-nowrap mt-7">
@@ -505,7 +503,7 @@ function HeroSectionMobile(props) {
                 <div className="items-stretch bg-white  flex-col px-8 py-[30px] rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558043/indiaspeaks/Frame_484-3_amqebo.png"
+                    src="/assets/hand-shake.png"
                     className="w-8/12 mx-auto"
                   />
                   <div className="text-black text-xl text-center font-bold leading-8 self-center whitespace-nowrap mt-8">
@@ -525,8 +523,7 @@ function HeroSectionMobile(props) {
                 <div className="items-stretch bg-white flex flex-col px-4 py-6 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558043/indiaspeaks/Frame_484-1_fsyrhq.png"
-                    className="w-8/12 mx-auto"
+                    src="/assets/dollar-circle.png"                    className="w-8/12 mx-auto"
                   />
                   <div className="text-black text-xl font-bold leading-8 self-center whitespace-nowrap mt-7">
                     Cost Effective{" "}
@@ -543,7 +540,7 @@ function HeroSectionMobile(props) {
                 <div className="items-center bg-white flex flex-col px-4 py-7 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704596049/indiaspeaks/Frame_484_1_jcry2f.png"
+                    src="/assets/potrait-frame.png"
                     className="w-6/12 mx-auto"
                   />
                   <div className="text-black text-xl text-center font-bold leading-8 self-stretch whitespace-nowrap mt-7">
@@ -679,7 +676,7 @@ function HeroSectionMobile(props) {
                 <div className="items-stretch bg-white flex flex-col px-8 py-6 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558044/indiaspeaks/Frame_484_cqz0ng.png"
+                    src="/assets/sand-clock.png"
                     className="w-7/12 mx-auto"
                   />
                   <div className="text-black text-xl font-bold leading-8 self-center whitespace-nowrap mt-7">
@@ -697,7 +694,7 @@ function HeroSectionMobile(props) {
                 <div className="items-stretch bg-white  flex-col px-8 py-[30px] rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558043/indiaspeaks/Frame_484-3_amqebo.png"
+                    src="/assets/hand-shake.png"
                     className="w-8/12 mx-auto"
                   />
                   <div className="text-black text-xl text-center font-bold leading-8 self-center whitespace-nowrap mt-8">
@@ -717,8 +714,7 @@ function HeroSectionMobile(props) {
                 <div className="items-stretch bg-white flex flex-col px-4 py-6 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558043/indiaspeaks/Frame_484-1_fsyrhq.png"
-                    className="w-8/12 mx-auto"
+                    src="/assets/dollar-circle.png"                    className="w-8/12 mx-auto"
                   />
                   <div className="text-black text-xl font-bold leading-8 self-center whitespace-nowrap mt-7">
                     Cost Effective{" "}
@@ -735,7 +731,7 @@ function HeroSectionMobile(props) {
                 <div className="items-center bg-white flex flex-col px-4 py-7 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704596049/indiaspeaks/Frame_484_1_jcry2f.png"
+                    src="/assets/potrait-frame.png"
                     className="w-6/12 mx-auto"
                   />
                   <div className="text-black text-xl text-center font-bold leading-8 self-stretch whitespace-nowrap mt-7">
@@ -871,7 +867,7 @@ function HeroSectionMobile(props) {
                 <div className="items-stretch bg-white flex flex-col px-8 py-6 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558044/indiaspeaks/Frame_484_cqz0ng.png"
+                    src="/assets/sand-clock.png"
                     className="w-7/12 mx-auto"
                   />
                   <div className="text-black text-xl font-bold leading-8 self-center whitespace-nowrap mt-7">
@@ -889,7 +885,7 @@ function HeroSectionMobile(props) {
                 <div className="items-stretch bg-white  flex-col px-8 py-[30px] rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558043/indiaspeaks/Frame_484-3_amqebo.png"
+                    src="/assets/hand-shake.png"
                     className="w-8/12 mx-auto"
                   />
                   <div className="text-black text-xl text-center font-bold leading-8 self-center whitespace-nowrap mt-8">
@@ -909,8 +905,7 @@ function HeroSectionMobile(props) {
                 <div className="items-stretch bg-white flex flex-col px-4 py-6 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704558043/indiaspeaks/Frame_484-1_fsyrhq.png"
-                    className="w-8/12 mx-auto"
+                    src="/assets/dollar-circle.png"                    className="w-8/12 mx-auto"
                   />
                   <div className="text-black text-xl font-bold leading-8 self-center whitespace-nowrap mt-7">
                     Cost Effective{" "}
@@ -927,7 +922,7 @@ function HeroSectionMobile(props) {
                 <div className="items-center bg-white flex flex-col px-4 py-7 rounded-3xl">
                   <img
                     loading="lazy"
-                    src="https://res.cloudinary.com/dosjh2min/image/upload/v1704596049/indiaspeaks/Frame_484_1_jcry2f.png"
+                    src="/assets/potrait-frame.png"
                     className="w-6/12 mx-auto"
                   />
                   <div className="text-black text-xl text-center font-bold leading-8 self-stretch whitespace-nowrap mt-7">

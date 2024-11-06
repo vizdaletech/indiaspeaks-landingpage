@@ -50,7 +50,8 @@ const NavbarMobile = () => {
           <Image
             width={30}
             height={20}
-            src="https://res.cloudinary.com/dosjh2min/image/upload/v1704518690/indiaspeaks/main-logo_nbruvq.svg"
+            src="/assets/main-logo.png"
+
             className="w-8/12 h-auto"
           />
         </Link>

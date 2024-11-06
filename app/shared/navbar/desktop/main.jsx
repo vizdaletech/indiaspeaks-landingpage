@@ -47,7 +47,7 @@ const Navbar = (props) => {
         <Link href="/">
           <Image
             loading="lazy"
-            src="https://res.cloudinary.com/dosjh2min/image/upload/v1704518690/indiaspeaks/main-logo_nbruvq.svg"
+            src="/assets/main-logo.png"
             height={50}
             width={100}
             className="aspect-[3.61] object-contain object-center w-[159px] overflow-hidden shrink-0 max-w-full"
